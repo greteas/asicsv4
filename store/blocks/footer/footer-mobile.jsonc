@@ -1,0 +1,139 @@
+{
+  "flex-layout.row#1-footer-mobile":{
+    "props":{
+      "blockClass":"3-footer-mobile",
+      "preventHorizontalStretch":true,
+      "preserveLayoutOnMobile":true
+    },
+    "children":["flex-layout.col#1-footer-mobile-content"]
+  },
+
+  "flex-layout.col#1-footer-mobile-content": {
+    "children": [
+      "image#footer-col-1-image",
+      "rich-text#footer-col-1-text-1",
+      "rich-text#footer-col-1-text-2",
+      "flex-layout.row#imagenes-redes-mobile",
+      "menu#footer-vertical-mobile",
+      "image#footer-desk-col-4-image-1",
+      "image#footer-desk-col-4-image-2"
+    ],
+    "props": {
+      "blockClass": ["1-footer-mobile-content"]
+    }
+  },
+
+  "flex-layout.row#imagenes-redes-mobile": {
+    "children": ["image-list#footer-col-1-redes"],
+    "props": {
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "blockClass": ["imagenes-redes-mobile"]
+    }
+  },
+
+  "menu#footer-vertical-mobile": {
+    "children": [
+      "disclosure-layout-group#footer-acordeon"
+    ],
+    "props": {
+      "blockClass":"footer-verticalmobile-menu",
+      "orientation": "vertical"
+    }
+  },
+
+  "disclosure-layout-group#footer-acordeon":{
+    "props":{
+      "blockClass":"footer-acordeon-disclosurelayout-group"
+    },
+    "children":[
+        "disclosure-layout#footer-acordeon-1",
+        "disclosure-layout#footer-acordeon-2"
+    ]
+  },
+
+  "disclosure-layout#footer-acordeon-1":{
+    "props":{
+      "blockClass":"footer-acordeon"
+    },
+      "children":[
+        "disclosure-trigger#footer-acordeon-triger-1",
+        "disclosure-content#footer-acordeon-content-1"
+      ]
+  },
+
+  "disclosure-trigger#footer-acordeon-triger-1":{
+    "props":{
+      "blockClass":"footer-acordeon-triger"
+    },
+    "children":["rich-text#footer-acordeon-triger-1-title"]
+  },
+  "rich-text#footer-acordeon-triger-1-title": {
+    "props": {
+      "blockClass": ["footer-acordeon-triger-title"],
+      "text": "Sobre Asics"
+    }
+  },
+
+  "disclosure-content#footer-acordeon-content-1":{
+    "props":{
+      "blockClass":"footer-acordeon-content"
+    },
+    "children":["vtex.menu@2.x:menu#footer-acordeon-menu-1"]
+  },
+  "vtex.menu@2.x:menu#footer-acordeon-menu-1": {
+    "props": {
+      "blockClass":"footer-acordeon-menu",
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#footer-desk-col-2-item-1",
+      "menu-item#footer-desk-col-2-item-2"
+    ]
+  },
+
+  "disclosure-layout#footer-acordeon-2":{
+    "props":{
+      "blockClass":"footer-acordeon"
+    },
+    "children":[
+      "disclosure-trigger#footer-acordeon-triger-2",
+      "disclosure-content#footer-acordeon-content-2"
+    ]
+  },
+
+  "disclosure-trigger#footer-acordeon-triger-2":{
+    "props":{
+      "blockClass":"footer-acordeon-triger"
+    },
+  "children":["rich-text#footer-acordeon-triger-2-title"]
+  },
+  "rich-text#footer-acordeon-triger-2-title": {
+    "props": {
+      "blockClass": ["footer-acordeon-triger-title"],
+      "text": "Atención al cliente"
+    }
+  },
+
+  "disclosure-content#footer-acordeon-content-2":{
+    "props":{
+      "blockClass":"footer-acordeon-content"
+    },
+  "children":["vtex.menu@2.x:menu#footer-acordeon-menu-2"]
+  },
+  "vtex.menu@2.x:menu#footer-acordeon-menu-2": {
+    "props": {
+      "blockClass":"footer-acordeon-menu",
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#footer-desk-col-3-item-1",
+      "menu-item#footer-desk-col-3-item-2",
+      "menu-item#footer-desk-col-3-item-3"
+    ]
+  }
+
+//***---------------------------------------------------------------
+
+
+}

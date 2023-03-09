@@ -1,0 +1,267 @@
+.productNameContainer--quickview{
+  font-size: 15px;
+  color: #252C3B;
+  opacity: .9;
+  font-weight: 500;
+  font-family: 'Roboto';
+  display: flex;
+  justify-content: initial;
+  text-align: initial;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 6px;
+}
+@media screen and (max-width: 1024px){
+  .productNameContainer--quickview{
+    font-size: 14px !important;
+  }
+}
+
+.imageElement--nosotros-firmas{
+  display: flex;
+  max-height: 140px;
+  margin: 24px auto 77px auto;
+}
+@media screen and (max-width: 1024px){
+  .imageElement--nosotros-firmas{
+    display: none !important;
+  }
+}
+
+.imageElement--porque-comprar-image{
+  width: 90%;
+}
+
+.imageElement--banner-departamento{
+  width: 100%;
+}
+
+.skuSelectorNameContainer .skuSelectorName{
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #252C3B;
+  padding-left: 16px;
+}
+
+.skuSelectorNameContainer .skuSelectorOptionsList{
+  padding-left: 16px;
+  margin-left: 0;
+  /* padding-right: 16px; */
+}
+
+.skuSelectorSubcontainer--talla .skuSelectorItem--selected .frameAround{
+  border: none;
+}
+
+.skuSelectorSubcontainer--talla .skuSelectorItem .skuSelectorInternalBox{
+  border: 2px solid #001E62;
+  border-radius: 12px;
+  width: 53px;
+}
+
+.skuSelectorSubcontainer--talla .skuSelectorItem--selected .skuSelectorInternalBox{
+  border: 2px solid #001E62;
+  border-radius: 12px;
+  background:#001E62;
+  width: 60px;
+}
+
+.skuSelectorSubcontainer--talla .skuSelectorItem--selected .skuSelectorInternalBox .valueWrapper{
+  color: white !important;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 700;
+}
+.skuSelectorSubcontainer--talla .skuSelectorItem .skuSelectorInternalBox .valueWrapper{
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 700;
+  color: #001E62;
+}
+
+.autoCompleteOuterContainer--search-desplegable-desktop :global(.vtex-input-prefix__group){
+  border: 1px solid #001E62;
+  border-radius: 27px;
+}
+
+.autoCompleteOuterContainer--search-desplegable-desktop :global(.vtex-styleguide-9-x-input)::placeholder{
+  color: #001E62;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+
+.portalWrapper--search-desplegable-desktop :global(.vtex-product-summary-2-x-container--summary-shelf){
+  max-width: 250px !important;
+  margin: 0px 5px 0px 5px;
+}
+
+.portalWrapper--search-desplegable-desktop :global(.vtex-search-2-x-tileListItem){
+  display: flex;
+  justify-content: center;
+}
+
+.portalWrapper--search-desplegable-desktop :global(.vtex-search-2-x-itemListTitle){
+  margin-top: 0;
+}
+
+.portalWrapper--search-desplegable-desktop :global(.vtex-search-2-x-tileListTitle){
+  margin-top: 0;
+}
+
+.portalWrapper--search-desplegable-desktop :global(.vtex-search-2-x-biggy-autocomplete){
+  margin-top: 5px;
+  padding-top: 10px;
+  padding-bottom: 0;
+  min-width: 689px;
+}
+
+.portalWrapper--search-desplegable-desktop :global(.vtex-search-2-x-tileListFooter){
+  display: flex;
+  justify-content: center;
+}
+
+.portalWrapper--search-desplegable-desktop :global(.vtex-search-2-x-tileListSeeMore){
+  height: 42px;
+}
+
+.imageElement--image-contenido-submenu-colum-1{
+  padding-left: 73px;
+}
+.imageElement--image-contenido-submenu-colum-2{
+  padding-left: 73px;
+}
+.imageElement--image-contenido-submenu-colum-3{
+  padding-left: 73px;
+}
+.imageElement--image-contenido-submenu-colum-4{
+  padding-left: 73px;
+}
+
+.portalContainer--search-desplegable-desktop :global(.vtex-search-2-x-tileListList){
+  margin-bottom: 0;
+}
+
+.shareSocialButton--facebook::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url(/arquivos/fb-share.svg);
+  background-repeat: no-repeat;
+  background-size: cover!important;
+}
+.shareSocialIcon--facebook{
+  display: none;
+}
+
+.shareSocialButton--whatsapp::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url(/arquivos/wsp-share.svg);
+  background-repeat: no-repeat;
+  background-size: cover!important;
+}
+.shareSocialIcon--whatsapp{
+  display: none;
+}
+
+.imageElement--interna-nosotros-banners{
+  margin-bottom: 70px;
+}
+
+@media screen and (max-width: 1024px){
+  .imageElement--interna-nosotros-banners{
+    margin-bottom: 30px !important;
+  }
+}
+
+.imageElement--contacto-image{
+  padding-right: 75px;
+}
+@media screen and (max-width: 1024px){
+  .imageElement--contacto-image{
+    display: none;
+  }
+}
+
+
+:global(.vtex-order-placed-2-x-section--notices){
+  display: none;
+}
+
+:global(.vtex-order-placed-2-x-orderPlacedWrapper){
+  background: #F7F7F7;
+}
+
+:global(.vtex-order-placed-2-x-orderPlacedHeader) {
+  max-width: 1250px;
+  background: white;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+:global(.vtex-order-placed-2-x-orderPlacedHeader) :global(.vtex-order-placed-2-x-section){
+  max-width: 940px;
+  background: #F2F6FA;
+  padding: 30px 0;
+  margin-bottom: 0;
+}
+
+:global(.vtex-order-placed-2-x-orderPlacedHeader) :global(.vtex-order-placed-2-x-section) :global(.vtex-order-placed-2-x-confirmationTitle){
+  color: #001E62;
+}
+
+:global(.vtex-order-placed-2-x-orderPlacedMainWrapper){
+  max-width: 1250px;
+  background: white;
+  margin: 0 auto;
+  padding-top: 60px;
+  width: 100%;
+}
+
+:global(.vtex-order-placed-2-x-orderList){
+  max-width: 940px;
+  padding: 30px 0;
+  margin: 0 auto;
+}
+
+:global(.vtex-order-placed-2-x-orderList) :global(.vtex-order-placed-2-x-cancelOrderButton){
+  display: none;
+}
+
+:global(.vtex-order-placed-2-x-orderList) :global(.vtex-order-placed-2-x-myOrdersButton) :global(.vtex-button){
+  border: 0;
+  background: #001E62;
+  border-radius: 25px;
+}
+
+:global(.vtex-order-placed-2-x-orderList) :global(.vtex-order-placed-2-x-myOrdersButton) :global(.vtex-button) :global(.vtex-button__label){
+  color: white;
+}
+
+:global(.vtex-order-placed-2-x-orderList) :global(.vtex-order-placed-2-x-updateOrderButton) :global(.vtex-button){
+   border: 0;
+  background:#E4E5F4;
+  border-radius: 25px;
+}
+
+:global(.vtex-order-placed-2-x-orderList) :global(.vtex-order-placed-2-x-updateOrderButton) :global(.vtex-button) :global(.vtex-button__label){
+  color: #001E62;
+}
+
+:global(.vtex-order-placed-2-x-orderList) :global(.vtex-order-placed-2-x-orderNumber){
+  font-weight: normal;
+  color: #001E62;
+}
+
+.imageElement--guia-de-tallas-triger{
+  width: 109px;
+  max-width: 109px;
+  cursor: pointer;
+}
+
+.imageElement--guia-de-tallas-image{
+  max-height: 100% !important;
+}

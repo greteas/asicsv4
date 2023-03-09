@@ -1,0 +1,29 @@
+.product-identifier--productReference{
+  display: flex;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 13px;
+  font-family: 'Roboto';
+  color: #252C3B;
+  opacity: .9;
+  margin-top: 6px;
+  margin-bottom: 25px;
+}
+@media screen and (max-width: 1024px){
+  .product-identifier--productReference{
+    font-size: 12px !important;
+  }
+}
+
+.product-identifier--productReference::before{
+  content: "SKU : ";
+  margin-right: 2px;
+}
+
+.product-identifier__label{
+  display: none;
+}
+
+.product-identifier__separator{
+  display: none;
+}

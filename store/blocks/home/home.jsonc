@@ -1,0 +1,461 @@
+{
+  "store.home": {
+    "blocks": [
+      "SwitchVisibility",
+      "list-context.image-list#banner-principal",
+      "__fold__",
+      //"__fold__.experimentalLazyAssets",
+      "flex-layout.row#mas-vendidos-texts",
+      "flex-layout.row#mas-vendido-productos",
+      "rich-text#mejora-rendimiento",
+      "flex-layout.row#mejora-rendimiento-row",
+      "rich-text#porque-comprar",
+      "flex-layout.row#porque-comprar-content",
+      "flex-layout.row#newletter-content"
+    ]
+  },
+
+  "flex-layout.row#newletter-content": {
+    "title":"NEWSLETTER",
+    "children": ["newsletter-form#home"],
+    "props": {
+      "blockClass": ["newletter-content"]
+    }
+  },
+  "newsletter-form#home": {
+    "children": [
+      "rich-text#newsletter-text",
+      "flex-layout.row#newsletter-mail-submit",
+      "flex-layout.row#newsletter-checkbox-confirmation"
+    ]
+  },
+  "flex-layout.row#newsletter-checkbox-confirmation": {
+    "children": [
+      "newsletter-checkbox-confirmation",
+      "rich-text#newsletter-checkbox-confirmation-text"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "blockClass": ["newsletter-checkbox-confirmation"]
+    }
+  },
+  "rich-text#newsletter-checkbox-confirmation-text": {
+    "props": {
+      "blockClass": ["newsletter-checkbox-confirmation-text"],
+      "text": "Acepto los [Términos y Condiciones](/terminos-y-condiciones/?target=_blank) y la [Política de Protección de Datos Personales.](https://www.youtube.com/?target=_blank)"
+    }
+  },
+  "flex-layout.row#newsletter-mail-submit": {
+    "children": [
+      "newsletter-input-email",
+      "newsletter-submit"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile":true,
+      "blockClass": ["newsletter-mail-submit"]
+    }
+  },
+  "newsletter-input-email":{
+    "props": {
+      "placeholderText":"Ingresa tu correo electrónico"
+    }
+  },
+  "newsletter-submit":{
+    "props":{
+      "submitButtonLabel":"Suscríbete"
+    }
+  },
+  "rich-text#newsletter-text": {
+    "props": {
+      "blockClass": ["newsletter-text"],
+      "text": "¡SÉ UN EXPERTO EN RUNNING CON ASICS!\n**Suscríbete para novedades, información, descuentos y más.**"
+    }
+  },
+
+  "flex-layout.row#porque-comprar-content": {
+    "title":"PORQUE COMPRAR - COTENIDO",
+    "children": [
+      "flex-layout.row#porque-comprar-1",
+      "flex-layout.row#porque-comprar-2",
+      "flex-layout.row#porque-comprar-3"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "blockClass": ["porque-comprar-content"]
+    }
+  },
+
+  "flex-layout.row#porque-comprar-1": {
+    "children": [
+      "image#porque-comprar-image-1",
+      "rich-text#porque-comprar-text-1"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile":true,
+      "blockClass": ["porque-comprar"]
+    }
+  },
+  "image#porque-comprar-image-1": {
+    "props": {
+      "blockClass": ["porque-comprar-image"],
+      "src": "/arquivos/Grupo 7646.svg"
+    }
+  },
+  "rich-text#porque-comprar-text-1": {
+    "props": {
+      "blockClass": ["porque-comprar-text"],
+      "text": "**Pagos 100% seguros,**\npágina certificada."
+    }
+  },
+  "flex-layout.row#porque-comprar-2": {
+    "children": [
+      "image#porque-comprar-image-2",
+      "rich-text#porque-comprar-text-2"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile":true,
+      "blockClass": ["porque-comprar"]
+    }
+  },
+  "image#porque-comprar-image-2": {
+    "props": {
+      "blockClass": ["porque-comprar-image"],
+      "src": "/arquivos/Grupo 7647.svg"
+    }
+  },
+  "rich-text#porque-comprar-text-2": {
+    "props": {
+      "blockClass": ["porque-comprar-text"],
+      "text": "**Comprar fácil**\nen solo 4 pasos."
+    }
+  },
+  "flex-layout.row#porque-comprar-3": {
+    "children": [
+      "image#porque-comprar-image-3",
+      "rich-text#porque-comprar-text-3"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile":true,
+      "blockClass": ["porque-comprar"]
+    }
+  },
+  "image#porque-comprar-image-3": {
+    "props": {
+      "blockClass": ["porque-comprar-image"],
+      "src": "/arquivos/Grupo 7648.svg"
+    }
+  },
+  "rich-text#porque-comprar-text-3": {
+    "props": {
+      "blockClass": ["porque-comprar-text"],
+      "text": "**Envío** a Lima y\na provincias."
+    }
+  },
+  "flex-layout.row#porque-comprar-4": {
+    "children": [
+      "image#porque-comprar-image-4",
+      "rich-text#porque-comprar-text-4"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile":true,
+      "blockClass": ["porque-comprar"]
+    }
+  },
+  "image#porque-comprar-image-4": {
+    "props": {
+      "blockClass": ["porque-comprar-image"],
+      "src": "/arquivos/Grupo 7649.svg"
+    }
+  },
+  "rich-text#porque-comprar-text-4": {
+    "props": {
+      "blockClass": ["porque-comprar-text"],
+      "text": "*Estamos en fitbox*\nMás opciones online."
+    }
+  },
+
+  "rich-text#porque-comprar": {
+    "title":"PORQUE COMPRAR - TEXTOS",
+    "props": {
+      "blockClass": ["porque-comprar"],
+      "text": "¿Por qué comprar con nosotros?"
+    }
+  },
+
+  "flex-layout.row#mejora-rendimiento-row": {
+    "title":"MEJORA TU RENDIMIENTO - IMAGENES",
+    "children": ["image-list#mejora-rendimiento-images"],
+    "props": {
+      "blockClass": ["mejora-rendimiento-row"]
+    }
+  },
+
+  "image-list#mejora-rendimiento-images": {
+    "props": {
+      "images": [
+        {
+          "image": "/arquivos/Grupo 7647-x.jpg",
+          "mobileImage": "/arquivos/Grupo 7662-x.jpg",
+          "link": {
+            "url":"https://www.google.com"
+            //"newTab": true
+          }
+        },
+        {
+          "image": "/arquivos/Grupo 7646-alter-x.jpg",
+          "mobileImage": "/arquivos/Grupo 7663-x.jpg",
+          "link": {
+            "url":"https://www.google.com"
+            //"newTab": true
+          }
+        },
+        {
+          "image": "/arquivos/Grupo 7649-x.jpg",
+          "mobileImage": "/arquivos/Grupo 7664-x.jpg",
+          "link": {
+            "url":"https://www.google.com"
+            //"newTab": true
+          }
+        }
+      ]
+    }
+  },
+
+  "rich-text#mejora-rendimiento": {
+    "title":"MEJORA TU RENDIMIENTO - TEXTOS",
+    "props": {
+      "blockClass": ["mejora-rendimiento"],
+      "text": "Mejora tu rendimiento con Asics"
+    }
+  },
+
+  "flex-layout.row#lanzamiento-productos": {
+    "props": {
+      "blockClass":"lanzamiento-producto"
+    },
+    "children": [
+      "list-context.product-list#lanzamiento-producto"
+    ]
+  },
+  "list-context.product-list#lanzamiento-producto": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#lanzamiento-producto-slider"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#lanzamiento-producto-slider": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "showNavigationArrows":"desktopOnly",
+      "blockClass": "lanzamiento-producto-slider"
+    }
+  },
+
+  "rich-text#lamzamiento-temporada": {
+    "props": {
+      "blockClass": ["lamzamiento-temporada"],
+      "text": "Lanzamiento de temporada"
+    }
+  },
+
+  "flex-layout.row#tipo-zapatillas-row": {
+    "children": ["image-list#tipo-zapatillas"],
+    "props": {
+      "blockClass": ["tipo-zapatillas-row"]
+    }
+  },
+
+  "image-list#tipo-zapatillas": {
+    "props": {
+      "images": [
+        {
+          "image": "/arquivos/zapatillas-tipo-x.jpg",
+          "mobileImage": "/arquivos/Grupo 7661-x.jpg",
+          "link": {
+            "url":"https://www.google.com"
+            //"newTab": true
+          }
+        },
+        {
+          "image": "/arquivos/Entrenamiento-desk-x.jpg",
+          "mobileImage": "/arquivos/Entrenamiento-mob-x.jpg",
+          "link": {
+            "url":"https://www.google.com"
+            //"newTab": true
+          }
+        },
+        {
+          "image": "/arquivos/Velocidad-desk-x.jpg",
+          "mobileImage": "/arquivos/Velocidad-mob-x.jpg",
+          "link": {
+            "url":"https://www.google.com"
+            //"newTab": true
+          }
+        },
+        {
+          "image": "/arquivos/Energia-desk-x.jpg",
+          "mobileImage": "/arquivos/Energia-mob-x.jpg",
+          "link": {
+            "url":"https://www.google.com"
+            //"newTab": true
+          }
+        }
+      ]
+    }
+  },
+
+  "flex-layout.row#mas-vendidos-texts": {
+    "title":"PRODUCTOS MAS VENDIDOS - TEXTOS",
+    "children": [
+      "rich-text#mas-vendido-text-1",
+      "menu-item#mas-vendido-text-2"
+    ],
+    "props": {
+      "preventHorizontalStretch":true,
+      "preserveLayoutOnMobile":true,
+      "blockClass": ["mas-vendidos-text"]
+    }
+  },
+
+  "rich-text#mas-vendido-text-1": {
+    "props": {
+      "blockClass": ["mas-vendido-text-1"],
+      "text": "Lo más vendido"
+    }
+  },
+
+  "menu-item#mas-vendido-text-2": {
+    "props": {
+      "blockClass":"mas-vendido-text-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "VER TODO"
+      }
+    }
+  },
+
+  "list-context.image-list#banner-principal": {
+    "title":"BANNER PRINCIPAL",
+    "children": ["slider-layout#banner-principal"],
+    "props": {
+      "height": "100%",
+      "images": [
+        {
+          "image": "/arquivos/BANNER-WEB-ASICS_RESPONSIVE_BANNER-WEB.jpg",
+          "mobileImage": "/arquivos/BANNER-WEB-ASICS_RESPONSIVE_BANNER-WEB_1.jpg",
+          "link": {
+            "url":"https://www.google.com"
+            //"newTab": true
+          }
+        },
+        {
+          "image": "/arquivos/BANNER-WEB-ASICS_RESPONSIVE_BANNER-WEB_002.jpg",
+          "mobileImage": "/arquivos/BANNER-WEB-ASICS_RESPONSIVE_BANNER-WEB_2.jpg",
+          "link": {
+            "url":"https://www.google.com"
+            //"newTab": true
+          }
+        },
+        {
+          "image": "/arquivos/BANNER-WEB-ASICS_RESPONSIVE_BANNER-WEB_03.jpg",
+          "mobileImage": "/arquivos/BANNER-WEB-ASICS_RESPONSIVE_BANNER-WEB_3.jpg",
+          "link": {
+            "url":"https://www.google.com"
+            //"newTab": true
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#banner-principal": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "banner-principal",
+      "autoplay": {
+        "timeout":5000
+      }
+    }
+  },
+
+  "flex-layout.row#mas-vendido-productos": {
+    "title":"PRODUCTOS MAS VENDIDOS - PRODUCTOS",
+    "props": {
+      "blockClass":"mas-vendido-productos"
+    },
+    "children": [
+      "list-context.product-list#mas-vendido-productos"
+    ]
+  },
+  "list-context.product-list#mas-vendido-productos": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#mas-vendido-productos-slider"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#mas-vendido-productos-slider": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "showNavigationArrows":"desktopOnly",
+      "blockClass": "mas-vendido-productos-slider"
+    }
+  },
+
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
+
+  "rich-text#question": {
+    "props": {
+      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
+      "blockClass": "question"
+    }
+  },
+
+  "rich-text#link": {
+    "props": {
+      "text": "\n**Reach us at**\nwww.vtex.com.br",
+      "blockClass": "link"
+    }
+  }
+}

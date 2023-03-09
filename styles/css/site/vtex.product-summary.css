@@ -1,0 +1,77 @@
+.container--summary-shelf{
+  border: 1px solid #D4D8DD;
+  height: 100%;
+  border-radius: 0;
+  background: white;
+}
+
+.productBrandContainer{
+  margin-top: 17px;
+  font-size: 12px;
+  color: #252C3B;
+  opacity: .9;
+  font-family: 'Roboto';
+  display: flex;
+  padding-left: 16px;
+}
+@media screen and (max-width: 1024px){
+  .productBrandContainer{
+    font-size: 11px !important;
+  }
+}
+
+.container--summary-shelf :global(.vtex-button){
+  width: 85%;
+  height: 45px;
+  margin-bottom: 4px !important;
+  margin: 0 auto;
+  text-transform: initial;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  background: #001E62;
+  border: none;
+  border-radius: 30px;
+}
+@media screen and (max-width: 1024px){
+  .container--summary-shelf :global(.vtex-button){
+    font-size: 15px !important;
+    font-weight: 400 !important;
+  }
+}
+
+.imageStackContainer :global(.vtex-product-summary-2-x-image){
+  max-height: 248px !important;
+}
+
+.nameContainer--summaryListDesktop {
+  padding-top: 0.25rem;
+  padding-bottom: 0.75rem;
+  justify-content: start;
+}
+
+.nameContainer--summaryListMobile {
+  padding-top: 0.25rem;
+  padding-bottom: 0.5rem;
+  justify-content: start;
+}
+
+.brandName--summaryListMobile {
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: black;
+}
+
+.container--listLayout {
+  max-width: none !important;
+}
+
+.image--summaryListDesktop {
+  width: 180px !important;
+}
+
+.image--summaryListMobile {
+  width: 140px !important;
+  min-width: 140px;
+  height: inherit !important;
+}

@@ -1,0 +1,111 @@
+#CybotCookiebotDialogHeader {
+  display: none !important;
+}
+
+.CybotCookiebotDialogContentWrapper {
+  width: 80% !important;
+  margin: 0 auto !important;
+}
+
+#CybotCookiebotDialogBody .CybotCookiebotDialogBodyBottomWrapper {
+  display: none !important;
+}
+
+#CybotCookiebotDialogBodyContentTitle {
+  display: none !important;
+}
+
+@media (max-width: 1280px) {
+  #CybotCookiebotDialogBodyContentText {
+    color: #003783 !important;
+    font-family: "Lato", sans-serif !important;
+    font-size: 16px !important;
+    text-align: justify;
+  }
+}
+#CookiebotWidget {
+  display: none !important;
+}
+
+@media (max-width: 1279px) {
+  #CybotCookiebotDialogBodyContentText {
+    color: #003783 !important;
+    font-family: "Lato", sans-serif !important;
+    text-align: justify;
+    font-size: 12px !important;
+  }
+}
+#CybotCookiebotDialogFooter {
+  height: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+#CybotCookiebotDialogBodyButtonAccept {
+  margin: 0 !important;
+  border-radius: 0px !important;
+  border: 1px solid #003783 !important;
+  background: #D0DCEB !important;
+  color: #003783 !important;
+  font-family: "Oswald", sans-serif !important;
+  font-size: 18px !important;
+}
+
+@media (min-width: 1280px) {
+  #CybotCookiebotDialogBody {
+    width: 85% !important;
+  }
+
+  #CybotCookiebotDialog {
+    background: #D0DCEB !important;
+    top: 100% !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+@media (max-width: 1279px) {
+  #CybotCookiebotDialog {
+    top: 88% !important;
+    background: #D0DCEB !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  #CybotCookiebotDialogTabContent .CybotCookiebotDialogTabPanel {
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+  }
+}
+#CybotCookiebotDialogPoweredByText {
+  display: none !important;
+}
+
+#CybotCookiebotDialogBodyButtons {
+  width: 100% !important;
+}
+
+#CybotCookiebotDialogBodyButtonsWrapper {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.CybotCookiebotFader.CybotCookiebotDialogActive {
+  background: none !important;
+}
+
+#CybotCookiebotDialogBodyContent {
+  padding: 0 !important;
+}
+
+#CybotCookiebotDialogTabContent {
+  height: 100% !important;
+  margin-bottom: -20px;
+  padding-top: 12px;
+  padding-bottom: 10px;
+}
+
+/* .vtex-flex-layout-0-x-flexRowContent--sku-selector-content .pr7{
+  padding-right: 0;
+} */
+
+/*# sourceMappingURL=global.css.map */

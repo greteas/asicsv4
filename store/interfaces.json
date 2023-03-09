@@ -1,0 +1,9 @@
+{
+  "stylesGlobal":{
+    "component":"stylesGlobal"
+  },
+  "SwitchVisibility":{
+    "component":"SwitchVisibility",
+    "composition":"children"
+  }
+}

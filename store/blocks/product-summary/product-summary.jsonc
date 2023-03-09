@@ -1,0 +1,97 @@
+{
+  "product-summary.shelf": {
+    "props":{
+      "blockClass":"summary-shelf"
+    },
+    "children": [
+      "stack-layout#prodsum",
+      "product-summary-brand",
+      "vtex.store-components:product-name",
+      "product-identifier.product",
+      "product-summary-space",
+      "product-list-price#summary",
+      "flex-layout.row#selling-price-savings",
+      //"product-installments#summary",
+      "add-to-cart-button"
+    ]
+  },
+
+  "flex-layout.row#selling-price-savings": {
+    "props": {
+      "blockClass":["selling-price-savings-dkstp"],
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "product-selling-price#summary",
+      "product-price-savings#summaryPercentage"
+      //"product-price-savings#summary"
+    ]
+  },
+
+  "flex-layout.col#productRating": {
+    "props": {
+      "blockClass": "productRating"
+    },
+    "children": ["product-rating-inline"]
+  },
+
+  "stack-layout#prodsum": {
+    "children": [
+      "product-summary-image#shelf",
+      "vtex.product-highlights@2.x:product-highlights#collection"
+      //"modal-trigger#quickview" // Check quickview.jsonc
+    ]
+  },
+
+  "product-summary-image#shelf": {
+    "props": {
+      "showBadge": false,
+      "aspectRatio": "1:1",
+      "maxHeight": 300
+    }
+  },
+
+  "vtex.product-highlights@2.x:product-highlights#collection": {
+    "props": {
+      "type": "collection"
+    },
+    "children": ["product-highlight-wrapper"]
+  },
+  "product-highlight-wrapper": {
+    "props": {
+      "blockClass": "collection"
+    },
+    "children": ["product-highlight-text"]
+  },
+  "product-highlight-text": {
+    "props": {
+      "message": "{highlightName}"
+    }
+  },
+
+  "product-list-price#summary": {
+    "props": {
+      "blockClass": "summary"
+    }
+  },
+
+  "product-installments#summary": {
+    "props": {
+      "blockClass": "summary"
+    }
+  },
+  "product-selling-price#summary": {
+    "props": {
+      "blockClass": "summary"
+    }
+  },
+  "product-price-savings#summary": {
+    "props": {
+      "markers": [
+        "discount"
+      ],
+      "blockClass": "summary"
+    }
+  }
+}

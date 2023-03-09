@@ -1,0 +1,260 @@
+{
+  "store.custom#libro-de-reclamos":{
+    "blocks":[
+      "image-list#banner-libro-de-reclamos",
+      "rich-text#libro-de-reclamos-initial-text",
+      "flex-layout.row#libro-de-reclamos-content"
+    ],
+    "props": {
+      "blockClass": ["libro-de-reclamos-page"]
+    }
+  },
+
+  "image-list#banner-libro-de-reclamos": {
+    "props": {
+      "blockClass":"internas-banners",
+      "preload": true,
+      "images": [
+        {
+          "image": "/arquivos/Grupo 7584.jpg",
+          "mobileImage":"/arquivos/05_libro_reclamaciones.png"
+        }
+      ]
+    }
+  },
+
+  "rich-text#libro-de-reclamos-initial-text": {
+    "props": {
+      "blockClass": ["libro-de-reclamos-initial-text"],
+      "text": "Conforme al código de Protección y Defensa del Consumidor, ponemos a tu disposición el Libro de Reclamaciones en caso desees ingresar un reclamo o queja respecto al servicio o producto recibido.\n\nDe conformidad y en cumplimiento del D.S.011-2011 PCM, el plazo de atención del reclamo es de 30 días calendario desde su presentación, el cual podrá extenderse excepcionalmente de acuerdo a la complejidad del requerimiento."
+    }
+  },
+
+  "flex-layout.row#libro-de-reclamos-content": {
+    "children": ["form#libro-de-reclamos-form"],
+    "props": {
+      "blockClass": ["libro-de-reclamos-content"]
+    }
+  },
+
+  "form#libro-de-reclamos-form":{
+    "props": {
+      "blockClass":"contacto-form",
+      "entity": "LR",
+      "schema": "schema_LibroDeReclamosAsics"
+    },
+    "children": [
+      "rich-text#libro-de-reclamos-text-title-1",
+      "flex-layout.row#libro-de-reclamos-datos-personales-1-content",
+      "flex-layout.row#libro-de-reclamos-datos-personales-2-content",
+      "rich-text#libro-de-reclamos-text-title-1",
+      "flex-layout.row#libro-de-reclamos-datos-personales-3-content",
+      "rich-text#libro-de-reclamos-text-title-2",
+      "form-input.radiogroup#tipo-de-reclamo-libro-de-reclamos-form",
+      "rich-text#libro-de-reclamos-text-descripcion-1",
+      "flex-layout.row#libro-de-reclamos-datos-personales-4-content",
+      "flex-layout.row#terminos-libro-de-reclamos-form-flex",
+      "form-submit#submit-libro-de-reclamos-form"
+    ],
+    "blocks": ["form-success#libro-de-reclamos-succes-form"]
+  },
+
+  "flex-layout.row#terminos-libro-de-reclamos-form-flex": {
+    "children": [
+      "form-field-group#terminos-libro-de-reclamos-form",
+      "rich-text#newsletter-checkbox-confirmation-text"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "blockClass": ["terminos-libro-de-reclamos-form-flex"]
+    }
+  },
+
+  "form-field-group#terminos-libro-de-reclamos-form": {
+    "props": {
+      "blockClass": ["terminos-libro-de-reclamos-field"],
+      "pointer": "#/properties/terminosycondiciones",
+      "label": "display none"
+    }
+  },
+
+  "form-submit#submit-libro-de-reclamos-form": {
+    "props": {
+      "blockClass":["libro-de-reclamos-form-submit"],
+      "label": "Enviar"
+    }
+  },
+
+  "rich-text#libro-de-reclamos-text-descripcion-1": {
+    "props": {
+      "blockClass": ["libro-de-reclamos-text-descripcion-1"],
+      "text": "**Reclamo:**Es la expresión de disconformidad del consumidor referida a los bienes exportados o suministrados o a los servicios prestados.\n\n**Queja:** Es aquella disconformidad que no se encuentra relacionada a los bienes que comercializa el proveedor o a los servicios que presta. Puede expresar el malestar o descontento del consumidor respecto a la atención al público."
+    }
+  },
+
+  "form-input.radiogroup#tipo-de-reclamo-libro-de-reclamos-form": {
+    "props": {
+      "blockClass":["tipo-de-reclamo-libro-de-reclamos-input"],
+      "pointer": "#/properties/tipodereclamo"
+    }
+  },
+
+  "flex-layout.row#libro-de-reclamos-datos-personales-1-content": {
+    "children": [
+      "form-input.dropdown#tipo-de-documento-libro-de-reclamos-form",
+      "form-input.text#numero-de-documento-libro-de-reclamos-form",
+      "form-input.text#nombre-libro-de-reclamos-form",
+      "form-input.text#apellido-paterno-libro-de-reclamos-form",
+      "form-input.text#apellido-materno-libro-de-reclamos-form"
+    ],
+    "props": {
+      "preventHorizontalStretch":true,
+      "blockClass": ["libro-de-reclamos-datos-personales-1-content"]
+    }
+  },
+  "flex-layout.row#libro-de-reclamos-datos-personales-4-content": {
+    "children": [
+      "form-input.textarea#detalle-libro-de-reclamos-form",
+      "form-input.textarea#pedido-libro-de-reclamos-form"
+    ],
+    "props": {
+      "preventHorizontalStretch":true,
+      "blockClass": ["libro-de-reclamos-datos-personales-4-content"]
+    }
+  },
+  "form-input.textarea#detalle-libro-de-reclamos-form": {
+    "props": {
+      "blockClass":["detalle-libro-de-reclamos-form"],
+      "pointer": "#/properties/detalle"
+    }
+  },
+  "form-input.textarea#pedido-libro-de-reclamos-form": {
+    "props": {
+      "blockClass":["pedido-libro-de-reclamos-form"],
+      "pointer": "#/properties/pedido"
+    }
+  },
+
+  "flex-layout.row#libro-de-reclamos-datos-personales-3-content": {
+    "children": [
+      "form-input.text#monto-de-reclamo-libro-de-reclamos-form",
+      "form-input.text#numero-de-pedido-libro-de-reclamos-form"
+    ],
+    "props": {
+      "preventHorizontalStretch":true,
+      "blockClass": ["libro-de-reclamos-datos-personales-3-content"]
+    }
+  },
+  "form-input.text#monto-de-reclamo-libro-de-reclamos-form": {
+    "props": {
+      "blockClass":["monto-de-reclamo-libro-de-reclamos-input"],
+      "pointer": "#/properties/montodereclamo"
+    }
+  },
+  "form-input.text#numero-de-pedido-libro-de-reclamos-form": {
+    "props": {
+      "blockClass":["umero-de-pedido-libro-de-reclamos-input"],
+      "pointer": "#/properties/numerodepedido"
+    }
+  },
+
+  "flex-layout.row#libro-de-reclamos-datos-personales-2-content": {
+    "children": [
+      "form-input.text#email-libro-de-reclamos-form",
+      "form-input.text#telefono-libro-de-reclamos-form",
+      "form-input.text#direccion-libro-de-reclamos-form",
+      "form-input.text#departamento-libro-de-reclamos-form"
+    ],
+    "props": {
+      "preventHorizontalStretch":true,
+      "blockClass": ["libro-de-reclamos-datos-personales-2-content"]
+    }
+  },
+  "form-input.text#departamento-libro-de-reclamos-form": {
+    "props": {
+      "blockClass":["departamento-libro-de-reclamos-input"],
+      "pointer": "#/properties/departamento"
+    }
+  },
+  "form-input.text#email-libro-de-reclamos-form": {
+    "props": {
+      "blockClass":["email-libro-de-reclamos-input"],
+      "pointer": "#/properties/email"
+    }
+  },
+  "form-input.text#telefono-libro-de-reclamos-form": {
+    "props": {
+      "blockClass":["telefono-libro-de-reclamos-input"],
+      "pointer": "#/properties/telefono"
+    }
+  },
+  "form-input.text#direccion-libro-de-reclamos-form": {
+    "props": {
+      "blockClass":["direccion-libro-de-reclamos-input"],
+      "pointer": "#/properties/direccion"
+    }
+  },
+
+  "form-input.text#apellido-materno-libro-de-reclamos-form": {
+    "props": {
+      "blockClass":["apellido-materno-libro-de-reclamos-input"],
+      "pointer": "#/properties/apellidomaterno"
+    }
+  },
+  "form-input.text#apellido-paterno-libro-de-reclamos-form": {
+    "props": {
+      "blockClass":["apellido-paterno-libro-de-reclamos-input"],
+      "pointer": "#/properties/apellidopaterno"
+    }
+  },
+  "form-input.text#nombre-libro-de-reclamos-form": {
+    "props": {
+      "blockClass":["nombre-libro-de-reclamos-input"],
+      "pointer": "#/properties/nombre"
+    }
+  },
+  "form-input.text#numero-de-documento-libro-de-reclamos-form": {
+    "props": {
+      "blockClass":["numero-de-documento-libro-de-reclamos-input"],
+      "pointer": "#/properties/numerodedocumento"
+    }
+  },
+  "form-input.dropdown#tipo-de-documento-libro-de-reclamos-form": {
+    "props": {
+      "pointer": "#/properties/tipodedocumento",
+      "blockClass":["tipo-documento-libro-de-reclamos-form"]
+    }
+  },
+
+  "rich-text#libro-de-reclamos-text-title-1": {
+    "props": {
+      "blockClass": ["libro-de-reclamos-text-title"],
+      "text": "Datos personales"
+    }
+  },
+
+  "rich-text#libro-de-reclamos-text-title-2": {
+    "props": {
+      "blockClass": ["libro-de-reclamos-text-title"],
+      "text": "Detalle de reclamos"
+    }
+  },
+
+  "form-success#libro-de-reclamos-succes-form": {
+    "props":{
+      "blockClass":"libro-de-reclamos-succes-form"
+    },
+    "children": [
+      "rich-text#libro-de-reclamos-succes"
+    ]
+  },
+  "rich-text#libro-de-reclamos-succes": {
+    "props": {
+      "blockClass":["libro-de-reclamos-succes-text"],
+      "text": "Datos enviados correctamente!",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}

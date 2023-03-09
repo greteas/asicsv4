@@ -1,0 +1,233 @@
+@media screen and (min-width: 40em) {
+  .paper--quickview {
+    height: 260px;
+    width: 580px;
+  }
+
+  .actionsContainer--quickview {
+    padding: 0 2rem 2rem 2rem;
+  }
+}
+
+@media screen and (min-width: 50em) {
+  .paper--quickview {
+    height: 450px;
+    width: 900px;
+  }
+}
+
+
+@media screen and (min-width: 75em) {
+  .paper--quickview {
+    width: calc(100% - 4rem);
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 82em) {
+  .actionsContainer--quickview {
+    padding: 0 2.5rem 2.5rem 2.5rem;
+  }
+}
+
+.paper--quickview {
+  min-width: 320px;
+  max-width: 96rem;
+}
+
+.headerContainer--quickview {
+  border: none;
+  position: absolute;
+  right: 0;
+}
+
+.actionsContainer--quickview {
+  height: 100%;
+  width: 100%;
+  transition: box-shadow 150ms ease-in-out, border-top 150ms ease-in-out;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: transparent;
+  box-shadow: -4px 0px 27px -12px transparent;
+}
+
+.actionsContentWrapper {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #aaa;
+  padding-top: 1.5rem;
+}
+
+.contentContainer--quickviewContent {
+  padding: 2.5rem 0 2.5rem 2rem;
+  overflow-x: hidden;
+}
+
+.triggerContainer--quickview {
+  padding: .75rem;
+}
+
+.triggerContainer {
+  outline: none;
+}
+
+.actionsContainer--quickview:not(.actionsContainerEndOfContent--quickview) {
+  border-top-color: rgb(238, 238, 238);
+  box-shadow: -4px 0px 27px -12px rgba(0,0,0,0.64);
+}
+
+.actionsContainer--quickview:not(.actionsContainerEndOfContent--quickview) .actionsContentWrapper {
+  border-top-color: transparent;
+}
+
+.closeButton {
+  padding-right: 1rem;
+}
+
+.paper--product-gifts {
+  padding: 1.5rem;
+}
+
+.triggerContainer--searchDespalgable-triger::after{
+  content:"Buscador";
+  font-size: 10px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #001E62;
+  text-transform: initial;
+  margin-top: 4px;
+}
+
+.triggerContainer--searchDespalgable-triger{
+  height: 70px;
+  display: grid;
+  width: 44px;
+  grid-template-rows: 40px 30px;
+  justify-content: center;
+}
+
+.triggerContainer--searchDespalgable-triger :global(.vtex-store-components-3-x-imageElement--search-mobile-image){
+  padding-top: 14px;
+  padding-left: 10px;
+}
+
+/* search mobile desplegado INICIO */
+
+.container--SearchDesplegableML-modal{
+  display: block;
+}
+
+.paper--SearchDesplegableML-modal{
+  margin: 10px auto 10px auto;
+  align-items: center;
+  width: 398px;
+}
+
+.paper--SearchDesplegableML-modal :global(.vtex-store-components-3-x-searchBarContainer){
+  padding: 8px;
+}
+
+.paper--SearchDesplegableML-modal .closeIcon--closeSearchBar-search-mobile{
+  border: 2px solid #001E62;
+  border-radius: 20px;
+  color: #001E62;
+}
+
+.paper--SearchDesplegableML-modal :global(.vtex-search-2-x-biggy-autocomplete-wrapper){
+  width: 380px;
+}
+
+.paper--SearchDesplegableML-modal :global(.vtex-search-2-x-biggy-autocomplete-wrapper) :global(.vtex-search-2-x-imageContainer){
+  border: 1px solid #aba6a6;
+}
+
+/* search mobile desplegado FIN */
+
+.paper--popup-home-layout .headerContainer{
+  border: none;
+}
+
+.paper--popup-home-layout .headerContainer .closeIcon{
+  background: #001E62;
+  color: white;
+  border-radius: 25px;
+  width: 30px;
+  height: 30px;
+}
+
+.paper--popup-home-layout :global(.vtex-store-form-0-x-formSubmitButton) :global(.vtex-button){
+  font-size: 18px;
+  color: #001E62;
+  font-family: 'Rubik';
+  text-transform: none;
+  font-weight: 400;
+  width: 189px;
+  height: 48px;
+  background: white;
+  border: 2px solid #003783;
+  border-radius: 30px;
+}
+
+.paper--popup-home-layout .closeButton{
+  position: relative;
+}
+
+.paper--popup-home-layout .closeButtonContainer{
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+ .modal--popup-home-layout .container--popup-home-layout{
+  background-color: rgb(26 26 26 / 70%);
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--confirmationButtons) :global(.vtex-button){
+  background: #001E62;
+  border-radius: 17px;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--confirmationButtons) :global(.vtex-button) :global(.vtex-button__label){
+  color: white;
+  font-size: 15px;
+  padding: 20px 30px;
+}
+
+:global(.vtex-order-placed-2-x-orderPlacedHeader) :global(.vtex-order-placed-2-x-section--bank-invoice){
+  padding-left: 10px !important;
+  color: #001E62;
+}
+
+ :global(.vtex-order-placed-2-x-totalList) :global(.vtex-order-placed-2-x-totalListItem):nth-child(3n){
+  color: #001E62;
+}
+
+:global(.vtex-order-placed-2-x-orderListItem) :global(.vtex-order-placed-2-x-paymentGroup){
+  color: #001E62;
+}
+
+:global(.vtex-order-placed-2-x-orderListItem) :global(.vtex-order-placed-2-x-packageDeliveryTitle){
+  color: #001E62;
+}
+
+.modal--guia-de-tallas-modal .headerContainer--closeSearchBar-search-mobile{
+  position: absolute;
+  right: 0;
+  border: none;
+}
+
+.modal--guia-de-tallas-modal .headerContainer--closeSearchBar-search-mobile .closeIcon--closeSearchBar-search-mobile{
+  background: #051e63;
+  border-radius: 20px;
+  color: #8cb7e1;
+}
+
+@media screen and (max-width: 1024px){
+  .modal--guia-de-tallas-modal .headerContainer--closeSearchBar-search-mobile{
+    margin-top: -24px;
+    margin-right: -30px;
+  }
+  .paper--guia-de-tallas-modal{
+    overflow: initial;
+  }
+}

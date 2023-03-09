@@ -1,0 +1,56 @@
+.listContainer--tab-list-desc-carac-product{
+  justify-content: initial;
+}
+
+.listItem--tab-list-home-item{
+  margin: 0;
+  padding: 0 50px 0 0;
+}
+
+.listItemActive--tab-list-home-item :global(.vtex-button ){
+  font-size: 24px;
+  font-family: 'Roboto';
+  text-transform: initial;
+  font-weight: 500;
+  color: #001E62 !important;
+  background: white;
+  border: none;
+  text-decoration: underline !important;
+}
+
+.listItemActive--tab-list-home-item :global(.vtex-button__label){
+  padding-left: 0;
+}
+
+.listItem--tab-list-home-item :global(.vtex-button ){
+  font-size: 24px;
+  font-family: 'Roboto';
+  text-transform: initial;
+  font-weight: 500;
+  color: #ADADAD;
+  background: white;
+  border: none;
+}
+
+.contentContainer--tab-content-desc-carac-product :global(.vtex-store-components-3-x-productDescriptionTitle  ){
+  display: none;
+}
+
+.contentContainer--tab-content-desc-carac-product :global(.vtex-store-components-3-x-productDescriptionTitle  ){
+  display: none;
+}
+
+.contentContainer--tab-content-desc-carac-product :global(.vtex-store-components-3-x-productDescriptionText){
+  font-size: 14px;
+  font-family: 'Rubik';
+  margin-top: 18px;
+}
+
+.contentItem--tab-content-caracteristicas-producto{
+  margin-top: 13px;
+  padding-left: 13px;
+}
+
+.listItem--tab-list-home-item :global(.vtex-button__label){
+  font-size: 20px;
+}

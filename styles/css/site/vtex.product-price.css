@@ -1,0 +1,31 @@
+.listPrice--summary{
+  color: #ADADAD;
+  font-size: 13px;
+  font-family: 'Roboto';
+  display: flex;
+  padding-left: 16px;
+}
+@media screen and (max-width: 1024px){
+  .listPrice--summary{
+    font-size: 13px !important;
+  }
+}
+
+.savings--summaryPercentage{
+  display: flex;
+  align-items: center;
+  margin-left: 6px;
+  background: #001E62;
+  color: white;
+  font-size: 15px;
+  font-family: 'Roboto';
+  padding-left: 13px;
+  padding-right: 13px;
+  border-radius: 21px;
+}
+@media screen and (max-width: 1024px){
+  .savings--summaryPercentage{
+    font-size: 14px;
+  }
+
+}

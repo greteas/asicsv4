@@ -1,0 +1,4 @@
+.removeButtonContainer .removeButton :global(.vtex-product-list-0-x-deleteIcon){
+  padding-bottom: 6px;
+  overflow: visible;
+}

@@ -1,0 +1,23 @@
+{
+  "store.custom#politicas-de-privacidad":{
+    "path": "/politicas-de-privacidad"
+  },
+  "store.custom#terminos-y-condiciones":{
+    "path": "/terminos-y-condiciones"
+  },
+  "store.custom#preguntas-frecuentes":{
+    "path": "/preguntas-frecuentes"
+  },
+  "store.custom#nosotros":{
+    "path": "/nosotros"
+  },
+  "store.custom#libro-de-reclamos":{
+    "path": "/libro-de-reclamos"
+  },
+  "store.custom#contacto":{
+    "path": "/contacto"
+  },
+  "store.custom#search-coleccion":{
+    "path": "/search-coleccion"
+  }
+}

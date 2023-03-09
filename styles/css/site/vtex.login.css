@@ -1,0 +1,11 @@
+.content--loginOptions :global(.vtex-button__label){
+  font-size: 13px;
+}
+
+.portalContainer :global(.vtex-login-2-x-emailVerification) :global(.vtex-login-2-x-formTitle){
+  font-size: 13px;
+}
+
+.portalContainer :global(.vtex-styleguide-9-x-input)::placeholder{
+  font-size: 14px;
+}

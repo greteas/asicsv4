@@ -1,0 +1,24 @@
+{
+  "store.custom#search-coleccion": {
+    "blocks": ["search-result-layout.customQuery#coleccion"]
+  },
+
+  "search-result-layout.customQuery#coleccion": {
+     "props": {
+      "querySchema": {
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default",
+        "hideUnavailableItems":true,
+        "maxItemsPerPage":48,
+        "orderByField":"OrderByReleaseDateDESC",
+        "queryField": "1",
+        "mapField": "productClusterids"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }
+}

@@ -1,0 +1,354 @@
+{
+  "store.custom#preguntas-frecuentes":{
+    "blocks":[
+      "image-list#banner-preguntas-frecuentes",
+      "flex-layout.row#preguntas-frecuentes-content"
+    ],
+    "props": {
+      "blockClass": ["preguntas-frecuentes-page"]
+    }
+  },
+
+  "image-list#banner-preguntas-frecuentes": {
+    "props": {
+      "blockClass":"internas-banners",
+      "preload": true,
+      "images": [
+        {
+          "image": "/arquivos/Grupo 7586.jpg",
+          "mobileImage":"/arquivos/03_preguntas_frec.png"
+        }
+      ]
+    }
+  },
+
+  "flex-layout.row#preguntas-frecuentes-content": {
+    "children": ["menu#preguntas-frecuentes-menu"],
+    "props": {
+      "blockClass": ["preguntas-frecuentes-content"]
+    }
+  },
+
+  "menu#preguntas-frecuentes-menu": {
+    "children": [
+      "disclosure-layout-group#preguntas-frecuentes"
+    ],
+    "props": {
+      "blockClass":"preguntas-frecuentes-menu",
+      "orientation": "vertical"
+    }
+  },
+
+  "disclosure-layout-group#preguntas-frecuentes":{
+      "children":[
+          "disclosure-layout#preguntas-frecuentes-1",
+          "disclosure-layout#preguntas-frecuentes-2",
+          "disclosure-layout#preguntas-frecuentes-3",
+          "disclosure-layout#preguntas-frecuentes-4",
+          "disclosure-layout#preguntas-frecuentes-5",
+          "disclosure-layout#preguntas-frecuentes-6",
+          "disclosure-layout#preguntas-frecuentes-7",
+          "disclosure-layout#preguntas-frecuentes-8",
+          "disclosure-layout#preguntas-frecuentes-9"
+      ]
+  },
+
+  "disclosure-state-indicator": {
+    "props": {
+      "Show": "icon-caret#down",
+      "Hide": "icon-caret#up"
+    }
+  },
+  "icon-caret#down": {
+    "props": {
+      "orientation": "down"
+    }
+  },
+  "icon-caret#up": {
+    "props": {
+      "orientation": "up"
+    }
+  },
+
+  //**
+  "disclosure-layout#preguntas-frecuentes-1":{
+    "props":{
+      "blockClass":"preguntas-frecuentes-disclosures"
+    },
+    "children":[
+        "disclosure-trigger#preguntas-frecuentes-1",
+        "disclosure-content#preguntas-frecuentes-1"
+    ]
+  },
+
+  "disclosure-trigger#preguntas-frecuentes-1":{
+    "children":["rich-text#preguntas-frecuentes-1-triger-text","disclosure-state-indicator"]
+  },
+  "rich-text#preguntas-frecuentes-1-triger-text": {
+    "props": {
+        "blockClass":"preguntas-frecuentes-triger-text",
+        "text": "1 ¿Cómo me contacto con Asics? "
+        }
+  },
+  "disclosure-content#preguntas-frecuentes-1":{
+    "children":["rich-text#preguntas-frecuentes-1-content-text"]
+  },
+  "rich-text#preguntas-frecuentes-1-content-text": {
+    "props": {
+        "blockClass":"preguntas-frecuentes-content-text",
+        "text": "Cualquier sugerencia o duda comunícate con nosotros al correo electrónico: contacto@gretel.pe"
+        }
+  },
+  //**
+  "disclosure-layout#preguntas-frecuentes-2":{
+    "props":{
+      "blockClass":"preguntas-frecuentes-disclosures"
+    },
+    "children":[
+        "disclosure-trigger#preguntas-frecuentes-2",
+        "disclosure-content#preguntas-frecuentes-2"
+    ]
+  },
+
+  "disclosure-trigger#preguntas-frecuentes-2":{
+    "children":["rich-text#preguntas-frecuentes-2-triger-text","disclosure-state-indicator"]
+  },
+  "rich-text#preguntas-frecuentes-2-triger-text": {
+    "props": {
+        "blockClass":"preguntas-frecuentes-triger-text",
+        "text": "2 ¿Cómo y bajo qué condiciones puedo hacer un cambio de producto?"
+        }
+  },
+  "disclosure-content#preguntas-frecuentes-2":{
+    "children":["rich-text#preguntas-frecuentes-2-content-text"]
+  },
+  "rich-text#preguntas-frecuentes-2-content-text": {
+    "props": {
+        "blockClass":"preguntas-frecuentes-content-text",
+        "text": "Para cualquier cambio de talla, color y/o modelo del calzado\na. Acércate a cualquiera de nuestras tiendas con tu comprobante de pago.\nb. Si te encuentras en otra provincia, envíanos un correo a con la solicitud y motivo del cambio. Te daremos los pasos a seguir para realizar tu cambio.\n\n**Condiciones para el cambio:**\n- El producto debe encontrarse sin uso y en perfectas condiciones.\n- El producto debe contar con todas sus etiquetas originales.\n- Al momento de realizar el cambio se debe presentar la boleta o factura respectiva."
+        }
+  },
+
+  //**
+
+  "disclosure-layout#preguntas-frecuentes-3":{
+    "props":{
+      "blockClass":"preguntas-frecuentes-disclosures"
+    },
+    "children":[
+        "disclosure-trigger#preguntas-frecuentes-3",
+        "disclosure-content#preguntas-frecuentes-3"
+    ]
+  },
+
+  "disclosure-trigger#preguntas-frecuentes-3":{
+    "children":["rich-text#preguntas-frecuentes-3-triger-text","disclosure-state-indicator"]
+  },
+  "rich-text#preguntas-frecuentes-3-triger-text": {
+    "props": {
+        "blockClass":"preguntas-frecuentes-triger-text",
+        "text": "3 ¿Cómo puedo ver la información y hacer seguimiento a mi pedido? "
+        }
+  },
+  "disclosure-content#preguntas-frecuentes-3":{
+    "children":["rich-text#preguntas-frecuentes-3-content-text"]
+  },
+  "rich-text#preguntas-frecuentes-3-content-text": {
+    "props": {
+        "blockClass":"preguntas-frecuentes-content-text",
+        "text": "Le estará llegando un correo con el link de tracking con su número de pedido, y/o puede enviarnos un correo a contacto@gretel.pe para mayor información de su pedido."
+        }
+  },
+
+  //**
+
+  "disclosure-layout#preguntas-frecuentes-4":{
+    "props":{
+      "blockClass":"preguntas-frecuentes-disclosures"
+    },
+    "children":[
+        "disclosure-trigger#preguntas-frecuentes-4",
+        "disclosure-content#preguntas-frecuentes-4"
+    ]
+  },
+
+  "disclosure-trigger#preguntas-frecuentes-4":{
+    "children":["rich-text#preguntas-frecuentes-4-triger-text","disclosure-state-indicator"]
+  },
+  "rich-text#preguntas-frecuentes-4-triger-text": {
+    "props": {
+        "blockClass":"preguntas-frecuentes-triger-text",
+        "text": "4 ¿Cuáles son mis opciones de pago?"
+        }
+  },
+  "disclosure-content#preguntas-frecuentes-4":{
+    "children":["rich-text#preguntas-frecuentes-4-content-text"]
+  },
+  "rich-text#preguntas-frecuentes-4-content-text": {
+    "props": {
+        "blockClass":"preguntas-frecuentes-content-text",
+        "text": "Se pueden usar tarjetas de débito y crédito Visa, Mastercard, American Express y Diners."
+        }
+  },
+
+  //**
+
+  "disclosure-layout#preguntas-frecuentes-5":{
+    "props":{
+      "blockClass":"preguntas-frecuentes-disclosures"
+    },
+    "children":[
+        "disclosure-trigger#preguntas-frecuentes-5",
+        "disclosure-content#preguntas-frecuentes-5"
+    ]
+  },
+
+  "disclosure-trigger#preguntas-frecuentes-5":{
+    "children":["rich-text#preguntas-frecuentes-5-triger-text","disclosure-state-indicator"]
+  },
+  "rich-text#preguntas-frecuentes-5-triger-text": {
+    "props": {
+        "blockClass":"preguntas-frecuentes-triger-text",
+        "text": "5 ¿Puedo hacer pagos en efectivo contra entrega?"
+        }
+  },
+  "disclosure-content#preguntas-frecuentes-5":{
+    "children":["rich-text#preguntas-frecuentes-5-content-text"]
+  },
+  "rich-text#preguntas-frecuentes-5-content-text": {
+    "props": {
+        "blockClass":"preguntas-frecuentes-content-text",
+        "text": "Contamos con la modalidad PagoEfectivo, con el código que te genera esta opción puedes acercarte a los bancos autorizados para realizar el pago y proceder a esperar el pedido."
+        }
+  },
+
+  //**
+
+  "disclosure-layout#preguntas-frecuentes-6":{
+    "props":{
+      "blockClass":"preguntas-frecuentes-disclosures"
+    },
+    "children":[
+        "disclosure-trigger#preguntas-frecuentes-6",
+        "disclosure-content#preguntas-frecuentes-6"
+    ]
+  },
+
+  "disclosure-trigger#preguntas-frecuentes-6":{
+    "children":["rich-text#preguntas-frecuentes-6-triger-text","disclosure-state-indicator"]
+  },
+  "rich-text#preguntas-frecuentes-6-triger-text": {
+    "props": {
+        "blockClass":"preguntas-frecuentes-triger-text",
+        "text": "6 No pasa mi tarjeta al finalizar la compra, ¿qué está mal?"
+        }
+  },
+  "disclosure-content#preguntas-frecuentes-6":{
+    "children":["rich-text#preguntas-frecuentes-6-content-text"]
+  },
+  "rich-text#preguntas-frecuentes-6-content-text": {
+    "props": {
+        "blockClass":"preguntas-frecuentes-content-text",
+        "text": "Preguntar a su banco si la tarjeta está habilitada para compras por Internet o tiene alguna restricción, Asics no valida los datos de la tarjeta. Al ingresar los datos de tarjeta en el formulario, estos son enviados a su banco, ellos son los que confirman o niegan la compra."
+        }
+  },
+
+  //**
+
+  "disclosure-layout#preguntas-frecuentes-7":{
+    "props":{
+      "blockClass":"preguntas-frecuentes-disclosures"
+    },
+    "children":[
+        "disclosure-trigger#preguntas-frecuentes-7",
+        "disclosure-content#preguntas-frecuentes-7"
+    ]
+  },
+
+  "disclosure-trigger#preguntas-frecuentes-7":{
+    "children":["rich-text#preguntas-frecuentes-7-triger-text","disclosure-state-indicator"]
+  },
+  "rich-text#preguntas-frecuentes-7-triger-text": {
+    "props": {
+        "blockClass":"preguntas-frecuentes-triger-text",
+        "text": "7 ¿Entregan factura?"
+        }
+  },
+  "disclosure-content#preguntas-frecuentes-7":{
+    "children":["rich-text#preguntas-frecuentes-7-content-text"]
+  },
+  "rich-text#preguntas-frecuentes-7-content-text": {
+    "props": {
+        "blockClass":"preguntas-frecuentes-content-text",
+        "text": "Sí, en el formulario de compra el campo Tipo de Documento, puede seleccionar la opción RUC."
+        }
+  },
+
+  //**
+
+  "disclosure-layout#preguntas-frecuentes-8":{
+    "props":{
+      "blockClass":"preguntas-frecuentes-disclosures"
+    },
+    "children":[
+        "disclosure-trigger#preguntas-frecuentes-8",
+        "disclosure-content#preguntas-frecuentes-8"
+    ]
+  },
+
+  "disclosure-trigger#preguntas-frecuentes-8":{
+    "children":["rich-text#preguntas-frecuentes-8-triger-text","disclosure-state-indicator"]
+  },
+  "rich-text#preguntas-frecuentes-8-triger-text": {
+    "props": {
+        "blockClass":"preguntas-frecuentes-triger-text",
+        "text": "8 ¿Puedo cambiar la boleta por factura?"
+        }
+  },
+  "disclosure-content#preguntas-frecuentes-8":{
+    "children":["rich-text#preguntas-frecuentes-8-content-text"]
+  },
+  "rich-text#preguntas-frecuentes-8-content-text": {
+    "props": {
+        "blockClass":"preguntas-frecuentes-content-text",
+        "text": "Una vez realizada la compra no es posible."
+        }
+  },
+
+  //**
+
+  "disclosure-layout#preguntas-frecuentes-9":{
+    "props":{
+      "blockClass":"preguntas-frecuentes-disclosures"
+    },
+    "children":[
+        "disclosure-trigger#preguntas-frecuentes-9",
+        "disclosure-content#preguntas-frecuentes-9"
+    ]
+  },
+
+  "disclosure-trigger#preguntas-frecuentes-9":{
+    "children":["rich-text#preguntas-frecuentes-9-triger-text","disclosure-state-indicator"]
+  },
+  "rich-text#preguntas-frecuentes-9-triger-text": {
+    "props": {
+        "blockClass":"preguntas-frecuentes-triger-text",
+        "text": "9 Información de Delivery"
+        }
+  },
+  "disclosure-content#preguntas-frecuentes-9":{
+    "children":["rich-text#preguntas-frecuentes-9-content-text"]
+  },
+  "rich-text#preguntas-frecuentes-9-content-text": {
+    "props": {
+        "blockClass":"preguntas-frecuentes-content-text",
+        "text": "El tiempo de entrega es de 3 días hábiles, una vez confirmado el pago. ACTUALIZACIÓN: Debido a las medidas del gobierno ante la Pandemia y la saturación de los repartidores logísticos, los pedidos pueden demorar más de 15 días."
+        }
+  }
+
+  //**
+
+
+
+
+}

@@ -1,0 +1,1321 @@
+{
+  "flex-layout.row#1-desktop": {
+    "title": "Header - 1",
+    "children": [
+      //"SwitchVisibility",
+      //"modal-trigger#popup-home",
+      "flex-layout.row#1-desktop-content",
+      "stylesGlobal"
+    ],
+    "props": {
+      "blockClass":"1-desktop",
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true
+    }
+  },
+
+  "SwitchVisibility":{
+    "title":"Visibilidad del Popup",
+    "props": {
+      "visibility": true
+    },
+    "children": ["modal-trigger#popup-home"]
+  },
+
+//**
+
+  "modal-trigger#popup-home": {
+    "title": "POPUP",
+    "props":{
+      "trigger":"load-session",
+      "blockClass":"popup-home-trigger"
+    },
+    "children": [
+      "modal-layout#popup-home"
+    ]
+  },
+
+  "modal-layout#popup-home": {
+    "children": [
+      "modal-header#boton",
+      "flex-layout.row#popup-home-content"
+    ],
+    "props":{
+      "blockClass":"popup-home-layout"
+    }
+  },
+
+  "flex-layout.row#popup-home-content": {
+    "children": [
+      "image-list#popup-home-image",
+      "flex-layout.row#form-content-flex"
+      //"form#popup-home-form"
+    ],
+    "props": {
+      "blockClass": ["popup-home-content"]
+    }
+  },
+  "flex-layout.row#form-content-flex": {
+    "children": ["form#popup-home-form"],
+    "props": {
+      "blockClass": ["form-content-flex"]
+    }
+  },
+
+  "image-list#popup-home-image": {
+    "props": {
+      "blockClass":"popup-home-image",
+      "preload": true,
+      "height": 443,
+      "maxHeight": 443,
+      "images": [
+        {
+          "image": "/arquivos/popup-home-desk.jpg",
+          "mobileImage":"/arquivos/popup-home-mob.png"
+        }
+      ]
+    }
+  },
+
+  "form#popup-home-form":{
+    "props": {
+      "blockClass":"popup-home-form-form",
+      "entity": "PH",
+      "schema": "schema_PopupHomeAsics"
+    },
+    "children": [
+      "rich-text#popup-home-col-text",
+      "form-input.text#correo-popup-home-form",
+      "flex-layout.row#terminos-popup-form-flex",
+      "form-submit#submit-popup-home-form"
+    ],
+    "blocks": ["form-success#popup-home-success"]
+  },
+  "flex-layout.row#terminos-popup-form-flex": {
+    "children": [
+      "form-field-group#terminos-popup-home-form",
+      "rich-text#newsletter-checkbox-confirmation-text"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "blockClass": ["terminos-contacto-form-flex"]
+    }
+  },
+
+  "form-field-group#terminos-popup-home-form": {
+    "props": {
+      "blockClass": ["terminos-popup-home-field"],
+      "pointer": "#/properties/terminosycondiciones",
+      "label": "display none"
+    }
+  },
+  "form-input.text#correo-popup-home-form": {
+    "props": {
+      "blockClass":["correo-popup-home-input"],
+      "pointer": "#/properties/correo",
+      "placeholder":"Ingresa tu correo electrónico"
+    }
+  },
+  "form-success#popup-home-success": {
+    "props":{
+      "blockClass":"popup-home-success-form"
+    },
+    "children": [
+      "rich-text#popup-home-succes"
+    ]
+  },
+  "rich-text#popup-home-succes": {
+    "props": {
+      "blockClass":["popup-home-succes-text"],
+      "text": "Gracias por registrarte",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "form-submit#submit-popup-home-form": {
+    "props": {
+      "blockClass":["popup-home-form-submit"],
+      "label": "Suscríbete"
+    }
+  },
+  "rich-text#popup-home-col-text": {
+    "props": {
+      "blockClass": ["popup-home-col-text"],
+      "text": "Descubre nuevos productos y obtén\n**15% DSCTO**\n*En tu primera compra*"
+    }
+  },
+
+
+
+  "modal-header#boton":{
+    "props":{
+      "showCloseButton": true
+    }
+  },
+
+//**
+
+  "flex-layout.row#1-desktop-content": {
+    "title": "Header - 1 - Textos",
+    "children": [
+      "rich-text#1-desktop-text-1",
+      "rich-text#1-desktop-text-2"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "blockClass": ["1-desktop-content"]
+    }
+  },
+
+  "rich-text#1-desktop-text-1": {
+    "props": {
+      "blockClass": ["1-desktop-text-1"],
+      "text": "TOP BAR: PROMOCIONES - OFERTAS - ANUNCIOS"
+    }
+  },
+  "rich-text#1-desktop-text-2": {
+    "props": {
+      "blockClass": ["1-desktop-text-2"],
+      "text": "Atención al cliente: **(01) 993 483 539**"
+    }
+  },
+
+
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "sticky-layout#2-desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#2-desktop"]
+  },
+  "flex-layout.row#2-desktop": {
+    "title":"Header - 2",
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#category-menu",
+      "flex-layout.col#spacer",
+      "search-bar#search-desplegable-desktop",
+      "login#desktop",
+      "minicart.v2"
+    ]
+  },
+  "login#desktop": {
+    "props": {
+      "showIconProfile":true,
+      "iconLabel":"Mi cuenta"
+    }
+  },
+  "icon#login":{
+    "props":{
+      "viewBox":"0 0 23 23",
+      "size":"23",
+      "id":"hpa-profile",
+      "handle":"caretIcon"
+    }
+  },
+  "search-bar#search-desplegable-desktop": {
+    "blocks": ["autocomplete-result-list.v2#desktop"],
+    "props": {
+      "blockClass": ["search-desplegable-desktop"],
+      "openAutocompleteOnFocus": true,
+      "placeholder":"¿Qué deseas buscar?"
+    }
+  },
+
+  "autocomplete-result-list.v2#desktop": {
+    "props": {
+      "maxSuggestedProducts":2,
+      "blockClass": "autocomplete-result-list-desktop",
+      "maxTopSearches":0,
+      "maxSuggestedTerms":3,
+      "productLayout":"VERTICAL"
+    },
+    "blocks": ["product-summary.shelf"]
+  },
+
+  "flex-layout.col#category-menu": {
+    "props": {
+      "blockClass": ["category-menu-desktop"],
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#menu-general-header-desktop"
+    ]
+  },
+
+  "flex-layout.col#menu-general-header-desktop": {
+    "props": {
+      "blockClass":["menu-general-header-desktop"],
+      "verticalAlign": "middle"
+    },
+    "children": ["vtex.menu@2.x:menu#menu-general-header-desktop"]
+  },
+  "vtex.menu@2.x:menu#menu-general-header-desktop": {
+    "props": {
+      "blockClass":["sticky-header-menu-vm"],
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#item-1-menu",
+      "menu-item#item-2-menu",
+      //"menu-item#item-3-menu",
+      "menu-item#item-4-menu",
+      "menu-item#item-10-menu",
+      "menu-item#item-5-menu",
+      "menu-item#item-6-menu"
+    ]
+  },
+  "menu-item#item-6-menu": {
+    "props": {
+      "blockClass":["menu-item-principal-fijo-sale"],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/166?map=productClusterids",
+        "noFollow": false,
+        "text": "Sale"
+      }
+    }
+  },
+  "menu-item#item-5-menu": {
+    "props": {
+      "blockClass":["menu-item-principal-fijo"],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/159?map=productClusterids",
+        "noFollow": false,
+        "text": "Lanzamientos"
+      }
+    }
+  },
+  "menu-item#item-4-menu": {
+    "props": {
+      "blockClass":["menu-item-principal-desplegable"],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/142?map=productClusterids",
+        "noFollow": false,
+        "text": "Deporte"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#item-4-submenu"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu#item-4-submenu": {
+    "props": {
+      "blockClass":["item-submenu"],
+      "width": "100%"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#item-4-contenido-submenu"
+    ]
+  },
+  "vtex.menu@2.x:menu#item-4-contenido-submenu": {
+    "props": {
+      "blockClass":["item-4-contenido-submenu"],
+      "orientation": "horizontal"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#item-4-contenido-submenu-colum-1",
+      "image#image-contenido-submenu-colum-4"
+    ]
+  },
+  "image#image-contenido-submenu-colum-4": {
+    "props": {
+      "blockClass": ["image-contenido-submenu-colum-4"],
+      "maxHeight": 248,
+      "src": "/arquivos/zapatilla-menu.jpg"
+    }
+  },
+
+  "vtex.menu@2.x:menu#item-4-contenido-submenu-colum-1": {
+    "props": {
+      "blockClass":"lvl-3",
+      "items": [
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/155?map=productClusterids",
+            "noFollow": false,
+            "text": "Running"
+          }
+        },
+        // {
+        //   "type": "custom",
+        //   "highlight": false,
+        //   "itemProps": {
+        //     "href": "/154?map=productClusterids",
+        //     "noFollow": false,
+        //     "text": "Training"
+        //   }
+        // },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/153?map=productClusterids",
+            "noFollow": false,
+            "text": "Tennis"
+          }
+        },
+        // {
+        //   "type": "custom",
+        //   "highlight": false,
+        //   "itemProps": {
+        //     "href": "/156?map=productClusterids",
+        //     "noFollow": false,
+        //     "text": "Voleyball"
+        //   }
+        // },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/142?map=productClusterids",
+            "noFollow": false,
+            "text": "Ver todo"
+          }
+        }
+      ]
+    }
+  },
+
+
+  "menu-item#item-3-menu": {
+    "props": {
+      "blockClass":["menu-item-principal-desplegable"],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "text": "Colección"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#item-3-submenu"
+    ]
+  },
+  "vtex.menu@2.x:submenu#item-3-submenu": {
+    "props": {
+      "blockClass":["item-submenu"],
+      "width": "100%"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#item-3-contenido-submenu"
+    ]
+  },
+  "vtex.menu@2.x:menu#item-3-contenido-submenu": {
+    "props": {
+      "blockClass":["item-3-contenido-submenu"],
+      "orientation": "horizontal"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#item-3-contenido-submenu-colum-1",
+      "image#image-contenido-submenu-colum-3"
+    ]
+  },
+  "image#image-contenido-submenu-colum-3": {
+    "props": {
+      "blockClass": ["image-contenido-submenu-colum-4"],
+      "maxHeight": 248,
+      "src": "/arquivos/zapatilla-menu.jpg"
+    }
+  },
+
+  "vtex.menu@2.x:menu#item-3-contenido-submenu-colum-1": {
+    "props": {
+      "blockClass":"lvl-3",
+      "items": [
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/148?map=productClusterids",
+            "noFollow": false,
+            "text": "Correr más lejos"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/149?map=productClusterids",
+            "noFollow": false,
+            "text": "Correr más rápido"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/150?map=productClusterids",
+            "noFollow": false,
+            "text": "Run Beyond"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/151?map=productClusterids",
+            "noFollow": false,
+            "text": "Sporstyle"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/152?map=productClusterids",
+            "noFollow": false,
+            "text": "Ver todo"
+          }
+        }
+      ]
+    }
+  },
+
+
+  "menu-item#item-2-menu": {
+    "props": {
+      "blockClass":["menu-item-principal-desplegable"],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "text": "Mujer"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#item-2-submenu"
+    ]
+  },
+//**
+  "vtex.menu@2.x:submenu#item-2-submenu": {
+    "props": {
+      "blockClass":["item-submenu"],
+      "width": "100%"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#item-2-contenido-submenu"
+    ]
+  },
+  "vtex.menu@2.x:menu#item-2-contenido-submenu": {
+    "props": {
+      "blockClass":["item-2-contenido-submenu"],
+      "orientation": "horizontal"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#item-2-contenido-submenu-colum-1",
+      "vtex.menu@2.x:menu#item-2-contenido-submenu-colum-2",
+      "image#image-contenido-submenu-colum-2"
+    ]
+  },
+  "image#image-contenido-submenu-colum-2": {
+    "props": {
+      "blockClass": ["image-contenido-submenu-colum-2"],
+      "maxHeight": 248,
+      "src": "/arquivos/zapatilla-menu.jpg"
+    }
+  },
+
+  "vtex.menu@2.x:menu#item-2-contenido-submenu-colum-1": {
+    "props": {
+      "blockClass":"lvl-3",
+      "items": [
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "",
+            "noFollow": false,
+            "text": "Calzados"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/mujer/zapatillas/running",
+            "noFollow": false,
+            "text": "Running"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/mujer/zapatillas/training",
+            "noFollow": false,
+            "text": "Training"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/mujer/zapatillas/trail-running",
+            "noFollow": false,
+            "text": "Trail Running"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/mujer/zapatillas/sporstyle",
+            "noFollow": false,
+            "text": "Sporstyle"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/mujer/zapatillas/tennis",
+            "noFollow": false,
+            "text": "Tennis"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/mujer/zapatillas/voleyball",
+            "noFollow": false,
+            "text": "Voleyball"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/mujer/zapatillas",
+            "noFollow": false,
+            "text": "Ver todo"
+          }
+        }
+      ]
+    }
+  },
+
+  "vtex.menu@2.x:menu#item-2-contenido-submenu-colum-2": {
+    "props": {
+      "blockClass":"lvl-3",
+      "items": [
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "",
+            "noFollow": false,
+            "text": "Vestuarios"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/mujer/vestuarios/pantalones",
+            "noFollow": false,
+            "text": "Pantalones"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/146?map=productClusterids",
+            "noFollow": false,
+            "text": "Polo manga corta"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/147?map=productClusterids",
+            "noFollow": false,
+            "text": "Polo manga larga"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/mujer/vestuarios/poleras",
+            "noFollow": false,
+            "text": "Poleras"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/mujer/vestuarios/tanks-top",
+            "noFollow": false,
+            "text": "Tanks/Top"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/mujer/vestuarios/buzos",
+            "noFollow": false,
+            "text": "Buzos"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/mujer/vestuarios/casacas",
+            "noFollow": false,
+            "text": "Casacas"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/mujer/vestuarios/shorts",
+            "noFollow": false,
+            "text": "Shorts"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/mujer/vestuarios/leggins",
+            "noFollow": false,
+            "text": "Leggins"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/mujer/vestuarios",
+            "noFollow": false,
+            "text": "Ver todo"
+          }
+        }
+      ]
+    }
+  },
+
+//**
+  "menu-item#item-1-menu": {
+    "props": {
+      "blockClass":["menu-item-principal-desplegable"],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "text": "Hombre"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#item-1-submenu"
+    ]
+  },
+  "vtex.menu@2.x:submenu#item-1-submenu": {
+    "props": {
+      "blockClass":["item-submenu"],
+      "width": "100%"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#item-1-contenido-submenu"
+    ]
+  },
+  "vtex.menu@2.x:menu#item-1-contenido-submenu": {
+    "props": {
+      "blockClass":["item-1-contenido-submenu"],
+      "orientation": "horizontal"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#item-1-contenido-submenu-colum-1",
+      "vtex.menu@2.x:menu#item-1-contenido-submenu-colum-2",
+      //"vtex.menu@2.x:menu#item-1-contenido-submenu-colum-3",
+      "image#image-contenido-submenu-colum-1"
+    ]
+  },
+  "image#image-contenido-submenu-colum-1": {
+    "props": {
+      "blockClass": ["image-contenido-submenu-colum-1"],
+      "maxHeight": 248,
+      "src": "/arquivos/zapatilla-menu.jpg"
+    }
+  },
+
+  "vtex.menu@2.x:menu#item-1-contenido-submenu-colum-3": {
+    "props": {
+      "blockClass":"lvl-3",
+      "items": [
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "",
+            "noFollow": false,
+            "text": "Accesorios"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/hombre/accesorios/medias",
+            "noFollow": false,
+            "text": "Medias"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/hombre/accesorios/gorras",
+            "noFollow": false,
+            "text": "Gorras"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/hombre/accesorios/canguros",
+            "noFollow": false,
+            "text": "Canguros"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/hombre/accesorios/guantes",
+            "noFollow": false,
+            "text": "Guantes"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/hombre/accesorios",
+            "noFollow": false,
+            "text": "Ver todo"
+          }
+        }
+      ]
+    }
+  },
+
+  "vtex.menu@2.x:menu#item-1-contenido-submenu-colum-2": {
+    "props": {
+      "blockClass":"lvl-3",
+      "items": [
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "",
+            "noFollow": false,
+            "text": "Vestuarios"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/hombre/vestuarios/pantalones",
+            "noFollow": false,
+            "text": "Pantalones"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/143?map=productClusterids",
+            "noFollow": false,
+            "text": "Polo manga corta"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/144?map=productClusterids",
+            "noFollow": false,
+            "text": "Polo manga larga"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/hombre/vestuarios/poleras",
+            "noFollow": false,
+            "text": "Poleras"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/hombre/vestuarios/tanks-tops",
+            "noFollow": false,
+            "text": "Tanks/Top"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/hombre/vestuarios/buzos",
+            "noFollow": false,
+            "text": "Buzos"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/hombre/vestuarios/casacas",
+            "noFollow": false,
+            "text": "Casacas"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/hombre/vestuarios/shorts",
+            "noFollow": false,
+            "text": "Shorts"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/145?map=productClusterids",
+            "noFollow": false,
+            "text": "Leggins"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/hombre/vestuarios",
+            "noFollow": false,
+            "text": "Ver todo"
+          }
+        }
+      ]
+    }
+  },
+
+  "vtex.menu@2.x:menu#item-1-contenido-submenu-colum-1": {
+    "props": {
+      "blockClass":"lvl-3",
+      "items": [
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "",
+            "noFollow": false,
+            "text": "Calzados"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/hombre/zapatillas/running",
+            "noFollow": false,
+            "text": "Running"
+          }
+        },
+        // {
+        //   "type": "custom",
+        //   "highlight": false,
+        //   "itemProps": {
+        //     "href": "/hombre/zapatillas/training",
+        //     "noFollow": false,
+        //     "text": "Training"
+        //   }
+        // },
+        // {
+        //   "type": "custom",
+        //   "highlight": false,
+        //   "itemProps": {
+        //     "href": "/hombre/zapatillas/trail-running",
+        //     "noFollow": false,
+        //     "text": "Trail Running"
+        //   }
+        // },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/hombre/zapatillas/sporstyle",
+            "noFollow": false,
+            "text": "Sporstyle"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/hombre/zapatillas/tennis",
+            "noFollow": false,
+            "text": "Tennis"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/hombre/zapatillas",
+            "noFollow": false,
+            "text": "Ver todo"
+          }
+        }
+      ]
+    }
+  },
+
+//* Urbano
+
+"menu-item#item-10-menu": {
+  "props": {
+    "blockClass":["menu-item-principal-fijo"],
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/159?map=productClusterids",
+      "noFollow": false,
+      "text": "Urbano"
+    }
+  }
+},
+
+/*
+"image#image-contenido-submenu-colum-10": {
+  "props": {
+    "blockClass": ["image-contenido-submenu-colum-1"],
+    "maxHeight": 248,
+    "src": "/arquivos/zapatilla-menu.jpg"
+  }
+},
+
+"vtex.menu@2.x:menu#item-10-contenido-submenu-colum-3": {
+  "props": {
+    "blockClass":"lvl-3",
+    "items": [
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "",
+          "noFollow": false,
+          "text": "Accesorios"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/urbano/accesorios/medias",
+          "noFollow": false,
+          "text": "Medias"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/hombre/accesorios/gorras",
+          "noFollow": false,
+          "text": "Gorras"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/Urbano/accesorios/canguros",
+          "noFollow": false,
+          "text": "Canguros"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/urbano/accesorios/guantes",
+          "noFollow": false,
+          "text": "Guantes"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/urbano/accesorios",
+          "noFollow": false,
+          "text": "Ver todo"
+        }
+      }
+    ]
+  }
+},
+
+"vtex.menu@2.x:menu#item-10-contenido-submenu-colum-2": {
+  "props": {
+    "blockClass":"lvl-3",
+    "items": [
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "",
+          "noFollow": false,
+          "text": "Vestuarios"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/urbano/vestuarios/pantalones",
+          "noFollow": false,
+          "text": "Pantalones"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/143?map=productClusterids",
+          "noFollow": false,
+          "text": "Polo manga corta"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/144?map=productClusterids",
+          "noFollow": false,
+          "text": "Polo manga larga"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/urbano/vestuarios/poleras",
+          "noFollow": false,
+          "text": "Poleras"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/urbano/vestuarios/tanks-tops",
+          "noFollow": false,
+          "text": "Tanks/Top"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/urbano/vestuarios/buzos",
+          "noFollow": false,
+          "text": "Buzos"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/urbano/vestuarios/casacas",
+          "noFollow": false,
+          "text": "Casacas"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/urbano/vestuarios/shorts",
+          "noFollow": false,
+          "text": "Shorts"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/145?map=productClusterids",
+          "noFollow": false,
+          "text": "Leggins"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/urbano/vestuarios",
+          "noFollow": false,
+          "text": "Ver todo"
+        }
+      }
+    ]
+  }
+},
+
+"vtex.menu@2.x:menu#item-10-contenido-submenu-colum-1": {
+  "props": {
+    "blockClass":"lvl-3",
+    "items": [
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "",
+          "noFollow": false,
+          "text": "Calzados"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/urbano/zapatillas/running",
+          "noFollow": false,
+          "text": "Running"
+        }
+      },
+      // {
+      //   "type": "custom",
+      //   "highlight": false,
+      //   "itemProps": {
+      //     "href": "/hombre/zapatillas/training",
+      //     "noFollow": false,
+      //     "text": "Training"
+      //   }
+      // },
+      // {
+      //   "type": "custom",
+      //   "highlight": false,
+      //   "itemProps": {
+      //     "href": "/hombre/zapatillas/trail-running",
+      //     "noFollow": false,
+      //     "text": "Trail Running"
+      //   }
+      // },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/urbano/zapatillas/sporstyle",
+          "noFollow": false,
+          "text": "Sporstyle"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/urbano/zapatillas/tennis",
+          "noFollow": false,
+          "text": "Tennis"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/urbano/zapatillas",
+          "noFollow": false,
+          "text": "Ver todo"
+        }
+      }
+    ]
+  }
+  
+},
+
+*/
+
+
+
+
+//**
+
+
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#desktop"]
+  },
+
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "/arquivos/logo_asics@2x.svg",
+      "width": "108"
+    }
+  }
+}

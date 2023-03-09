@@ -1,0 +1,167 @@
+{
+  "store.custom#contacto":{
+    "blocks":[
+      "image-list#banner-contacto",
+      "flex-layout.row#contacto-content"
+    ],
+    "props": {
+      "blockClass": ["contacto-page"]
+    }
+  },
+
+  "image-list#banner-contacto": {
+    "props": {
+      "blockClass":"internas-banners",
+      "preload": true,
+      "images": [
+        {
+          "image": "/arquivos/Grupo 7583.jpg",
+          "mobileImage":"/arquivos/06_Contacto.png"
+        }
+      ]
+    }
+  },
+
+//**
+  "flex-layout.row#contacto-content": {
+    "children": [
+      "image#contacto-image",
+      "form#contacto-form"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "blockClass": ["contacto-content"]
+    }
+  },
+
+  "image#contacto-image": {
+    "props": {
+      "blockClass": ["contacto-image"],
+      "maxHeight": 691,
+      "src": "/arquivos/conact-photo.jpg"
+    }
+  },
+
+  "form#contacto-form":{
+    "props": {
+      "blockClass":"contacto-form",
+      "entity": "CC",
+      "schema": "schema_ContactoAsics"
+    },
+    "children": [
+      "rich-text#contacto-form-title",
+      "form-input.text#nombre-contacto-form",
+      "form-input.text#apellido-contacto-form",
+      "form-input.text#email-contacto-form",
+      "form-input.text#telefono-contacto-form",
+      "form-input.text#nacimiento-contacto-form",
+      "form-input.textarea#mensaje-contacto-form",
+      "flex-layout.row#terminos-contacto-form-flex",
+      "form-submit#submit-contacto-form"
+    ],
+    "blocks": ["form-success#contacto-succes"]
+  },
+
+  "rich-text#contacto-form-title": {
+    "props": {
+      "blockClass": ["contacto-form-title"],
+      "text": "Contáctanos"
+    }
+  },
+
+  "form-success#contacto-succes": {
+    "props":{
+      "blockClass":"contacto-succes-form"
+    },
+    "children": [
+      "rich-text#contacto-succes"
+    ]
+  },
+  "rich-text#contacto-succes": {
+    "props": {
+      "blockClass":["contacto-succes-text"],
+      "text": "Datos enviados correctamente!",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "flex-layout.row#terminos-contacto-form-flex": {
+    "children": [
+      "form-field-group#terminos-contacto-form",
+      "rich-text#newsletter-checkbox-confirmation-text"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "blockClass": ["terminos-contacto-form-flex"]
+    }
+  },
+
+  "form-field-group#terminos-contacto-form": {
+    "props": {
+      "blockClass": ["terminos-contacto-field"],
+      "pointer": "#/properties/terminoscondiciones",
+      "label": "display none"
+    }
+  },
+
+  "form-input.textarea#mensaje-contacto-form": {
+    "props": {
+      "blockClass":["mensaje-contacto-input"],
+      "pointer": "#/properties/mensaje",
+      "label":"Mensaje"
+    }
+  },
+
+  "form-input.text#nombre-contacto-form": {
+    "props": {
+      "blockClass":["nombre-contacto-input"],
+      "pointer": "#/properties/nombre",
+      "label":"Nombre"
+    }
+  },
+
+  "form-input.text#apellido-contacto-form": {
+    "props": {
+      "blockClass":["apellido-contacto-input"],
+      "pointer": "#/properties/apellido",
+      "label": "Apellido"
+    }
+  },
+
+  "form-input.text#nacimiento-contacto-form": {
+    "props": {
+      "blockClass":["nacimiento-contacto-input"],
+      "pointer": "#/properties/fechanacimiento",
+      "label": "Fecha de nacimiento"
+    }
+  },
+
+  "form-input.text#telefono-contacto-form": {
+    "props": {
+      "blockClass":["telefono-contacto-input"],
+      "pointer": "#/properties/telefono",
+      "label": "Teléfono de contacto"
+    }
+  },
+
+  "form-input.text#email-contacto-form": {
+    "props": {
+      "blockClass":["email-contacto-input"],
+      "pointer": "#/properties/email",
+      "label": "Email"
+    }
+  },
+
+  "form-submit#submit-contacto-form": {
+    "props": {
+      "blockClass":["contacto-form-submit"],
+      "label": "Enviar"
+    }
+  }
+
+
+
+
+}

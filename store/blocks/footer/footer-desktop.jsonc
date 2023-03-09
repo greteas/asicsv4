@@ -1,0 +1,199 @@
+{
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "flex-layout.col#footer-desk-col-1",
+      "flex-layout.col#footer-desk-col-2",
+      "flex-layout.col#footer-desk-col-3",
+      "flex-layout.col#footer-desk-col-4"
+    ],
+    "props": {
+      "blockClass": "footer-1-desktop",
+      "preserveLayoutOnMobile":true,
+      "preventHorizontalStretch":true
+    }
+  },
+
+  "flex-layout.col#footer-desk-col-4": {
+    "children": [
+      "image#footer-desk-col-4-image-1",
+      "image#footer-desk-col-4-image-2"
+    ],
+    "props": {
+      "blockClass": ["footer-desk-col-4"]
+    }
+  },
+  "image#footer-desk-col-4-image-1": {
+    "props": {
+      "blockClass": ["footer-desk-col-4-image-1"],
+      "src": "/arquivos/icon-libro-reclamaciones.svg",
+      "link": {
+        "url":"/libro-de-reclamos"
+        //"newTab": true
+      }
+    }
+  },
+  "image#footer-desk-col-4-image-2": {
+    "props": {
+      "blockClass": ["footer-desk-col-4-image-2"],
+      "src": "/arquivos/Enmascarar grupo 117.svg"
+    }
+  },
+
+  "flex-layout.col#footer-desk-col-3": {
+    "children": [
+      "rich-text#footer-desk-col-3-tittle",
+      "menu-item#footer-desk-col-3-item-1",
+      "menu-item#footer-desk-col-3-item-2",
+      "menu-item#footer-desk-col-3-item-3"
+    ],
+    "props": {
+      "blockClass": ["footer-desk-col-3"]
+    }
+  },
+  "rich-text#footer-desk-col-3-tittle": {
+    "props": {
+      "blockClass": ["footer-desk-tittle"],
+      "text": "Atención al cliente"
+    }
+  },
+  "menu-item#footer-desk-col-3-item-1": {
+    "props": {
+      "blockClass":"footer-desk-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politicas-de-privacidad",
+        "noFollow": false,
+        "text": "Políticas de privacidad"
+      }
+    }
+  },
+  "menu-item#footer-desk-col-3-item-2": {
+    "props": {
+      "blockClass":"footer-desk-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terminos-y-condiciones",
+        "noFollow": false,
+        "text": "Términos y condiciones"
+      }
+    }
+  },
+  "menu-item#footer-desk-col-3-item-3": {
+    "props": {
+      "blockClass":"footer-desk-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/preguntas-frecuentes",
+        "noFollow": false,
+        "text": "Preguntas frecuentes"
+      }
+    }
+  },
+
+  "flex-layout.col#footer-desk-col-2": {
+    "children": [
+      "rich-text#footer-desk-col-2-tittle",
+      "menu-item#footer-desk-col-2-item-1",
+      "menu-item#footer-desk-col-2-item-2"
+    ],
+    "props": {
+      "blockClass": ["footer-desk-col-2"]
+    }
+  },
+  "rich-text#footer-desk-col-2-tittle": {
+    "props": {
+      "blockClass": ["footer-desk-tittle"],
+      "text": "Sobre Asics"
+    }
+  },
+  "menu-item#footer-desk-col-2-item-1": {
+    "props": {
+      "blockClass":"footer-desk-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nosotros",
+        "noFollow": false,
+        "text": "Nosotros"
+      }
+    }
+  },
+  "menu-item#footer-desk-col-2-item-2": {
+    "props": {
+      "blockClass":"footer-desk-item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contacto",
+        "noFollow": false,
+        "text": "Contacto"
+      }
+    }
+  },
+
+  "flex-layout.col#footer-desk-col-1": {
+    "children": [
+      "image#footer-col-1-image",
+      "rich-text#footer-col-1-text-1",
+      "rich-text#footer-col-1-text-2",
+      "image-list#footer-col-1-redes"
+    ],
+    "props": {
+      "blockClass": ["footer-desk-col-1"]
+    }
+  },
+  "image#footer-col-1-image": {
+    "props": {
+      "blockClass": ["image-footer-col-1-image"],
+      "src": "/arquivos/Logo-asics-blanco.svg"
+    }
+  },
+  "rich-text#footer-col-1-text-1": {
+    "props": {
+      "blockClass": ["footer-col-1-text"],
+      "text": "**Atención online:**\nasics@inpresspni.com.pe"
+    }
+  },
+  "rich-text#footer-col-1-text-2": {
+    "props": {
+      "blockClass": ["footer-col-1-text"],
+      "text": "**Síguenos en redes**"
+    }
+  },
+  "image-list#footer-col-1-redes": {
+    "props": {
+      "blockClass":"images-redes",
+      "images": [
+        {
+          "image": "/arquivos/Facebook-mcalidad.svg",
+          "mobileImage": "/arquivos/Facebook-mcalidad.svg",
+          "link": {
+            "url":"https://www.facebook.com/ASICSPeru",
+            "newTab": true
+          }
+        },
+        {
+          "image": "/arquivos/Instagram-mcalidad.svg",
+          "mobileImage": "/arquivos/Instagram-mcalidad.svg",
+          "link": {
+            "url":"https://www.instagram.com/asicsperu",
+            "newTab": true
+          }
+        }
+      ]
+    }
+  }
+}
