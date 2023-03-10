@@ -1,6 +1,9 @@
 {
   "store.custom#search-coleccion": {
-    "blocks": ["search-result-layout.customQuery#coleccion"]
+    "blocks": ["list-context.image-list#banner-coleccion",
+    "search-result-layout.customQuery#coleccion"
+   
+  ]
   },
 
   "search-result-layout.customQuery#coleccion": {
@@ -20,5 +23,38 @@
       "search-result-layout.mobile",
       "search-not-found-layout"
     ]
+  },
+  "list-context.image-list#banner-coleccion": {
+    "title":"BANNER COLECCION",
+    "children": ["slider-layout#banner-coleccion"],
+    "props": {
+      "height": "100%",
+      "images": [
+        {
+          "image": "/arquivos/BANNER-WEB-ASICS_RESPONSIVE_BANNER-WEB.jpg",
+          "mobileImage": "/arquivos/BANNER-WEB-ASICS_RESPONSIVE_BANNER-WEB_1.jpg",
+          "link": {
+            "url":"https://www.google.com"
+            //"newTab": true
+          }
+        }
+      ]
+    }
+  },
+
+  "slider-layout#banner-coleccion": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "banner-coleccion",
+      "autoplay": {
+        "timeout":5000
+      }
+    }
   }
 }
