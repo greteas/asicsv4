@@ -379,6 +379,41 @@
   }
 }
 
+.flexRow--mejora-gretel-row :global(.vtex-store-components-3-x-container){
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 !important;
+}
+
+.flexRowContent--mejora-gretel-row{
+  padding-left: 95px;
+  padding-right: 95px;
+}
+@media screen and (max-width: 1024px){
+  .flexRowContent--mejora-gretel-row{
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+}
+
+.flexRowContent--mejora-gretel-row :global(.vtex-store-image-0-x-imageElement){
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+
+.flexRowContent--mejora-gretel-row .stretchChildrenWidth{
+  gap: 23px;
+}
+@media screen and (max-width: 1024px){
+  .flexRowContent--mejora-gretel-row .stretchChildrenWidth{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap: 16px;
+  }
+}
+
 @media screen and (max-width: 1024px){
   .flexRow--porque-comprar-content :global(.vtex-store-components-3-x-container){
     height: 100%;

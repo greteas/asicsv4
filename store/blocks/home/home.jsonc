@@ -9,6 +9,8 @@
       "flex-layout.row#mas-vendido-productos",
       "rich-text#mejora-rendimiento",
       "flex-layout.row#mejora-rendimiento-row",
+      "rich-text#mejora-gretel",
+      "flex-layout.row#mejora-gretel-row",
       "rich-text#porque-comprar",
       "flex-layout.row#porque-comprar-content",
       "flex-layout.row#newletter-content"
@@ -234,6 +236,56 @@
       "text": "Mejora tu rendimiento con Asics"
     }
   },
+
+
+
+  "flex-layout.row#mejora-gretel-row": {
+    "title":"MEJORA TU GRETEL - IMAGENES",
+    "children": ["image-list#mejora-gretel-images"],
+    "props": {
+      "blockClass": ["mejora-gretel-row"]
+    }
+  },
+
+  "image-list#mejora-gretel-images": {
+    "props": {
+      "images": [
+        {
+          "image": "/arquivos/Grupo 7647-x.jpg",
+          "mobileImage": "/arquivos/Grupo 7662-x.jpg",
+          "link": {
+            "url":"https://www.google.com"
+            //"newTab": true
+          }
+        },
+        {
+          "image": "/arquivos/Grupo 7646-alter-x.jpg",
+          "mobileImage": "/arquivos/Grupo 7663-x.jpg",
+          "link": {
+            "url":"https://www.google.com"
+            //"newTab": true
+          }
+        },
+        {
+          "image": "/arquivos/Grupo 7649-x.jpg",
+          "mobileImage": "/arquivos/Grupo 7664-x.jpg",
+          "link": {
+            "url":"https://www.google.com"
+            //"newTab": true
+          }
+        }
+      ]
+    }
+  },
+
+  "rich-text#mejora-gretel": {
+    "title":"MEJORA TU GRETEL - TEXTOS",
+    "props": {
+      "blockClass": ["mejora-gretel"],
+      "text": "Mejora tu rendimiento con Asics"
+    }
+  },
+
 
   "flex-layout.row#lanzamiento-productos": {
     "props": {
