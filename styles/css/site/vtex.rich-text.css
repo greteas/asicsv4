@@ -107,6 +107,26 @@
   }
 }
 
+.wrapper--mejora-gretel{
+  text-align: center;
+  max-width: 1413px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: #001E62;
+  font-family: 'Roboto';
+  margin: 10px auto 11px;
+  /* margin: 52px auto 11px auto; */
+}
+@media screen and (max-width: 1024px){
+  .wrapper--mejora-gretel{
+    margin: 28px auto 11px auto !important;
+    font-size: 24px !important;
+  }
+}
+
 .wrapper--porque-comprar{
   text-align: center;
   max-width: 1413px;
