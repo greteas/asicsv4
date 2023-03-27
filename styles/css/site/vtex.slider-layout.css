@@ -53,20 +53,6 @@
   }
 }
 
-.sliderLayoutContainer--recomendado-gretel-productos-slider{
-  padding: 0 !important;
-}
-.sliderTrackContainer--recomendado-gretel-productos-slider{
-  margin-left: 95px;
-  margin-right: 95px;
-}
-@media screen and (max-width: 1024px){
-  .sliderTrackContainer--recomendado-gretel-productos-slider{
-    margin-left: 0px !important;
-    margin-right: 0px !important;
-  }
-}
-
 .sliderLayoutContainer--lanzamiento-producto-slider{
   padding: 0 !important;
 }
@@ -81,20 +67,29 @@
   }
 }
 
+/*agregar recomendado*/
+
+.sliderLayoutContainer--gretel-recomendado-productos-slider{
+  padding: 0 !important;
+}
+.sliderTrackContainer--gretel-recomendado-productos-slider{
+  margin-left: 95px;
+  margin-right: 95px;
+}
+@media screen and (max-width: 1024px){
+  .sliderTrackContainer--gretel-recomendado-productos-slider{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+}
+
+/* end */
+
 .sliderTrack--mas-vendido-productos-slider{
   gap: 20px;
 }
 @media screen and (max-width: 1024px){
   .sliderTrack--mas-vendido-productos-slider{
-    gap: 0px !important;
-  }
-}
-
-.sliderTrack--recomendado-gretel-productos-slider{
-  gap: 20px;
-}
-@media screen and (max-width: 1024px){
-  .sliderTrack--recomendado-gretel-productos-slider{
     gap: 0px !important;
   }
 }
@@ -108,19 +103,31 @@
   }
 }
 
+/*agregar gretel recomendado*/
+
+.sliderTrack--gretel-recomendado-productos-slider{
+  gap: 20px;
+}
+@media screen and (max-width: 1024px){
+  .sliderTrack--gretel-recomendado-productos-slider{
+    gap: 0px !important;
+  }
+}
+
+/*end*/
+
 @media screen and (max-width: 1024px){
   .slideChildrenContainer--mas-vendido-productos-slider{
     margin:5px;
   }
 }
-
 @media screen and (max-width: 1024px){
-  .slideChildrenContainer--recomendado-gretel-productos-slider{
+  .slideChildrenContainer--lanzamiento-producto-slider{
     margin:5px;
   }
 }
 @media screen and (max-width: 1024px){
-  .slideChildrenContainer--lanzamiento-producto-slider{
+  .slideChildrenContainer--gretel-recomendado-producto-slider{
     margin:5px;
   }
 }
@@ -135,21 +142,25 @@
     margin-bottom: -27px !important;
   }
 }
-
-.paginationDotsContainer--recomendado-gretel-productos-slider{
-  margin-bottom: -60px;
-}
-@media screen and (max-width: 1024px){
-  .paginationDotsContainer--recomendado-gretel-productos-slider{
-    margin-bottom: -27px !important;
-  }
-}
-
 @media screen and (max-width: 1024px){
   .paginationDotsContainer--lanzamiento-producto-slider{
     margin-bottom: -27px !important;
   }
 }
+
+/*agregar gretel recomendado*/
+
+.paginationDotsContainer--gretel-recomendado-productos-slider{
+  margin-bottom: -60px;
+}
+@media screen and (max-width: 1024px){
+  .paginationDotsContainer--gretel-recomendado-productos-slider{
+    margin-bottom: -27px !important;
+  }
+}
+/*end*/
+
+
 .paginationDot--mas-vendido-productos-slider--isActive{
   height: 15px !important;
   width: 15px !important;
@@ -157,19 +168,6 @@
   border: 1px solid #001E62 !important;
 }
 .paginationDot--mas-vendido-productos-slider{
-  height: 15px !important;
-  width: 15px !important;
-  background: #ffffff;
-  border: 1px solid #022160;
-}
-
-.paginationDot--recomendado-gretel-productos-slider--isActive{
-  height: 15px !important;
-  width: 15px !important;
-  background: #001E62 !important;
-  border: 1px solid #001E62 !important;
-}
-.paginationDot--recomendado-gretel-productos-slider{
   height: 15px !important;
   width: 15px !important;
   background: #ffffff;
@@ -209,6 +207,22 @@
   margin-right: 39px;
 }
 
+/*GRETEL RECOMENDADO*/
+
+.paginationDot--gretel-recomendado-productos-slider--isActive{
+  height: 15px !important;
+  width: 15px !important;
+  background: #001E62 !important;
+  border: 1px solid #001E62 !important;
+}
+.paginationDot--gretel-recomendado-productos-slider{
+  height: 15px !important;
+  width: 15px !important;
+  background: #ffffff;
+  border: 1px solid #022160;
+}
+/*END*/
+
 .sliderLeftArrow--mas-vendido-productos-slider{
   color: #001E62;
   background: transparent;
@@ -226,7 +240,10 @@
   margin-right: 39px;
 }
 
-.sliderLeftArrow--recomendado-gretel-productos-slider{
+
+/*gretel recomendado*/
+
+.sliderLeftArrow--gretel-recomendado-productos-slider{
   color: #001E62;
   background: transparent;
   border: 2px solid #001E62;
@@ -234,7 +251,7 @@
   padding: 4px;
   margin-left: 39px;
 }
-.sliderRightArrow--recomendado-gretel-productos-slider{
+.sliderRightArrow--gretel-recomendado-productos-slider{
   color: #001E62;
   background: transparent;
   border: 2px solid #001E62;
@@ -242,3 +259,5 @@
   padding: 4px;
   margin-right: 39px;
 }
+
+/*end*/

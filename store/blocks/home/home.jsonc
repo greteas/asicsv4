@@ -9,6 +9,8 @@
       "flex-layout.row#mas-vendido-productos",
       "rich-text#mejora-rendimiento",
       "flex-layout.row#mejora-rendimiento-row",
+      "flex-layout.row#gretel-recomendados-texts",
+      "flex-layout.row#gretel-recomendado-productos",
       "rich-text#mejora-gretel",
       "flex-layout.row#mejora-gretel-row",
       "rich-text#porque-comprar",
@@ -404,6 +406,43 @@
     }
   },
 
+  //MODIFICACION DE CARRUSELL GRETEL RECOMENDADO
+
+  "flex-layout.row#gretel-recomendados-texts": {
+    "title":"PRODUCTOS MAS VENDIDOS - TEXTOS",
+    "children": [
+      "rich-text#gretel-recomendado-text-1",
+      "menu-item#gretel-recomendado-text-2"
+    ],
+    "props": {
+      "preventHorizontalStretch":true,
+      "preserveLayoutOnMobile":true,
+      "blockClass": ["gretel-recomendados-text"]
+    }
+  },
+
+  "rich-text#gretel-recomendado-text-1": {
+    "props": {
+      "blockClass": ["gretel-recomendado-text-1"],
+      "text": "Lo más vendido"
+    }
+  },
+
+  "menu-item#gretel-recomendado-text-2": {
+    "props": {
+      "blockClass":"gretel-recomendado-text-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "VER TODO"
+      }
+    }
+  },
+
   "list-context.image-list#banner-principal": {
     "title":"BANNER PRINCIPAL",
     "children": ["slider-layout#banner-principal"],
@@ -480,6 +519,38 @@
       "fullWidth": false,
       "showNavigationArrows":"desktopOnly",
       "blockClass": "mas-vendido-productos-slider"
+    }
+  },
+
+  // AGREGAR GRETEL RECOMENDADO
+
+  "flex-layout.row#gretel-recomendado-productos": {
+    "title":"PRODUCTOS MAS VENDIDOS - PRODUCTOS",
+    "props": {
+      "blockClass":"gretel-recomendado-productos"
+    },
+    "children": [
+      "list-context.product-list#gretel-recomendado-productos"
+    ]
+  },
+  "list-context.product-list#gretel-recomendado-productos": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#gretel-recomendado-productos-slider"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#gretel-recomendado-productos-slider": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "showNavigationArrows":"desktopOnly",
+      "blockClass": "gretel-recomendado-productos-slider"
     }
   },
 

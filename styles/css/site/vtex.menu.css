@@ -12,6 +12,24 @@
   text-decoration: underline;
 }
 
+/*AGREGAR RECOMENDADO*/
+
+.menuItem--gretel-recomendado-text-2{
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.styledLinkContent--gretel-recomendado-text-2{
+  color: #001E62;
+  margin-bottom: -12px;
+  text-decoration: underline;
+}
+
+/*END*/
+
 .styledLinkContainer--footer-desk-item{
   margin-left: 0;
   margin-right: 0;
