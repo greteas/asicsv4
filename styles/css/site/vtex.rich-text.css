@@ -83,6 +83,22 @@
     color: #001E62;
   }
 }
+.paragraph--recomendado-gretel-text-1{
+  margin: 0;
+  font-weight: 700;
+  color: #001E62;
+  font-size: 30px;
+  color: #001E62;
+}
+@media screen and (max-width: 1024px){
+  .paragraph--recomendado-gretel-text-1{
+    margin: 0;
+    font-weight: 700;
+    color: #001E62;
+    font-size: 24px !important;
+    color: #001E62;
+  }
+}
 .container--lamzamiento-temporada{
   background: #F1F6FA;
 }
