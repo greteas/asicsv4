@@ -2,8 +2,9 @@
   "store.home": {
     "blocks": [
       "SwitchVisibility",
+      "list-context.image-list#banner-segundo",
       "list-context.image-list#banner-principal",
-      "__fold__",
+           "__fold__",
       //"__fold__.experimentalLazyAssets",
       "flex-layout.row#mas-vendidos-texts",
       "flex-layout.row#mas-vendido-productos",
@@ -476,6 +477,24 @@
       ]
     }
   },
+  "list-context.image-list#banner-segundo": {
+    "title":"BANNER SEGUNOD",
+    "children": ["slider-layout#banner-segundo"],
+    "props": {
+      "height": "100%",
+      "images": [
+        {
+          "image": "/arquivos/BANNER-WEB-ASICS_RESPONSIVE_BANNER-WEB.jpg",
+          "mobileImage": "/arquivos/BANNER-WEB-ASICS_RESPONSIVE_BANNER-WEB_1.jpg",
+          "link": {
+            "url":"https://www.google.com"
+            //"newTab": true
+          }
+        
+        }]
+        }
+      },
+
   "slider-layout#banner-principal": {
     "props": {
       "itemsPerPage": {
@@ -486,6 +505,22 @@
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
       "blockClass": "banner-principal",
+      "autoplay": {
+        "timeout":5000
+      }
+    }
+  },
+
+  "slider-layout#banner-segundo": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "banner-segundo",
       "autoplay": {
         "timeout":5000
       }
