@@ -8,6 +8,7 @@
       //"__fold__.experimentalLazyAssets",
       "flex-layout.row#mas-vendidos-texts",
       "flex-layout.row#mas-vendido-productos",
+      "list-context.image-list#banner-tercero",
       "rich-text#mejora-rendimiento",
       "flex-layout.row#mejora-rendimiento-row",
       "flex-layout.row#gretel-recomendados-texts",
@@ -478,7 +479,7 @@
     }
   },
   "list-context.image-list#banner-segundo": {
-    "title":"BANNER SEGUNOD",
+    "title":"BANNER SEGUNDO",
     "children": ["slider-layout#banner-segundo"],
     "props": {
       "height": "100%",
@@ -494,6 +495,24 @@
         }]
         }
       },
+
+      "list-context.image-list#banner-tercero": {
+        "title":"BANNER TERCERO",
+        "children": ["slider-layout#banner-tercero"],
+        "props": {
+          "height": "100%",
+          "images": [
+            {
+              "image": "/arquivos/BANNER-WEB-ASICS_RESPONSIVE_BANNER-WEB.jpg",
+              "mobileImage": "/arquivos/BANNER-WEB-ASICS_RESPONSIVE_BANNER-WEB_1.jpg",
+              "link": {
+                "url":"https://www.google.com"
+                //"newTab": true
+              }
+            
+            }]
+            }
+          },    
 
   "slider-layout#banner-principal": {
     "props": {
@@ -521,6 +540,22 @@
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
       "blockClass": "banner-segundo",
+      "autoplay": {
+        "timeout":5000
+      }
+    }
+  },
+
+  "slider-layout#banner-tercero": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "banner-tercero",
       "autoplay": {
         "timeout":5000
       }
