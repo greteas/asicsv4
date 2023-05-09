@@ -330,6 +330,7 @@
     ]
   },
 
+  
   "vtex.menu@2.x:submenu#item-4-submenu": {
     "props": {
       "blockClass":["item-submenu"],
