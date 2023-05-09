@@ -280,7 +280,8 @@
       "menu-item#item-4-menu",
       "menu-item#item-10-menu",
       "menu-item#item-5-menu",
-      "menu-item#item-6-menu"
+      "menu-item#item-6-menu",
+      "menu-item#item-7-menu"
     ]
   },
   "menu-item#item-6-menu": {
@@ -741,7 +742,243 @@
     }
   },
 
+//** MENU KELVIN
+
+"menu-item#item-7-menu": {
+  "props": {
+    "blockClass":["menu-item-principal-desplegable"],
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "",
+      "noFollow": false,
+      "text": "Mujer"
+    }
+  },
+  "blocks": [
+    "vtex.menu@2.x:submenu#item-7-submenu"
+  ]
+},
 //**
+"vtex.menu@2.x:submenu#item-7-submenu": {
+  "props": {
+    "blockClass":["item-submenu"],
+    "width": "100%"
+  },
+  "children": [
+    "vtex.menu@2.x:menu#item-7-contenido-submenu"
+  ]
+},
+"vtex.menu@2.x:menu#item-7-contenido-submenu": {
+  "props": {
+    "blockClass":["item-7-contenido-submenu"],
+    "orientation": "horizontal"
+  },
+  "children": [
+    "vtex.menu@2.x:menu#item-7-contenido-submenu-colum-1",
+    "vtex.menu@2.x:menu#item-7-contenido-submenu-colum-2",
+    "image#image7-contenido-submenu-colum-2"
+  ]
+},
+"image#image7-contenido-submenu-colum-2": {
+  "props": {
+    "blockClass": ["image-contenido-submenu-colum-2"],
+    "maxHeight": 248,
+    "src": "/arquivos/zapatilla-menu.jpg"
+  }
+},
+
+"vtex.menu@2.x:menu#item-7-contenido-submenu-colum-1": {
+  "props": {
+    "blockClass":"lvl-3",
+    "items": [
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "",
+          "noFollow": false,
+          "text": "Calzados"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/mujer/zapatillas/running",
+          "noFollow": false,
+          "text": "Running"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/mujer/zapatillas/training",
+          "noFollow": false,
+          "text": "Training"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/mujer/zapatillas/trail-running",
+          "noFollow": false,
+          "text": "Trail Running"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/mujer/zapatillas/sporstyle",
+          "noFollow": false,
+          "text": "Sporstyle"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/mujer/zapatillas/tennis",
+          "noFollow": false,
+          "text": "Tennis"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/mujer/zapatillas/voleyball",
+          "noFollow": false,
+          "text": "Voleyball"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/mujer/zapatillas",
+          "noFollow": false,
+          "text": "Ver todo"
+        }
+      }
+    ]
+  }
+},
+
+"vtex.menu@2.x:menu#item-7-contenido-submenu-colum-2": {
+  "props": {
+    "blockClass":"lvl-3",
+    "items": [
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "",
+          "noFollow": false,
+          "text": "Vestuarios"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/mujer/vestuarios/pantalones",
+          "noFollow": false,
+          "text": "Pantalones"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/146?map=productClusterids",
+          "noFollow": false,
+          "text": "Polo manga corta"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/147?map=productClusterids",
+          "noFollow": false,
+          "text": "Polo manga larga"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/mujer/vestuarios/poleras",
+          "noFollow": false,
+          "text": "Poleras"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/mujer/vestuarios/tanks-top",
+          "noFollow": false,
+          "text": "Tanks/Top"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/mujer/vestuarios/buzos",
+          "noFollow": false,
+          "text": "Buzos"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/mujer/vestuarios/casacas",
+          "noFollow": false,
+          "text": "Casacas"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/mujer/vestuarios/shorts",
+          "noFollow": false,
+          "text": "Shorts"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/mujer/vestuarios/leggins",
+          "noFollow": false,
+          "text": "Leggins"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/mujer/vestuarios",
+          "noFollow": false,
+          "text": "Ver todo"
+        }
+      }
+    ]
+  }
+},
+
+
+//*
   "menu-item#item-1-menu": {
     "props": {
       "blockClass":["menu-item-principal-desplegable"],
