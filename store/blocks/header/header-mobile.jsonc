@@ -114,8 +114,8 @@
       "disclosure-layout#cotenido-4-nivel-1",
       "menu-item#cotenido-5-nivel-1",
       "menu-item#cotenido-10-nivel-1",
-      "menu-item#cotenido-6-nivel-1"
-      //"menu-item#cotenido-7-nivel-1"
+      "menu-item#cotenido-6-nivel-1",
+      "menu-item#cotenido-7-nivel-1"
     ]
   },
 
@@ -386,7 +386,7 @@
 
 //**- otro
 
-"disclosure-layout#cotenido-7-nivel-1":{
+"menu-item#cotenido-7-nivel-1":{
   "props":{
     "blockClass":"disclosure-layout-nivel-1"
   },
