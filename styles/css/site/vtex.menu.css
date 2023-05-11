@@ -12,6 +12,20 @@
   text-decoration: underline;
 }
 
+/*CSS OFERTA KELVIN*/
+.vtex-menu-sale {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #001E62;
+  font-weight: 700;
+  background: #E4E5F4;
+  padding: 8px 13px 8px 23px;
+  border-radius: 23px;
+}
+
+
+/*END OFERTA KELVIN*/
+
 /*AGREGAR RECOMENDADO*/
 
 .menuItem--gretel-recomendado-text-2{
@@ -100,6 +114,60 @@
   margin-left: 14px;
   margin-right: 14px;
 }
+/*prueba*/
+
+.styledLinkContent--menu-item-principal-desplegable2{
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #001E62;
+  font-weight: 700;
+
+}
+
+.menuItem--menu-item-principal-desplegable2--isClosed .styledLinkContainer--menu-item-principal-desplegable2::after{
+  content:"...";
+  background-image: url(/arquivos/xGrupo7466.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: 12px;
+  color: transparent;
+}
+
+.menuItem--menu-item-principal-desplegable2--isOpen .styledLinkContainer--menu-item-principal-desplegable2::after{
+  content:"...";
+  background-image: url(/arquivos/Y-Grupo7466.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: 12px;
+  color: transparent;
+}
+
+.styledLinkContainer--menu-item-principal-desplegable2{
+  display: flex;
+  background: #E4E5F4;
+  padding: 8px 13px 8px 23px;
+  border-radius: 23px;
+}
+
+.styledLinkContainer--menu-item-principal-desplegable{
+  margin-left: 14px;
+  margin-right: 14px;
+}
+
+.menuItem--menu-item-principal-desplegable2--isOpen .styledLinkContainer--menu-item-principal-desplegable2::before{
+  content: "";
+  order: 3;
+  display: revert;
+  position: absolute;
+  background: #001E62;
+  width: 63px;
+  height: 5px;
+  margin-top: 17px;
+  font-weight: 700;
+}
+
+/*/ enda*/
+
 .styledLinkContainer--menu-item-principal-fijo{
   margin-left: 14px;
   margin-right: 14px;

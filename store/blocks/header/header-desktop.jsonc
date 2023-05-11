@@ -985,7 +985,7 @@
 
 "menu-item#item-8-menu": {
   "props": {
-    "blockClass":["menu-item-principal-desplegable"],
+    "blockClass":["menu-item-principal-desplegable2"],
     "type": "custom",
     "iconId": null,
     "highlight": false,
