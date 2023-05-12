@@ -500,8 +500,8 @@
     "blockClass":"disclosure-layout-nivel-1"
   },
   "children":[
-    "disclosure-trigger#cotenido-7-nivel-1",
-    "disclosure-content#cotenido-7-nivel-1"
+    "disclosure-trigger#cotenido-4-nivel-1",
+    "disclosure-content#cotenido-4-nivel-1"
   ]
 
 },
@@ -510,13 +510,13 @@
   "props":{
     "blockClass":"disclosure-trigger-nivel-1"
   },
-  "children":["rich-text#cotenido-7-nivel-1-text"]
+  "children":["rich-text#cotenido-4-nivel-1-text"]
 },
 
 "rich-text#cotenido-8-nivel-1-text": {
   "props": {
       "blockClass":"nivel-1-text",
-      "text": "UrbanoMovil"
+      "text": "Urbano"
   }
 },
 
@@ -524,94 +524,17 @@
   "props":{
     "blockClass":"disclosure-content-nivel-1"
   },
-  "children":["menu#cotenido-8-nivel-2-menu"]
+  "children":["vtex.menu@2.x:menu#cotenido-4-nivel-1"]
 },
 
-"menu#cotenido-8-nivel-2-menu": {
- "children": [
-   "disclosure-layout-group#cotenido-2-nivel-2"
- ],
- "props": {
-   "blockClass":"cotenido-1-nivel-2-menu",
-   "orientation": "vertical"
- }
-},
-"disclosure-layout-group#cotenido-8-nivel-2":{
-  "children":[
-    "disclosure-layout#cotenido-2-nivel-2-sub-1",
-    "disclosure-layout#cotenido-2-nivel-2-sub-2"
-  ]
-},
-
-"disclosure-layout#cotenido-8-nivel-2-sub-1":{
-  "props":{
-    "blockClass":"disclosure-layout-nivel-2"
-  },
-  "children":[
-      "disclosure-trigger#cotenido-8-nivel-2-sub-1-triger",
-      "disclosure-content#cotenido-8-nivel-2-sub-1-content"
-]
-},
-
-"disclosure-trigger#cotenido-8-nivel-2-sub-1-triger":{
-  "children":["rich-text#cotenido-2-nivel-2-sub-1-text"]
-},
-
-"rich-text#cotenido-8-nivel-2-sub-1-text": {
+"vtex.menu@2.x:menu#cotenido-8-nivel-1": {
   "props": {
-      "blockClass":"nivel-2-text",
-      "text": "Calzados"
-      }
-},
-
-"disclosure-content#cotenido-8-nivel-2-sub-1-content":{
-  "children":["vtex.menu@2.x:menu#cotenido-2-nivel-2-sub-1-content-menu"]
-},
-
-"vtex.menu@2.x:menu#cotenido-8-nivel-2-sub-1-content-menu": {
-"props": {
-  "blockClass":"nivel-2-content-menu",
-  "orientation": "vertical",
-  "experimentalOptimizeRendering": true
-},
-"children": [
-  "vtex.menu@2.x:menu#item-2-contenido-submenu-colum-1"
-]
-},
-
-"disclosure-layout#cotenido-8-nivel-2-sub-2":{
-  "props":{
-    "blockClass":"disclosure-layout-nivel-2"
+    "blockClass":"nivel-2-content-menu",
+    "orientation": "vertical",
+    "experimentalOptimizeRendering": true
   },
-  "children":[
-      "disclosure-trigger#cotenido-2-nivel-2-sub-2-triger",
-      "disclosure-content#cotenido-2-nivel-2-sub-2-content"
-  ]
-},
-
-"disclosure-trigger#cotenido-8-nivel-2-sub-2-triger":{
-  "children":["rich-text#cotenido-2-nivel-2-sub-2-text"]
-},
-
-"rich-text#cotenido-8-nivel-2-sub-2-text": {
-  "props": {
-      "blockClass":"nivel-2-text",
-      "text": "Vestuarios"
-      }
-},
-
-"disclosure-content#cotenido-8-nivel-2-sub-2-content":{
-  "children":["vtex.menu@2.x:menu#cotenido-2-nivel-2-sub-2-content-menu"]
-},
-
-"vtex.menu@2.x:menu#cotenido-8-nivel-2-sub-2-content-menu": {
-"props": {
-  "blockClass":"nivel-2-content-menu",
-  "orientation": "vertical",
-  "experimentalOptimizeRendering": true
-},
-"children": [
-  "vtex.menu@2.x:menu#item-2-contenido-submenu-colum-2"
+  "children": [
+    "vtex.menu@2.x:menu#item-4-contenido-submenu-colum-1"
   ]
 },
 
