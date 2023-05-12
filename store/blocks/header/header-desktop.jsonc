@@ -278,11 +278,9 @@
       "menu-item#item-2-menu",
       //"menu-item#item-3-menu",
       "menu-item#item-4-menu",
-      "menu-item#item-10-menu",
-      "menu-item#item-5-menu",
-      "menu-item#item-6-menu",
       "menu-item#item-7-menu",
-      "menu-item#item-8-menu"
+      "menu-item#item-8-menu",
+      "menu-item#item-6-menu"
     ]
   },
   "menu-item#item-6-menu": {
@@ -299,20 +297,7 @@
       }
     }
   },
-  "menu-item#item-5-menu": {
-    "props": {
-      "blockClass":["menu-item-principal-fijo"],
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/159?map=productClusterids",
-        "noFollow": false,
-        "text": "Lanzamientos"
-      }
-    }
-  },
+
   "menu-item#item-4-menu": {
     "props": {
       "blockClass":["menu-item-principal-desplegable"],
@@ -744,244 +729,297 @@
     }
   },
 
-//** MENU KELVIN
+  //MENU URBANO
 
-"menu-item#item-7-menu": {
-  "props": {
-    "blockClass":["menu-item-principal-desplegable"],
-    "type": "custom",
-    "iconId": null,
-    "highlight": false,
-    "itemProps": {
-      "type": "internal",
-      "href": "",
-      "noFollow": false,
-      "text": "Mujer"
+  "menu-item#item-7-menu": {
+    "props": {
+      "blockClass":["menu-item-principal-desplegable"],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "text": "URBANO"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#item-1-submenu"
+    ]
+  },
+  "vtex.menu@2.x:submenu#item-7-submenu": {
+    "props": {
+      "blockClass":["item-submenu"],
+      "width": "100%"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#item-1-contenido-submenu"
+    ]
+  },
+  "vtex.menu@2.x:menu#item-7-contenido-submenu": {
+    "props": {
+      "blockClass":["item-1-contenido-submenu"],
+      "orientation": "horizontal"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#item-1-contenido-submenu-colum-1",
+      "vtex.menu@2.x:menu#item-1-contenido-submenu-colum-2",
+      //"vtex.menu@2.x:menu#item-1-contenido-submenu-colum-3",
+      "image#image-contenido-submenu-colum-1"
+    ]
+  },
+  "image#image-contenido-submenu-colum-7": {
+    "props": {
+      "blockClass": ["image-contenido-submenu-colum-1"],
+      "maxHeight": 248,
+      "src": "/arquivos/zapatilla-menu.jpg"
     }
   },
-  "blocks": [
-    "vtex.menu@2.x:submenu#item-7-submenu"
-  ]
-},
-//**
-"vtex.menu@2.x:submenu#item-7-submenu": {
-  "props": {
-    "blockClass":["item-submenu"],
-    "width": "100%"
+  
+  "vtex.menu@2.x:menu#item-7-contenido-submenu-colum-3": {
+    "props": {
+      "blockClass":"lvl-3",
+      "items": [
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "",
+            "noFollow": false,
+            "text": "Accesorios"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/hombre/accesorios/medias",
+            "noFollow": false,
+            "text": "Medias"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/hombre/accesorios/gorras",
+            "noFollow": false,
+            "text": "Gorras"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/hombre/accesorios/canguros",
+            "noFollow": false,
+            "text": "Canguros"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/hombre/accesorios/guantes",
+            "noFollow": false,
+            "text": "Guantes"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/hombre/accesorios",
+            "noFollow": false,
+            "text": "Ver todo"
+          }
+        }
+      ]
+    }
   },
-  "children": [
-    "vtex.menu@2.x:menu#item-7-contenido-submenu"
-  ]
-},
-"vtex.menu@2.x:menu#item-7-contenido-submenu": {
-  "props": {
-    "blockClass":["item-7-contenido-submenu"],
-    "orientation": "horizontal"
+  
+  "vtex.menu@2.x:menu#item-7-contenido-submenu-colum-2": {
+    "props": {
+      "blockClass":"lvl-3",
+      "items": [
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "",
+            "noFollow": false,
+            "text": "Vestuarios"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/hombre/vestuarios/pantalones",
+            "noFollow": false,
+            "text": "Pantalones"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/143?map=productClusterids",
+            "noFollow": false,
+            "text": "Polo manga corta"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/144?map=productClusterids",
+            "noFollow": false,
+            "text": "Polo manga larga"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/hombre/vestuarios/poleras",
+            "noFollow": false,
+            "text": "Poleras"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/hombre/vestuarios/tanks-tops",
+            "noFollow": false,
+            "text": "Tanks/Top"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/hombre/vestuarios/buzos",
+            "noFollow": false,
+            "text": "Buzos"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/hombre/vestuarios/casacas",
+            "noFollow": false,
+            "text": "Casacas"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/hombre/vestuarios/shorts",
+            "noFollow": false,
+            "text": "Shorts"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/145?map=productClusterids",
+            "noFollow": false,
+            "text": "Leggins"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/hombre/vestuarios",
+            "noFollow": false,
+            "text": "Ver todo"
+          }
+        }
+      ]
+    }
   },
-  "children": [
-    "vtex.menu@2.x:menu#item-7-contenido-submenu-colum-1",
-    "vtex.menu@2.x:menu#item-7-contenido-submenu-colum-2",
-    "image#image7-contenido-submenu-colum-2"
-  ]
-},
-"image#image7-contenido-submenu-colum-2": {
-  "props": {
-    "blockClass": ["image-contenido-submenu-colum-2"],
-    "maxHeight": 248,
-    "src": "/arquivos/zapatilla-menu.jpg"
-  }
-},
+  
+  "vtex.menu@2.x:menu#item-7-contenido-submenu-colum-1": {
+    "props": {
+      "blockClass":"lvl-3",
+      "items": [
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "",
+            "noFollow": false,
+            "text": "Calzados"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/hombre/zapatillas/running",
+            "noFollow": false,
+            "text": "Running"
+          }
+        },
+        // {
+        //   "type": "custom",
+        //   "highlight": false,
+        //   "itemProps": {
+        //     "href": "/hombre/zapatillas/training",
+        //     "noFollow": false,
+        //     "text": "Training"
+        //   }
+        // },
+        // {
+        //   "type": "custom",
+        //   "highlight": false,
+        //   "itemProps": {
+        //     "href": "/hombre/zapatillas/trail-running",
+        //     "noFollow": false,
+        //     "text": "Trail Running"
+        //   }
+        // },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/hombre/zapatillas/sporstyle",
+            "noFollow": false,
+            "text": "Sporstyle"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/hombre/zapatillas/tennis",
+            "noFollow": false,
+            "text": "Tennis"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/hombre/zapatillas",
+            "noFollow": false,
+            "text": "Ver todo"
+          }
+        }
+      ]
+    }
+  },
+  
+  //END
 
-"vtex.menu@2.x:menu#item-7-contenido-submenu-colum-1": {
-  "props": {
-    "blockClass":"lvl-3",
-    "items": [
-      {
-        "type": "custom",
-        "highlight": false,
-        "itemProps": {
-          "href": "",
-          "noFollow": false,
-          "text": "Calzados"
-        }
-      },
-      {
-        "type": "custom",
-        "highlight": false,
-        "itemProps": {
-          "href": "/mujer/zapatillas/running",
-          "noFollow": false,
-          "text": "Running"
-        }
-      },
-      {
-        "type": "custom",
-        "highlight": false,
-        "itemProps": {
-          "href": "/mujer/zapatillas/training",
-          "noFollow": false,
-          "text": "Training"
-        }
-      },
-      {
-        "type": "custom",
-        "highlight": false,
-        "itemProps": {
-          "href": "/mujer/zapatillas/trail-running",
-          "noFollow": false,
-          "text": "Trail Running"
-        }
-      },
-      {
-        "type": "custom",
-        "highlight": false,
-        "itemProps": {
-          "href": "/mujer/zapatillas/sporstyle",
-          "noFollow": false,
-          "text": "Sporstyle"
-        }
-      },
-      {
-        "type": "custom",
-        "highlight": false,
-        "itemProps": {
-          "href": "/mujer/zapatillas/tennis",
-          "noFollow": false,
-          "text": "Tennis"
-        }
-      },
-      {
-        "type": "custom",
-        "highlight": false,
-        "itemProps": {
-          "href": "/mujer/zapatillas/voleyball",
-          "noFollow": false,
-          "text": "Voleyball"
-        }
-      },
-      {
-        "type": "custom",
-        "highlight": false,
-        "itemProps": {
-          "href": "/mujer/zapatillas",
-          "noFollow": false,
-          "text": "Ver todo"
-        }
-      }
-    ]
-  }
-},
-
-"vtex.menu@2.x:menu#item-7-contenido-submenu-colum-2": {
-  "props": {
-    "blockClass":"lvl-3",
-    "items": [
-      {
-        "type": "custom",
-        "highlight": false,
-        "itemProps": {
-          "href": "",
-          "noFollow": false,
-          "text": "Vestuarios"
-        }
-      },
-      {
-        "type": "custom",
-        "highlight": false,
-        "itemProps": {
-          "href": "/mujer/vestuarios/pantalones",
-          "noFollow": false,
-          "text": "Pantalones"
-        }
-      },
-      {
-        "type": "custom",
-        "highlight": false,
-        "itemProps": {
-          "href": "/146?map=productClusterids",
-          "noFollow": false,
-          "text": "Polo manga corta"
-        }
-      },
-      {
-        "type": "custom",
-        "highlight": false,
-        "itemProps": {
-          "href": "/147?map=productClusterids",
-          "noFollow": false,
-          "text": "Polo manga larga"
-        }
-      },
-      {
-        "type": "custom",
-        "highlight": false,
-        "itemProps": {
-          "href": "/mujer/vestuarios/poleras",
-          "noFollow": false,
-          "text": "Poleras"
-        }
-      },
-      {
-        "type": "custom",
-        "highlight": false,
-        "itemProps": {
-          "href": "/mujer/vestuarios/tanks-top",
-          "noFollow": false,
-          "text": "Tanks/Top"
-        }
-      },
-      {
-        "type": "custom",
-        "highlight": false,
-        "itemProps": {
-          "href": "/mujer/vestuarios/buzos",
-          "noFollow": false,
-          "text": "Buzos"
-        }
-      },
-      {
-        "type": "custom",
-        "highlight": false,
-        "itemProps": {
-          "href": "/mujer/vestuarios/casacas",
-          "noFollow": false,
-          "text": "Casacas"
-        }
-      },
-      {
-        "type": "custom",
-        "highlight": false,
-        "itemProps": {
-          "href": "/mujer/vestuarios/shorts",
-          "noFollow": false,
-          "text": "Shorts"
-        }
-      },
-      {
-        "type": "custom",
-        "highlight": false,
-        "itemProps": {
-          "href": "/mujer/vestuarios/leggins",
-          "noFollow": false,
-          "text": "Leggins"
-        }
-      },
-      {
-        "type": "custom",
-        "highlight": false,
-        "itemProps": {
-          "href": "/mujer/vestuarios",
-          "noFollow": false,
-          "text": "Ver todo"
-        }
-      }
-    ]
-  }
-},
-
-//END
-
-//MENU KELVIN02
+//MENU OFERTAS
 
 "menu-item#item-8-menu": {
   "props": {
@@ -993,7 +1031,7 @@
       "type": "internal",
       "href": "",
       "noFollow": false,
-      "text": "MENU02"
+      "text": "OFERTAS"
     }
   },
   "blocks": [
@@ -1558,22 +1596,7 @@
     }
   },
 
-//* Urbano
 
-"menu-item#item-10-menu": {
-  "props": {
-    "blockClass":["menu-item-principal-fijo"],
-    "type": "custom",
-    "iconId": null,
-    "highlight": false,
-    "itemProps": {
-      "type": "internal",
-      "href": "/159?map=productClusterids",
-      "noFollow": false,
-      "text": "Urbano"
-    }
-  }
-},
 
 /*
 "image#image-contenido-submenu-colum-10": {
