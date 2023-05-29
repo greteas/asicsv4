@@ -279,6 +279,7 @@
       //"menu-item#item-3-menu",
       "menu-item#item-4-menu",
       "menu-item#item-7-menu",
+      "menu-item#item-9-menu",
       "menu-item#item-8-menu",
       "menu-item#item-6-menu"
     ]
@@ -1308,6 +1309,221 @@
 },
 
 //END
+
+//* MENU 9
+
+//MENU OFERTAS
+
+"menu-item#item-9-menu": {
+  "props": {
+    "blockClass":["menu-item-principal-desplegable"],
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "",
+      "noFollow": false,
+      "text": "MENU9"
+    }
+  },
+  "blocks": [
+    "vtex.menu@2.x:submenu#item-1-submenu"
+  ]
+},
+"vtex.menu@2.x:submenu#item-9-submenu": {
+  "props": {
+    "blockClass":["item-submenu"],
+    "width": "100%"
+  },
+  "children": [
+    "vtex.menu@2.x:menu#item-1-contenido-submenu"
+  ]
+},
+"vtex.menu@2.x:menu#item-9-contenido-submenu": {
+  "props": {
+    "blockClass":["item-1-contenido-submenu"],
+    "orientation": "horizontal"
+  },
+  "children": [
+    "vtex.menu@2.x:menu#item-1-contenido-submenu-colum-1",
+    "vtex.menu@2.x:menu#item-1-contenido-submenu-colum-2",
+    //"vtex.menu@2.x:menu#item-1-contenido-submenu-colum-3",
+    "image#image-contenido-submenu-colum-1"
+  ]
+},
+"image#image-contenido-submenu-colum-9": {
+  "props": {
+    "blockClass": ["image-contenido-submenu-colum-1"],
+    "maxHeight": 248,
+    "src": "/arquivos/zapatilla-menu.jpg"
+  }
+},
+
+"vtex.menu@2.x:menu#item-9-contenido-submenu-colum-3": {
+  "props": {
+    "blockClass":"lvl-3",
+    "items": [
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "",
+          "noFollow": false,
+          "text": "Accesorios"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/hombre/accesorios/medias",
+          "noFollow": false,
+          "text": "Medias"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/hombre/accesorios/gorras",
+          "noFollow": false,
+          "text": "Gorras"
+        }
+      },
+      
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/hombre/accesorios",
+          "noFollow": false,
+          "text": "Ver todo"
+        }
+      }
+    ]
+  }
+},
+
+"vtex.menu@2.x:menu#item-9-contenido-submenu-colum-2": {
+  "props": {
+    "blockClass":"lvl-3",
+    "items": [
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "",
+          "noFollow": false,
+          "text": "SubMenu02"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/hombre/vestuarios/pantalones",
+          "noFollow": false,
+          "text": "Pantalones"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/143?map=productClusterids",
+          "noFollow": false,
+          "text": "Polo manga corta"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/hombre/vestuarios",
+          "noFollow": false,
+          "text": "Ver todo"
+        }
+      }
+    ]
+  }
+},
+
+"vtex.menu@2.x:menu#item-9-contenido-submenu-colum-1": {
+  "props": {
+    "blockClass":"lvl-3",
+    "items": [
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "",
+          "noFollow": false,
+          "text": "Calzados"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/hombre/zapatillas/running",
+          "noFollow": false,
+          "text": "Running"
+        }
+      },
+      // {
+      //   "type": "custom",
+      //   "highlight": false,
+      //   "itemProps": {
+      //     "href": "/hombre/zapatillas/training",
+      //     "noFollow": false,
+      //     "text": "Training"
+      //   }
+      // },
+      // {
+      //   "type": "custom",
+      //   "highlight": false,
+      //   "itemProps": {
+      //     "href": "/hombre/zapatillas/trail-running",
+      //     "noFollow": false,
+      //     "text": "Trail Running"
+      //   }
+      // },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/hombre/zapatillas/sporstyle",
+          "noFollow": false,
+          "text": "Sporstyle"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/hombre/zapatillas/tennis",
+          "noFollow": false,
+          "text": "Tennis"
+        }
+      },
+      {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "href": "/hombre/zapatillas",
+          "noFollow": false,
+          "text": "Ver todo"
+        }
+      }
+    ]
+  }
+},
+
+//END
+
+//* END
+
 
 //*
   "menu-item#item-1-menu": {
