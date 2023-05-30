@@ -113,7 +113,7 @@
       //"disclosure-layout#cotenido-3-nivel-1",
       "disclosure-layout#cotenido-4-nivel-1",
       "menu-item#cotenido-5-nivel-1",
-      "menu-item#cotenido-9-nivel-1",
+      "disclosure-layout#cotenido-9-nivel-1",
       "menu-item#cotenido-6-nivel-1",
       "disclosure-layout#cotenido-8-nivel-1",
       "disclosure-layout#cotenido-7-nivel-1"
@@ -564,7 +564,7 @@
 "rich-text#cotenido-9-nivel-1-text": {
   "props": {
       "blockClass":"nivel-1-text",
-      "text": "Mujer"
+      "text": "Menu09"
   }
 },
 
