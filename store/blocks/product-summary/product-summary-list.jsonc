@@ -158,8 +158,8 @@
   "stack-layout#summaryListMobile": {
     "children": [
       "product-summary-image#summaryListMobile",
-      "vtex.product-highlights@2.x:product-highlights#collection",
-      "modal-trigger#quickview" // Check quickview.jsonc
+      "vtex.product-highlights@2.x:product-highlights#collection"
+     // "modal-trigger#quickview" // Check quickview.jsonc
     ]
   },
   "product-summary-image#summaryListMobile": {

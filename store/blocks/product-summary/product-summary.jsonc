@@ -53,7 +53,7 @@
   },
 
   "vtex.product-highlights@2.x:product-highlights#collection": {
-    "props": {
+   "props": {
       "type": "collection"
     },
     "children": ["product-highlight-wrapper"]
