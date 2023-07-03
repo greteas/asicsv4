@@ -6,8 +6,8 @@
       "list-context.image-list#banner-principal",
            "__fold__",
       //"__fold__.experimentalLazyAssets",
-      "flex-layout.row#mas-vendidos-texts",
-      "flex-layout.row#mas-vendido-productos",
+      "flex-layout.row#mas-vendidos2-texts",
+      "flex-layout.row#mas-vendido2-productos",
       "flex-layout.row#mas-vendidos-texts",
       "flex-layout.row#mas-vendido-productos",
       "list-context.image-list#banner-tercero",
@@ -410,6 +410,44 @@
     }
   },
 
+  //TEXTO DE CARRUSELL GRETEL VENDIDOS02
+
+  "flex-layout.row#mas-vendidos02-texts": {
+    "title":"PRODUCTOS MAS VENDIDOS02 - TEXTOS",
+    "children": [
+      "rich-text#mas-vendido02-text-1",
+      "menu-item#mas-vendido02-text-2"
+    ],
+    "props": {
+      "preventHorizontalStretch":true,
+      "preserveLayoutOnMobile":true,
+      "blockClass": ["mas-vendidos02-text"]
+    }
+  },
+
+  "rich-text#mas-vendido02-text-1": {
+    "props": {
+      "blockClass": ["mas-vendido02-text-1"],
+      "text": "Lo más vendido02"
+    }
+  },
+
+  "menu-item#mas-vendido02-text-2": {
+    "props": {
+      "blockClass":"mas-vendido02-text-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "VER TODO"
+      }
+    }
+  },
+
+
   //MODIFICACION DE CARRUSELL GRETEL RECOMENDADO
 
   "flex-layout.row#gretel-recomendados-texts": {
@@ -565,7 +603,7 @@
   },
 
   "flex-layout.row#mas-vendido-productos": {
-    "title":"PRODUCTOS MAS VENDIDOS - PRODUCTOS",
+    "title":"PRODUCTOS MAS LANZAMIENTO - PRODUCTOS",
     "props": {
       "blockClass":"mas-vendido-productos"
     },
@@ -594,10 +632,43 @@
     }
   },
 
+//CARRUSELL MAS VENDIDO02 ANTHONY
+
+"flex-layout.row#mas-vendido02-productos": {
+  "title":"PRODUCTOS MAS VENDIDOS02 - PRODUCTOS",
+  "props": {
+    "blockClass":"mas-vendido02-productos"
+  },
+  "children": [
+    "list-context.product-list#mas-vendido02-productos"
+  ]
+},
+"list-context.product-list#mas-vendido02-productos": {
+  "blocks": ["product-summary.shelf"],
+  "children": ["slider-layout#mas-vendido02-productos-slider"],
+  "props": {
+    "orderBy": "OrderByTopSaleDESC"
+  }
+},
+"slider-layout#mas-vendido02-productos-slider": {
+  "props": {
+    "itemsPerPage": {
+      "desktop": 5,
+      "tablet": 2,
+      "phone": 2
+    },
+    "infinite": true,
+    "fullWidth": false,
+    "showNavigationArrows":"desktopOnly",
+    "blockClass": "mas-vendido02-productos-slider"
+  }
+},
+
+
   // AGREGAR GRETEL RECOMENDADO
 
   "flex-layout.row#gretel-recomendado-productos": {
-    "title":"PRODUCTOS MAS VENDIDOS - PRODUCTOS",
+    "title":"PRODUCTOS MAS LANZAMIENTO - PRODUCTOS",
     "props": {
       "blockClass":"gretel-recomendado-productos"
     },
