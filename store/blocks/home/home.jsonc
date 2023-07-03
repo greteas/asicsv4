@@ -8,6 +8,8 @@
       //"__fold__.experimentalLazyAssets",
       "flex-layout.row#mas-vendidos-texts",
       "flex-layout.row#mas-vendido-productos",
+      "flex-layout.row#mas-vendidos-texts",
+      "flex-layout.row#mas-vendido-productos",
       "list-context.image-list#banner-tercero",
       "rich-text#mejora-rendimiento",
       "flex-layout.row#mejora-rendimiento-row",

@@ -53,6 +53,26 @@
   }
 }
 
+
+/* MAS VENDIDO02 ANTHONY */
+
+.sliderLayoutContainer--mas-vendido02-productos-slider{
+  padding: 0 !important;
+}
+.sliderTrackContainer--mas-vendido02-productos-slider{
+  margin-left: 95px;
+  margin-right: 95px;
+}
+@media screen and (max-width: 1024px){
+  .sliderTrackContainer--mas-vendido02-productos-slider{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+}
+
+
+/*END*/
+
 .sliderLayoutContainer--lanzamiento-producto-slider{
   padding: 0 !important;
 }
@@ -93,6 +113,20 @@
     gap: 0px !important;
   }
 }
+
+
+/*MAS VENDIDO02 */
+
+.sliderTrack--mas-vendido02-productos-slider{
+  gap: 20px;
+}
+@media screen and (max-width: 1024px){
+  .sliderTrack--mas-vendido02-productos-slider{
+    gap: 0px !important;
+  }
+}
+
+/* END*/
 
 .sliderTrack--lanzamiento-producto-slider{
   gap: 20px;
@@ -148,6 +182,23 @@
   }
 }
 
+
+/* MAS VENDIDO02 ANTHONY*/
+.paginationDotsContainer--mas-vendido02-productos-slider{
+  margin-bottom: -60px;
+}
+@media screen and (max-width: 1024px){
+  .paginationDotsContainer--mas-vendido02-productos-slider{
+    margin-bottom: -27px !important;
+  }
+}
+@media screen and (max-width: 1024px){
+  .paginationDotsContainer--lanzamiento02-producto-slider{
+    margin-bottom: -27px !important;
+  }
+}
+/*END*/
+
 /*agregar gretel recomendado*/
 
 .paginationDotsContainer--gretel-recomendado-productos-slider{
@@ -173,6 +224,21 @@
   background: #ffffff;
   border: 1px solid #022160;
 }
+
+/* MAS VENDIDO02 ANTHONY*/
+.paginationDot--mas-vendido02-productos-slider--isActive{
+  height: 15px !important;
+  width: 15px !important;
+  background: #001E62 !important;
+  border: 1px solid #001E62 !important;
+}
+.paginationDot--mas-vendido02-productos-slider{
+  height: 15px !important;
+  width: 15px !important;
+  background: #ffffff;
+  border: 1px solid #022160;
+}
+/* END */
 
 .paginationDotsContainer--lanzamiento-producto-slider{
   margin-bottom: -60px;
@@ -240,6 +306,27 @@
   margin-right: 39px;
 }
 
+/*MAS VENDIDO02 ANTHONY*/
+
+.sliderLeftArrow--mas-vendido02-productos-slider{
+  color: #001E62;
+  background: transparent;
+  border: 2px solid #001E62;
+  border-radius: 24px;
+  padding: 4px;
+  margin-left: 39px;
+}
+.sliderRightArrow--mas-vendido02-productos-slider{
+  color: #001E62;
+  background: transparent;
+  border: 2px solid #001E62;
+  border-radius: 24px;
+  padding: 4px;
+  margin-right: 39px;
+}
+
+
+/*END*/
 
 /*gretel recomendado*/
 
