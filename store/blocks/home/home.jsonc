@@ -8,8 +8,8 @@
       //"__fold__.experimentalLazyAssets",
       "flex-layout.row#mas-vendidos2-texts",
       "flex-layout.row#mas-vendido2-productos",
-      "flex-layout.row#mas-vendidos-texts",
-      "flex-layout.row#mas-vendido-productos",
+      //"flex-layout.row#mas-vendidos-texts",
+     // "flex-layout.row#mas-vendido-productos",
       "list-context.image-list#banner-tercero",
       "rich-text#mejora-rendimiento",
       "flex-layout.row#mejora-rendimiento-row",
@@ -603,7 +603,7 @@
   },
 
   "flex-layout.row#mas-vendido-productos": {
-    "title":"PRODUCTOS MAS LANZAMIENTO - PRODUCTOS",
+    "title":"PRODUCTOS MAS VENDIDOS - PRODUCTOS",
     "props": {
       "blockClass":"mas-vendido-productos"
     },
@@ -660,7 +660,7 @@
     "infinite": true,
     "fullWidth": false,
     "showNavigationArrows":"desktopOnly",
-    "blockClass": "mas-vendido02-productos-slider"
+    "blockClass": "mas-vendido-productos-slider"
   }
 },
 
@@ -668,7 +668,7 @@
   // AGREGAR GRETEL RECOMENDADO
 
   "flex-layout.row#gretel-recomendado-productos": {
-    "title":"PRODUCTOS MAS LANZAMIENTO - PRODUCTOS",
+    "title":"PRODUCTOS MAS VENDIDOS - PRODUCTOS",
     "props": {
       "blockClass":"gretel-recomendado-productos"
     },
