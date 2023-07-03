@@ -12,6 +12,20 @@
   text-decoration: underline;
 }
 
+.menuItem--mas-vendido02-text-2{
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.styledLinkContent--mas-vendido02-text-2{
+  color: #001E62;
+  margin-bottom: -12px;
+  text-decoration: underline;
+}
+
 /*CSS OFERTA KELVIN*/
 .vtex-menu-sale {
   font-size: 15px;

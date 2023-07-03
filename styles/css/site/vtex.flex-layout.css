@@ -294,6 +294,39 @@
   padding: 0 !important;
 }
 
+
+/* MAS VENDIDO02*/
+
+.flexRow--mas-vendidos02-text :global(.vtex-store-components-3-x-container) {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1600px;
+  padding-left: 95px;
+  padding-right: 0;
+}
+@media screen and (max-width: 1024px){
+  .flexRow--mas-vendidos02-text :global(.vtex-store-components-3-x-container) {
+    padding-left: 16px !important;
+  }
+  .flexRowContent--sku-selector-content{
+    position: relative;
+  }
+  .flexRowContent--sku-selector-content :global(.vtex-modal-layout-0-x-triggerContainer--guia-de-tallas-triger){
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-right: 16px;
+  }
+}
+
+.flexRow--mas-vendido02-productos :global(.vtex-store-components-3-x-container){
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 !important;
+}
+
+/*END*/
+
 /* AGREGAR GRETEL RECOMENDADO CSS*/
 
 .flexRow--gretel-recomendados-text :global(.vtex-store-components-3-x-container) {
@@ -337,6 +370,11 @@
   margin-top: 43px;
 }
 
+.flexRow--mas-vendidos02-text{
+  margin-bottom: 24px;
+  margin-top: 43px;
+}
+
 .flexRow--gretel-recomendados-text{
   margin-bottom: 24px;
   margin-top: 43px;
@@ -370,6 +408,17 @@
     margin-bottom: 77px !important;
   }
 }
+
+.flexRow--mas-vendido02-productos{
+  /* margin-bottom: 160px; */
+  margin-bottom: 80px;
+}
+@media screen and (max-width: 1024px){
+  .flexRow--mas-vendido02-productos{
+    margin-bottom: 77px !important;
+  }
+}
+
 
 .flexRow--lanzamiento-producto{
   background: #F1F6FA;
