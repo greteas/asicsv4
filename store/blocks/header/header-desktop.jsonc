@@ -1560,7 +1560,7 @@
     "children": [
       "vtex.menu@2.x:menu#item-1-contenido-submenu-colum-1",
       "vtex.menu@2.x:menu#item-1-contenido-submenu-colum-2",
-      //"vtex.menu@2.x:menu#item-1-contenido-submenu-colum-3",
+      "vtex.menu@2.x:menu#item-1-contenido-submenu-colum-3",
       "image#image-contenido-submenu-colum-1"
     ]
   },
