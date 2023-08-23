@@ -532,6 +532,7 @@
     "children": [
       "vtex.menu@2.x:menu#item-2-contenido-submenu-colum-1",
       "vtex.menu@2.x:menu#item-2-contenido-submenu-colum-2",
+      "vtex.menu@2.x:menu#item-2-contenido-submenu-colum-3",
       "image#image-contenido-submenu-colum-2"
     ]
   },
@@ -542,6 +543,69 @@
       "src": "/arquivos/zapatilla-menu.jpg"
     }
   },
+
+  "vtex.menu@2.x:menu#item-2-contenido-submenu-colum-3": {
+    "props": {
+      "blockClass":"lvl-3",
+      "items": [
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "",
+            "noFollow": false,
+            "text": "Accesorios"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/hombre/accesorios/medias",
+            "noFollow": false,
+            "text": "Medias"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/hombre/accesorios/gorras",
+            "noFollow": false,
+            "text": "Gorras"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/hombre/accesorios/canguros",
+            "noFollow": false,
+            "text": "Canguros"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/hombre/accesorios/guantes",
+            "noFollow": false,
+            "text": "Guantes"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "href": "/hombre/accesorios",
+            "noFollow": false,
+            "text": "Ver todo"
+          }
+        }
+      ]
+    }
+  },
+
 
   "vtex.menu@2.x:menu#item-2-contenido-submenu-colum-1": {
     "props": {
