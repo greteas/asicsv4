@@ -114,7 +114,7 @@
       "disclosure-layout#cotenido-4-nivel-1",
       "menu-item#cotenido-5-nivel-1",
       "menu-item#cotenido-6-nivel-1",
-      "disclosure-layout#cotenido-8-nivel-1",
+      //"disclosure-layout#cotenido-8-nivel-1",
       "disclosure-layout#cotenido-9-nivel-1",
       "disclosure-layout#cotenido-7-nivel-1"
       
@@ -293,7 +293,8 @@
   "disclosure-layout-group#cotenido-2-nivel-2":{
     "children":[
       "disclosure-layout#cotenido-2-nivel-2-sub-1",
-      "disclosure-layout#cotenido-2-nivel-2-sub-2"
+      "disclosure-layout#cotenido-2-nivel-2-sub-2",
+      "disclosure-layout#cotenido-2-nivel-2-sub-3"
     ]
   },
 
@@ -367,6 +368,42 @@
   },
   "children": [
     "vtex.menu@2.x:menu#item-2-contenido-submenu-colum-2"
+    ]
+  },
+
+  "disclosure-layout#cotenido-2-nivel-2-sub-3":{
+    "props":{
+      "blockClass":"disclosure-layout-nivel-2"
+    },
+    "children":[
+        "disclosure-trigger#cotenido-2-nivel-2-sub-3-triger",
+        "disclosure-content#cotenido-2-nivel-2-sub-3-content"
+    ]
+  },
+
+  "disclosure-trigger#cotenido-2-nivel-2-sub-3-triger":{
+    "children":["rich-text#cotenido-2-nivel-2-sub-3-text"]
+  },
+
+  "rich-text#cotenido-2-nivel-2-sub-3-text": {
+    "props": {
+        "blockClass":"nivel-2-text",
+        "text": "Accesorios"
+        }
+  },
+
+  "disclosure-content#cotenido-2-nivel-2-sub-3-content":{
+    "children":["vtex.menu@2.x:menu#cotenido-2-nivel-2-sub-3-content-menu"]
+  },
+
+  "vtex.menu@2.x:menu#cotenido-2-nivel-2-sub-3-content-menu": {
+  "props": {
+    "blockClass":"nivel-2-content-menu",
+    "orientation": "vertical",
+    "experimentalOptimizeRendering": true
+  },
+  "children": [
+    "vtex.menu@2.x:menu#item-2-contenido-submenu-colum-3"
     ]
   },
 
@@ -496,6 +533,8 @@
 
 //Urbano Movil
 
+/*
+
 "disclosure-layout#cotenido-8-nivel-1":{
   "props":{
     "blockClass":"disclosure-layout-nivel-1"
@@ -538,6 +577,8 @@
     "vtex.menu@2.x:menu#item-4-contenido-submenu-colum-1"
   ]
 },
+
+*/
 
 //**---end
 
