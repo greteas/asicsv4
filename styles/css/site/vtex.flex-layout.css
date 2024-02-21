@@ -1136,6 +1136,7 @@
 }
 
 .flexCol--right-col :global(.vtex-store-components-3-x-productBrandContainer--summaryListDesktop){
+  text-transform: uppercase;
   padding-left: 5px;
   font-family: 'Roboto';
   color: black;
