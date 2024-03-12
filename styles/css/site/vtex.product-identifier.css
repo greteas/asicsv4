@@ -3,7 +3,8 @@
   padding-left: 16px;
   padding-right: 16px;
   font-size: 13px;
-  font-family: 'Roboto';
+  /* font-family: 'Roboto'; */
+  font-family: arial-narrow2;
   color: #252C3B;
   opacity: .9;
   margin-top: 6px;

@@ -109,6 +109,31 @@
   font-weight: 700;
   font-style: normal;
 }
+@font-face {
+  font-family: arialnarrow;
+  src: url(assets/fonts/arialnarrow_bolditalic.ttf) format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: arialnarrow;
+  src: url(assets/fonts/arialnarrow_bold.ttf) format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: arialnarrow;
+  src: url(assets/fonts/arialnarrow_italic.ttf) format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: arial-narrow2;
+  src: url(assets/fonts/arial-narrow2.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 
 
