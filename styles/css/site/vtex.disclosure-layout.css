@@ -24,8 +24,8 @@
   color: white;
   font-size: 20px;
   font-weight: 500;
-  /* font-family: 'Rubik' */
-  font-family: arial-narrow2;
+  font-family: 'Rubik'
+  /* font-family: arial-narrow2; */
 }
 
 .trigger--footer-acordeon-triger--visible :global(.vtex-rich-text-0-x-container--footer-acordeon-triger-title)::after{
@@ -37,8 +37,8 @@
   color: white;
   font-size: 20px;
   font-weight: 500;
-  /* font-family: 'Rubik'; */
-  font-family: arial-narrow2;
+  font-family: 'Rubik';
+  /* font-family: arial-narrow2; */
 }
 
 .trigger--disclosure-trigger-nivel-1{

@@ -9,8 +9,8 @@
 
 .listItemActive--tab-list-home-item :global(.vtex-button ){
   font-size: 24px;
-  /* font-family: 'Roboto'; */
-  font-family: arial-narrow2;
+  font-family: 'Roboto';
+  /* font-family: arial-narrow2; */
   text-transform: initial;
   font-weight: 500;
   color: #001E62 !important;
@@ -25,8 +25,8 @@
 
 .listItem--tab-list-home-item :global(.vtex-button ){
   font-size: 24px;
-  /* font-family: 'Roboto'; */
-  font-family: arial-narrow2;
+  font-family: 'Roboto';
+  /* font-family: arial-narrow2; */
   text-transform: initial;
   font-weight: 500;
   color: #ADADAD;
@@ -44,8 +44,8 @@
 
 .contentContainer--tab-content-desc-carac-product :global(.vtex-store-components-3-x-productDescriptionText){
   font-size: 14px;
-  /* font-family: 'Rubik'; */
-  font-family: arial-narrow2;
+  font-family: 'Rubik';
+  /* font-family: arial-narrow2; */
   margin-top: 18px;
 }
 

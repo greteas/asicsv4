@@ -3,8 +3,8 @@
   color: #252C3B;
   opacity: .9;
   font-weight: 500;
-  /* font-family: 'Roboto'; */
-  font-family: arial-narrow2;
+  font-family: 'Roboto';
+  /* font-family: arial-narrow2; */
   display: flex;
   justify-content: initial;
   text-align: initial;
@@ -38,8 +38,8 @@
 }
 
 .skuSelectorNameContainer .skuSelectorName{
-  /* font-family: 'Roboto'; */
-  font-family: arial-narrow2;
+  font-family: 'Roboto';
+  /* font-family: arial-narrow2; */
   font-size: 14px;
   color: #252C3B;
   padding-left: 16px;
@@ -70,14 +70,14 @@
 
 .skuSelectorSubcontainer--talla .skuSelectorItem--selected .skuSelectorInternalBox .valueWrapper{
   color: white !important;
-  /* font-family: 'Roboto'; */
-  font-family: arial-narrow2;
+  font-family: 'Roboto';
+  /* font-family: arial-narrow2; */
   font-size: 12px;
   font-weight: 700;
 }
 .skuSelectorSubcontainer--talla .skuSelectorItem .skuSelectorInternalBox .valueWrapper{
-  /* font-family: 'Roboto'; */
-  font-family: arial-narrow2;
+  font-family: 'Roboto';
+  /* font-family: arial-narrow2; */
   font-size: 12px;
   font-weight: 700;
   color: #001E62;
@@ -90,8 +90,8 @@
 
 .autoCompleteOuterContainer--search-desplegable-desktop :global(.vtex-styleguide-9-x-input)::placeholder{
   color: #001E62;
-  /* font-family: 'Roboto'; */
-  font-family: arial-narrow2;
+  font-family: 'Roboto';
+  /* font-family: arial-narrow2; */
   font-size: 12px;
 }
 
