@@ -6,7 +6,7 @@
       "flex-layout.col#footer-desk-col-3",
       "flex-layout.col#footer-desk-col-4"
     ],
-    "prop": {
+    "props": {
       "blockClass": "footer-1-desktop",
       "preserveLayoutOnMobile":true,
       "preventHorizontalStretch":true
