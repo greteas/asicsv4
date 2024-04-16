@@ -10,7 +10,7 @@
       "menu-item#personalization"
     ]
   },
-  "menu-item#news": {
+  "menu-item#new": {
     "props": {
       "id": "menu-item-news",
       "type": "custom",
