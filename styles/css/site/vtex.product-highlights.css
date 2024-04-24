@@ -7,6 +7,16 @@
   margin-block:-12px
 }
 
+@media only screen and (max-width:768px) {
+  .productHighlightWrapper--collection {
+      display: flex;
+      position: relative;
+      left: 100px;
+      flex-direction: row-reverse;
+     
+      }
+  }
+
 /*
 .productHighlightWrapper--collection {
   position: relative;
