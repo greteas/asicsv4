@@ -1,5 +1,17 @@
+
+.productHighlightWrapper--collection {
+  display:flex;
+  position: relative;
+  left: 150px;
+  flex-direction: row-reverse;
+  margin-block:-12px
+}
+
+/*
 .productHighlightWrapper--collection {
   position: relative;
+  top: 0px;
+  right: 50px;
 }
 
 /*anthony
@@ -29,7 +41,7 @@
 */
 .productHighlightText {
   margin-top: 17px;
-  background: #B94126;
+  background: #001E63;
   color:white;
   margin-left:10px;
   opacity: .9;
