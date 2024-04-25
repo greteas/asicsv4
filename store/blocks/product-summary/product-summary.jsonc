@@ -4,6 +4,7 @@
       "blockClass":"summary-shelf"
     },
     "children": [
+      "vtex.product-highlights@2.x:product-highlights#collection",
       "stack-layout#prodsum",
       "product-summary-brand",
       "vtex.store-components:product-name",
@@ -38,8 +39,8 @@
 
   "stack-layout#prodsum": {
     "children": [
-      "product-summary-image#shelf",
-      "vtex.product-highlights@2.x:product-highlights#collection"
+      "product-summary-image#shelf"
+    
       //"modal-trigger#quickview" // Check quickview.jsonc
     ]
   },
