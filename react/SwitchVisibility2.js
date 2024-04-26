@@ -1,12 +1,12 @@
 import React from 'react'
 
-const SwitchVisibility2 = ({visibility=true, children=null}) => {
-  return visibility2?(
+const SwitchVisibility = ({visibility=true, children=null}) => {
+  return visibility?(
     children
   ):null
 }
 
-SwitchVisibility2.schema ={
+SwitchVisibility.schema ={
   title: 'Visibilidad de Componentes',
 
   type: 'object',
@@ -18,4 +18,4 @@ SwitchVisibility2.schema ={
   }
 }
 
-export default SwitchVisibility2
+export default SwitchVisibility

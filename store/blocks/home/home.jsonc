@@ -2,7 +2,7 @@
   "store.home": {
     "blocks": [
       "SwitchVisibility",
-      "SwitchVisibility2",
+      //"SwitchVisibility2",
        "list-context.image-list#banner-principal",
       "list-context.image-list#banner-segundo",
            "__fold__",

@@ -2,7 +2,7 @@
   "flex-layout.row#1-desktop": {
     "title": "Header - 1",
     "children": [
-      //"SwitchVisibility2",
+      "SwitchVisibility2",
       //"SwitchVisibility",
       //"modal-trigger#popup-home",
       "flex-layout.row#1-desktop-content",
