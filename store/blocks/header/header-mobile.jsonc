@@ -4,6 +4,7 @@
     "children": [
       "stylesGlobal",
       //"SwitchVisibility",
+      "SwitchVisibility2",
       //"modal-trigger#popup-home",
       "rich-text#1-mobile",
       "sticky-layout#2-mobile"

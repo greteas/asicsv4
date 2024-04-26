@@ -5,5 +5,10 @@
   "SwitchVisibility":{
     "component":"SwitchVisibility",
     "composition":"children"
-  }
+  },
+
+"SwitchVisibility2":{
+  "component":"SwitchVisibility2",
+  "composition":"children"
+}
 }

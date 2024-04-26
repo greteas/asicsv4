@@ -2,6 +2,7 @@
   "flex-layout.row#1-desktop": {
     "title": "Header - 1",
     "children": [
+      //"SwitchVisibility2",
       //"SwitchVisibility",
       //"modal-trigger#popup-home",
       "flex-layout.row#1-desktop-content",
@@ -13,6 +14,70 @@
       "preventHorizontalStretch": true
     }
   },
+
+  /// POP UP HECHO POR ANTHONY SARMIENTO 
+
+  
+  "SwitchVisibility2":{
+    "title":"POPUP SOLO IMAGEN",
+    "props": {
+      "visibility": true
+    },
+    "children": ["modal-trigger#popup-home2"]
+  },
+
+
+  "modal-trigger#popup-home2": {
+    "title": "POPUP",
+    "props":{
+      "trigger":"load-session",
+      "blockClass":"popup-home-trigger"
+    },
+    "children": [
+      "modal-layout#popup-home2"
+    ]
+  },
+
+  "modal-layout#popup-home2": {
+    "children": [
+      "modal-header#boton",
+      "flex-layout.row#popup-home-content2"
+    ],
+    "props":{
+      "blockClass":"popup-home-layout"
+    }
+  },
+
+  "flex-layout.row#popup-home-content2": {
+    "children": [
+      "image-list#popup-home-image2"
+   
+      //"form#popup-home-form"
+    ],
+    "props": {
+      "blockClass": ["popup-home-content"]
+    }
+  },
+
+
+  "image-list#popup-home-image2": {
+    "props": {
+      "blockClass":"popup-home-image",
+      "preload": true,
+      "height": 443,
+      "maxHeight": 443,
+      "images": [
+        {
+          "image": "/arquivos/popup-home-desk.jpg",
+          "mobileImage":"/arquivos/popup-home-mob.png"
+        }
+      ]
+    }
+  },
+
+
+
+//**************************************END POP UP*****************************************
 
   "SwitchVisibility":{
     "title":"Visibilidad del Popup",

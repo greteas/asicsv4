@@ -2,7 +2,8 @@
   "store.home": {
     "blocks": [
       "SwitchVisibility",
-      "list-context.image-list#banner-principal",
+      "SwitchVisibility2",
+       "list-context.image-list#banner-principal",
       "list-context.image-list#banner-segundo",
            "__fold__",
       //"__fold__.experimentalLazyAssets",
