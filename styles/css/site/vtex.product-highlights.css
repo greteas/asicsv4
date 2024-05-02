@@ -1,12 +1,14 @@
 
 .productHighlightWrapper--collection {
+  position: absolute;
+  z-index: 2;
   margin-left:5px;
   margin-top: 1px;
   height: 24px;
   width: max-content!important;
   min-height: unset;
   padding: 0 8px!important;
-  background-color: #001E63;
+  background-color: #485CC7;
   border-radius: 4px;
   color: white;
   line-height: 26px;
