@@ -1,8 +1,7 @@
 .menuItem--mas-vendido-text-2{
   display: flex;
   align-items: center;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   font-size: 14px;
   font-weight: 500;
 }
@@ -16,8 +15,7 @@
 .menuItem--mas-vendido02-text-2{
   display: flex;
   align-items: center;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   font-size: 14px;
   font-weight: 500;
 }
@@ -31,8 +29,7 @@
 /*CSS OFERTA KELVIN*/
 .vtex-menu-sale {
   font-size: 15px;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   color: #001E62;
   font-weight: 700;
   background: #E4E5F4;
@@ -48,8 +45,7 @@
 .menuItem--gretel-recomendado-text-2{
   display: flex;
   align-items: center;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   font-size: 14px;
   font-weight: 500;
 }
@@ -70,8 +66,7 @@
 .styledLinkContent--footer-desk-item{
   color: white;
   font-size: 15px;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
 }
 
 .menuContainer--footer-acordeon-menu{
@@ -79,25 +74,24 @@
 }
 
 .styledLinkContent--menu-item-principal-desplegable{
-  font-size: 16px;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-bold", sans-serif;
   color: #001E62;
   font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+  position: relative;
 }
 
 .styledLinkContent--menu-item-principal-fijo{
   font-size: 15px;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   color: #001E62;
   font-weight: 700;
 }
 
 .styledLinkContent--menu-item-principal-fijo-sale{
   font-size: 15px;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   color: #001E62;
   font-weight: 700;
   background: #E4E5F4;
@@ -140,8 +134,7 @@
 
 .styledLinkContent--menu-item-principal-desplegable2{
   font-size: 15px;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   color: #001E62;
   font-weight: 700;
 
@@ -202,16 +195,14 @@
 
 .styledLinkContent--subitems-submenu-tittle{
   font-size: 16px;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   font-weight: 700;
   color: #001E62;
 }
 
 .styledLinkContent--subitems-submenu-item{
   font-size: 15px;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   font-size: 15px;
   padding-bottom: 6px;
   padding-top: 6px;
@@ -219,8 +210,7 @@
 
 .styledLinkContent--subitems-submenu-ver-todo{
   font-size: 15px;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   font-weight: 700;
   color: #001E62;
   text-decoration: underline;
@@ -315,8 +305,7 @@
 @media screen and (max-width: 1024px){
 
   .styledLinkContent--footer-mob-menu-item{
-    font-family: 'Roboto';
-    /* font-family: arial-narrow2; */
+    font-family: "asicfont-regular", sans-serif;
     font-size: 16px;
     font-weight: 700;
     color: #001E62;
@@ -334,8 +323,7 @@
 
   .styledLinkContent--lvl-3{
     font-size: 14px;
-    font-family: 'Roboto';
-    /* font-family: arial-narrow2; */
+    font-family: "asicfont-regular", sans-serif;
     font-weight: 400;
     padding-top: 17px;
     padding-left: 16px;
@@ -360,8 +348,8 @@
 
   .styledLinkContent--lvl-3{
     font-size: 15px;
-    font-family: 'Roboto';
-    /* font-family: arial-narrow2; */
+    font-family: "asicfont-regular", sans-serif;
+    letter-spacing: 1px;
     font-weight: 400;
     padding-top: 12px;
     /* padding-left: 16px; */
@@ -370,23 +358,20 @@
 
   .menuContainer--item-1-contenido-submenu .menuItem--lvl-3:nth-child(0n+1) .styledLinkContent--lvl-3{
     font-size: 16px;
-    font-family: 'Roboto';
-    /* font-family: arial-narrow2; */
+    font-family: "asicfont-regular", sans-serif;
     color: #001E62;
     font-weight: 700;
   }
   .menuContainer--item-2-contenido-submenu .menuItem--lvl-3:nth-child(0n+1) .styledLinkContent--lvl-3{
     font-size: 16px;
-    font-family: 'Roboto';
-    /* font-family: arial-narrow2; */
+    font-family: "asicfont-regular", sans-serif;
     color: #001E62;
     font-weight: 700;
   }
 
   .menuItem--lvl-3:last-child .styledLinkContent--lvl-3{
     font-size: 15px;
-    font-family: 'Roboto';
-    /* font-family: arial-narrow2; */
+    font-family: "asicfont-regular", sans-serif;
     color: #001E62;
     font-weight: 700;
     text-decoration: underline;

@@ -30,16 +30,14 @@
 
 .minicartProductListContainer :global(.vtex-product-list-0-x-productBrandName){
   font-size: 12px;
-  font-family: 'Lato';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   color: #000000;
   opacity: .7;
 }
 
 .minicartProductListContainer :global(.vtex-product-list-0-x-productName){
   font-size: 16px;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   color: #000000;
   opacity: .7;
   font-weight: 400;
@@ -48,8 +46,7 @@
 .minicartProductListContainer :global(.vtex-product-list-0-x-price){
   color: #001E62;
   font-size: 22px;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   font-weight: 700;
 }
 

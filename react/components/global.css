@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "asicfont-Regular";
+  src: url('https://asicsperu.vteximg.com.br/arquivos/ASICSFONT-REGULAR.TTF.css') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 #CybotCookiebotDialogHeader {
   display: none !important;
 }
@@ -18,7 +24,7 @@
 @media (max-width: 1280px) {
   #CybotCookiebotDialogBodyContentText {
     color: #003783 !important;
-    font-family: "Lato", sans-serif !important;
+    font-family: "asicfont-regular", sans-serif !important;
     font-size: 16px !important;
     text-align: justify;
   }
@@ -30,7 +36,7 @@
 @media (max-width: 1279px) {
   #CybotCookiebotDialogBodyContentText {
     color: #003783 !important;
-    font-family: "Lato", sans-serif !important;
+    font-family: "asicfont-regular", sans-serif !important;
     text-align: justify;
     font-size: 12px !important;
   }
@@ -47,7 +53,7 @@
   border: 1px solid #003783 !important;
   background: #D0DCEB !important;
   color: #003783 !important;
-  font-family: "Oswald", sans-serif !important;
+  font-family: "asicfont-regular", sans-serif;
   /* font-family: arial-narrow2 !important; */
   font-size: 18px !important;
 }
@@ -104,7 +110,12 @@
   padding-top: 12px;
   padding-bottom: 10px;
 }
-
+.render-container.render-route-store-account a.vtex-my-orders-app-3-x-cancelBtn.myo-cancel-btn {
+  display: none !important;
+}
+.vtex-store-components-3-x-productDescriptionText.c-muted-1 div {
+  line-height: 21px;
+}
 /* .vtex-flex-layout-0-x-flexRowContent--sku-selector-content .pr7{
   padding-right: 0;
 } */

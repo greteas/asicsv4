@@ -107,7 +107,7 @@
 
 .flexRow--minicart-footer :global(.vtex-checkout-summary-0-x-summaryItemLabel){
   font-size: 15px;
-  font-family: 'Lato';
+  font-family: "asicfont-regular", sans-serif;
   /* font-family: arial-narrow2; */
   color: #000000;
   opacity: .7;
@@ -115,7 +115,7 @@
 
 .flexRow--minicart-footer :global(.vtex-checkout-summary-0-x-price){
   font-size: 16px;
-  font-family: 'Lato';
+  font-family: "asicfont-regular", sans-serif;
   /* font-family: arial-narrow2; */
   color: #000000;
   opacity: .7;
@@ -130,7 +130,7 @@
 .flexRow--minicart-footer :global(.vtex-checkout-summary-0-x-summarySmallContent) :global(.vtex-checkout-summary-0-x-summaryItemContainer):last-child :global(.vtex-checkout-summary-0-x-price){
   color: #001E62 !important;
   font-size: 18px !important;
-  font-family: 'Lato' !important;
+  font-family: "asicfont-regular", sans-serif;
   /* font-family: arial-narrow2 !important; */
   font-weight: 700 !important;
   opacity: 1 !important;
@@ -140,7 +140,7 @@
   color: #000000;
   opacity: .7;
   font-size: 0px;
-  font-family: 'Roboto';
+  font-family: "asicfont-regular", sans-serif;
   /* font-family: arial-narrow2; */
   border-top: 1px solid #C9C9C9;
     padding-top: 20px;
@@ -149,13 +149,13 @@
   content: "Gastos de envío e impuestos calculados al finalizar la compra";
   color: #000000;
   font-size: 16px;
-  font-family: 'Roboto';
+  font-family: "asicfont-regular", sans-serif;
   /* font-family: arial-narrow2; */
 }
 
 .flexRow--minicart-footer :global(.vtex-minicart-2-x-minicartCheckoutButton) :global(.vtex-button__label){
   font-size: 0px;
-  font-family: 'Roboto';
+  font-family: "asicfont-regular", sans-serif;
   /* font-family: arial-narrow2; */
   font-weight: 500;
   text-transform: initial;
@@ -163,7 +163,7 @@
 .flexRow--minicart-footer :global(.vtex-minicart-2-x-minicartCheckoutButton) :global(.vtex-button__label)::after{
   font-size: 20px;
   content: "Proceder a pagar";
-  font-family: 'Roboto';
+  font-family: "asicfont-regular", sans-serif;
   /* font-family: arial-narrow2; */
   font-weight: 500;
   text-transform: initial;
@@ -244,7 +244,7 @@
 
 .flexRowContent--descripcion-carateristicas-content :global(.vtex-menu-2-x-menuContainer--descripcion-carateristicas-menu) :global(.vtex-store-components-3-x-productDescriptionText){
   font-size: 14px;
-  font-family: 'Rubik';
+  font-family: "asicfont-regular", sans-serif;
   /* font-family: arial-narrow2; */
   margin-top: 18px;
   padding-left: 7px;
@@ -397,7 +397,7 @@
 
 .flexRowContent--selling-price-savings-dkstp :global(.vtex-product-price-1-x-currencyContainer--summary){
   font-size: 18px;
-  font-family: 'Roboto';
+  font-family: "asicfont-bold", sans-serif;
   /* font-family: arial-narrow2; */
   color: #001E62;
   font-weight: 700;
@@ -634,7 +634,7 @@
   border: 2px solid #001E62;
   background: white;
   color: #001E62;
-  font-family: 'Rubik';
+  font-family: "asicfont-regular", sans-serif;
   /* font-family: arial-narrow2; */
   font-size: 18px;
   height: 48px;
@@ -765,7 +765,7 @@
 .flexRow--searchbread :global(.vtex-breadcrumb-1-x-homeLink)::after{
   content: "Home";
   font-size: 14px;
-  font-family: 'Roboto';
+  font-family: "asicfont-regular", sans-serif;
   /* font-family: arial-narrow2; */
   height: 100%;
   align-items: center;
@@ -779,7 +779,7 @@
 
 .flexRow--searchbread :global(.vtex-breadcrumb-1-x-link){
   font-size: 14px;
-  font-family: 'Roboto';
+  font-family: "asicfont-regular", sans-serif;
   /* font-family: arial-narrow2; */
   color: #252C3B;
 }
@@ -787,7 +787,7 @@
 .flexRow--searchbread :global(.vtex-breadcrumb-1-x-arrow)::before{
   content: "/";
   font-size: 14px;
-  font-family: 'Roboto';
+  font-family: "asicfont-regular", sans-serif;
   /* font-family: arial-narrow2; */
   height: 100%;
   font-size: 14px;
@@ -811,7 +811,7 @@
 
 .flexCol--productCountCol :global(.vtex-search-result-3-x-totalProducts--layout){
   font-size: 16px;
-  font-family: 'Roboto';
+  font-family: "asicfont-regular", sans-serif;
   /* font-family: arial-narrow2; */
   font-weight: 700;
   color: #000000;
@@ -823,7 +823,7 @@
 
 .flexCol--productCountCol :global(.vtex-search-result-3-x-totalProductsMessage){
   font-size: 16px;
-  font-family: 'Roboto';
+  font-family: "asicfont-regular", sans-serif;
   /* font-family: arial-narrow2; */
   font-weight: 400;
   color: #000000;
@@ -831,7 +831,7 @@
 }
 
 .flexRow--searchbread :global(.vtex-search-result-3-x-orderByText){
-  font-family: 'Roboto';
+  font-family: "asicfont-regular", sans-serif;
   /* font-family: arial-narrow2; */
   font-size: 16px;
   font-weight: 400;
@@ -840,7 +840,7 @@
 }
 
 .flexRow--searchbread :global(.vtex-search-result-3-x-filterPopupTitle){
-  font-family: 'Roboto';
+  font-family: "asicfont-regular", sans-serif;
   /* font-family: arial-narrow2; */
   font-size: 16px;
   font-weight: 400;
@@ -898,7 +898,7 @@
 
 .flexRowContent--results-content :global(.vtex-checkbox__label){
   font-size: 13px;
-  font-family: 'Roboto';
+  font-family: "asicfont-regular", sans-serif;
   /* font-family: arial-narrow2; */
   color: #001E62;
 }
@@ -958,7 +958,7 @@
 }
 
 .flexRowContent--search-info-mobile .flexColChild--filterMobileCol :global(.vtex-search-result-3-x-filterPopupTitle){
-  font-family: 'Roboto';
+  font-family: "asicfont-regular", sans-serif;
   /* font-family: arial-narrow2; */
   color: #001E62;
   font-size: 18px;
@@ -969,7 +969,7 @@
 .flexRowContent--search-info-mobile .flexColChild--filterMobileCol :global(.vtex-search-result-3-x-filterPopupTitle)::before{
   content: "....";
   background-image: url(/arquivos/filter-fondo.svg);
-  font-family: 'Roboto';
+  font-family: "asicfont-regular", sans-serif;
   /* font-family: arial-narrow2; */
   font-size: 18px;
   font-weight: 500;
@@ -984,7 +984,7 @@
 }
 
 .flexRowContent--search-info-mobile :global(.vtex-search-result-3-x-orderByText){
-  font-family: 'Lato';
+  font-family: "asicfont-regular", sans-serif;
   /* font-family: arial-narrow2; */
   text-transform: initial;
   font-size: 16px;
@@ -992,7 +992,7 @@
 }
 
 .flexRowContent--search-info-mobile :global(.vtex-search-result-3-x-filterPopupTitle){
-  font-family: 'Lato';
+  font-family: "asicfont-regular", sans-serif;
   /* font-family: arial-narrow2; */
   text-transform: capitalize;
   font-size: 16px;
@@ -1052,14 +1052,14 @@
   color: #000000;
   opacity: .7;
   font-size: 12px;
-  font-family: 'Roboto';
+  font-family: "asicfont-regular", sans-serif;
   /* font-family: arial-narrow2; */
 }
 
 .flexCol--summaryDetailsListDesktop :global(.vtex-product-summary-2-x-productBrand--summaryListDesktop){
   color: #000000;
   font-size: 20px;
-  font-family: 'Roboto';
+  font-family: "asicfont-regular", sans-serif;
   /* font-family: arial-narrow2; */
 }
 
@@ -1078,7 +1078,7 @@
   border-radius: 22px;
   height: 45px;
   color: white;
-  font-family: 'Roboto';
+  font-family: "asicfont-regular", sans-serif;
   /* font-family: arial-narrow2; */
   font-size: 17px;
   font-weight: 500;
@@ -1102,7 +1102,7 @@
 .flexRowContent--product-breadcrumb :global(.vtex-breadcrumb-1-x-homeLink)::after{
   content: "Home";
   font-size: 14px;
-  font-family: 'Roboto';
+  font-family: "asicfont-regular", sans-serif;
   /* font-family: arial-narrow2; */
   height: 100%;
   align-items: center;
@@ -1116,7 +1116,7 @@
 
 .flexRowContent--product-breadcrumb :global(.vtex-breadcrumb-1-x-link){
   font-size: 14px;
-  font-family: 'Roboto';
+  font-family: "asicfont-regular", sans-serif;
   /* font-family: arial-narrow2; */
   color: #252C3B;
 }
@@ -1124,7 +1124,7 @@
 .flexRowContent--product-breadcrumb :global(.vtex-breadcrumb-1-x-arrow)::before{
   content: "/";
   font-size: 14px;
-  font-family: 'Roboto';
+  font-family: "asicfont-regular", sans-serif;
   /* font-family: arial-narrow2; */
   height: 100%;
   font-size: 14px;
@@ -1164,7 +1164,7 @@
 .flexCol--right-col :global(.vtex-store-components-3-x-productBrandContainer--summaryListDesktop){
   text-transform: uppercase;
   padding-left: 5px;
-  font-family: 'Roboto';
+  font-family: "asicfont-regular", sans-serif;
   /* font-family: arial-narrow2; */
   color: black;
   opacity: .7;
@@ -1205,7 +1205,7 @@
   text-transform: inherit;
   border-radius: 47px;
   height: 56px;
-  font-family: 'Roboto';
+  font-family: "asicfont-regular", sans-serif;
   /* font-family: arial-narrow2; */
   font-size: 19px;
   font-weight: 500;
@@ -1227,6 +1227,9 @@
 .flexCol--right-col :global(.vtex-store-components-3-x-productBrand--quickview){
   font-size: 22px;
   opacity: .9;
+  letter-spacing: 1px;
+  color: #252c3b;
+  line-height: normal;
 }
 @media screen and (max-width: 1024px){
   .flexCol--right-col :global(.vtex-store-components-3-x-productBrand--quickview){
@@ -1389,7 +1392,7 @@
 
 .flexRowContent--main-header :global(.vtex-login-2-x-label){
   text-transform: initial;
-  font-family: 'Roboto';
+  font-family: "asicfont-regular", sans-serif;
   /* font-family: arial-narrow2; */
   font-size: 15px;
   font-weight: 700;
@@ -1403,7 +1406,7 @@
 
 .flexRow--colores-content :global(.vtex-shelf-1-x-title){
   font-size: 14px;
-  font-family: 'Roboto';
+  font-family: "asicfont-regular", sans-serif;
   /* font-family: arial-narrow2; */
   font-weight: 400;
   color: #252C3B;
@@ -1459,14 +1462,14 @@
 .flexRowContent--caracteristicas-content .flexCol--productSpecificationName{
   color: #001E62;
   font-size: 15px;
-  font-family: 'Rubik';
+  font-family: "asicfont-regular", sans-serif;
   /* font-family: arial-narrow2; */
 }
 
 .flexRowContent--caracteristicas-content .flexCol--productSpecificationValue{
   padding-left: 16px;
   font-size: 15px;
-  font-family: 'Rubik';
+  font-family: "asicfont-regular", sans-serif;
   /* font-family: arial-narrow2; */
 }
 
@@ -1530,7 +1533,7 @@
   .flexRowContent--main-header-mobile :global(.vtex-login-2-x-container)::after{
     content:"Mi cuenta";
     font-size: 10px;
-    font-family: 'Roboto';
+    font-family: "asicfont-regular", sans-serif;
     /* font-family: arial-narrow2; */
     font-weight: 500;
     color: #001E62;
@@ -1570,7 +1573,7 @@
   .flexRowContent--main-header-mobile :global(.vtex-minicart-2-x-minicartWrapperContainer--minicart-market) :global(.vtex-minicart-2-x-openIconContainer)::after{
     content:"Carrito";
     font-size: 10px;
-    font-family: 'Roboto';
+    font-family: "asicfont-regular", sans-serif;
     /* font-family: arial-narrow2; */
     font-weight: 500;
     color: #001E62;
@@ -1671,8 +1674,7 @@
 .flexRowContent--contacto-content :global(.vtex-input__label){
   color: #001E62;
   font-size: 14px;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   margin-bottom: 6px;
   margin-top: 17px;
   opacity: 1;
@@ -1681,8 +1683,7 @@
 .flexRowContent--contacto-content :global(.vtex-textarea__label){
   color: #001E62;
   font-size: 14px;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   margin-bottom: 6px;
   margin-top: 17px;
   opacity: 1;
@@ -1690,15 +1691,13 @@
 
 .flexRowContent--contacto-content :global(.vtex-styleguide-9-x-input){
   font-size: 14px;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   opacity: .8;
 }
 
 .flexRowContent--contacto-content :global(.vtex-textarea__input){
   font-size: 14px;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   opacity: .8;
 }
 
@@ -1709,8 +1708,7 @@
 .flexRowContent--contacto-content :global(.vtex-rich-text-0-x-paragraph--newsletter-checkbox-confirmation-text){
   color: rgba(0,0,0,0.8) !important;
   font-size: 14px !important;
-  font-family: 'Lato' !important;
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
 }
 
 .flexRowContent--contacto-content :global(.vtex-rich-text-0-x-paragraph--newsletter-checkbox-confirmation-text){
@@ -1732,8 +1730,7 @@
   color: white;
   text-transform: initial;
   font-size: 16px;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   font-weight: 500;
   border: none;
   border-radius: 50px;
@@ -1752,8 +1749,7 @@
 
 .flexRowContent--libro-de-reclamos-content :global(.vtex-input__label){
   color: #001E62;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   font-size: 13px;
   margin-bottom: 6px;
   margin-top: 18px;
@@ -1761,8 +1757,7 @@
 
 .flexRowContent--libro-de-reclamos-content :global(.vtex-dropdown__label){
   color: #001E62;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   font-size: 13px;
   margin-bottom: 6px;
   margin-top: 18px;
@@ -1770,8 +1765,7 @@
 
 .flexRowContent--libro-de-reclamos-content :global(.vtex-textarea__label){
   color: #001E62;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   font-size: 13px;
   margin-bottom: 6px;
   margin-top: 18px;
@@ -1828,8 +1822,7 @@
 .flexRowContent--libro-de-reclamos-content :global(.vtex-radio__label){
   color: #000000;
   opacity: .7;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   font-size: 16px;
 }
 
@@ -1846,8 +1839,7 @@
 .flexRowContent--libro-de-reclamos-content :global(.vtex-store-form-0-x-formSubmitButton) :global(.vtex-button ) :global(.vtex-button__label){
   padding-top: 0.25em;
   padding-bottom: 0.32em;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   font-size: 16px;
   font-weight: 500;
   text-transform: initial;
@@ -1894,24 +1886,21 @@
 
 .flexRowContent--libro-de-reclamos-content :global(.vtex-dropdown__caption){
   font-size:13px;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   color: black;
   opacity: .7;
 }
 
 .flexRowContent--libro-de-reclamos-content :global(.vtex-styleguide-9-x-input){
   font-size:13px;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   color: black;
   opacity: .7;
 }
 
 .flexRowContent--libro-de-reclamos-content :global(.vtex-textarea__input){
   font-size:13px;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   color: black;
   opacity: .7;
 }
@@ -1969,8 +1958,7 @@
 }
 
 .flexRowContent--popup-home-content :global(.vtex-styleguide-9-x-input){
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   font-size: 15px;
   color:black;
   opacity: .7;
@@ -2058,20 +2046,17 @@
   margin-top: 50px;
 }
 .flexRowContent--message-availability :global(.vtex-store-components-3-x-title){
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   font-weight: 700;
   font-size: 17px;
 }
 .flexRowContent--message-availability :global(.vtex-store-components-3-x-subscribeLabel){
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   font-weight: 400;
   font-size: 15px;
 }
 .flexRowContent--message-availability :global(.vtex-store-components-3-x-submit) :global(.vtex-button){
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   background: #001e62;
   color: white;
   font-weight: 700;
@@ -2107,8 +2092,7 @@
   font-weight: 400;
 }
 .flexRow--product-availability-class :global(.vtex-store-components-3-x-productBrandContainer--summaryListDesktop){
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   color: black;
   opacity: .7;
   font-size: 15px;

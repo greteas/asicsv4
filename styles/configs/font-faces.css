@@ -133,6 +133,32 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "asicfont-regular";
+  src: url('https://asicsperu.vteximg.com.br/arquivos/ASICSFONT3.0-REGULAR.TTF.css') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "asicfont-bolditalic";
+  src: url('https://asicsperu.vteximg.com.br/arquivos/ASICSFONT3.0-BOLDITALIC.TTF.css') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "asicfont-bold";
+  src: url('https://asicsperu.vteximg.com.br/arquivos/ASICSFONT3.0-BOLD.OTF.css') format("OpenType");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "asicfont-italic";
+  src: url('https://asicsperu.vteximg.com.br/arquivos/ASICSFONT3.0-ITALIC.OTF.css') format("OpenType");
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 
 

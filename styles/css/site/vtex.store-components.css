@@ -1,16 +1,17 @@
 .productNameContainer--quickview{
   font-size: 15px;
-  color: #252C3B;
+  color: #252c3b;
   opacity: .9;
-  font-weight: 500;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-weight: 600 !important;
+  font-family: 'asicfont-Regular';
+  letter-spacing: 1px;
   display: flex;
   justify-content: initial;
   text-align: initial;
   padding-left: 16px;
   padding-right: 16px;
   margin-top: 6px;
+  line-height: 16px;
 }
 @media screen and (max-width: 1024px){
   .productNameContainer--quickview{
@@ -38,8 +39,7 @@
 }
 
 .skuSelectorNameContainer .skuSelectorName{
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   font-size: 14px;
   color: #252C3B;
   padding-left: 16px;
@@ -70,14 +70,12 @@
 
 .skuSelectorSubcontainer--talla .skuSelectorItem--selected .skuSelectorInternalBox .valueWrapper{
   color: white !important;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   font-size: 12px;
   font-weight: 700;
 }
 .skuSelectorSubcontainer--talla .skuSelectorItem .skuSelectorInternalBox .valueWrapper{
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   font-size: 12px;
   font-weight: 700;
   color: #001E62;
@@ -90,8 +88,7 @@
 
 .autoCompleteOuterContainer--search-desplegable-desktop :global(.vtex-styleguide-9-x-input)::placeholder{
   color: #001E62;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   font-size: 12px;
 }
 

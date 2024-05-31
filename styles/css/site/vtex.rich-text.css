@@ -13,15 +13,13 @@
   align-items: center;
   height: 40px;
   font-size: 14px;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   color: #001E62;
 }
 
 .paragraph--1-desktop-text-2{
   margin: 0;
-  font-family: 'Nunito';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   font-size: 14px;
   color: rgba(0,0,0,0.7);
   height: 40px;
@@ -56,8 +54,7 @@
   font-size: 30px;
   font-weight: 700;
   color: #001E62;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   margin: 58px auto 10px auto;
 }
 @media screen and (max-width: 1024px){
@@ -138,8 +135,7 @@
   font-size: 30px;
   font-weight: 700;
   color: #001E62;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   margin: 10px auto 11px;
   /* margin: 52px auto 11px auto; */
 }
@@ -159,8 +155,7 @@
   font-size: 30px;
   font-weight: 700;
   color: #001E62;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   margin: 10px auto 11px;
   /* margin: 52px auto 11px auto; */
 }
@@ -180,8 +175,7 @@
   font-size: 30px;
   font-weight: 700;
   color: #001E62;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   margin: 52px auto 2px auto;
 }
 @media screen and (max-width: 1024px){
@@ -195,8 +189,7 @@
   height: 100%;
   display: flex;
   align-items: center;
-  font-family: 'Rubik';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   font-size: 16px;
   color: rgba(0, 0, 0, 0.7);
   margin-left: 7px;
@@ -215,8 +208,7 @@
 }
 
 .paragraph--newsletter-text{
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   font-size: 30px;
   color: #001E62;
   line-height: 39px;
@@ -224,16 +216,14 @@
 }
 
 .strong--newsletter-text{
-  font-family: 'Oswald';
-  /* font-family: arial-narrow2 !important; */
+  font-family: "asicfont-regular", sans-serif;
   font-weight: 700;
   font-size: 25px;
 }
 
 .italic--newsletter-text{
   font-size: 28px;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   font-weight: 700;
   font-style: normal;
 }
@@ -242,8 +232,7 @@
   margin-top: 0;
   margin-bottom: 0;
   font-size: 12px;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   color: #001E62;
   font-weight: 500;
 }
@@ -254,15 +243,13 @@
 
 .strong--footer-col-1-text{
   font-weight: 500;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   color: white;
   font-size: 16px;
 }
 
 .link--footer-col-1-text{
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   color: white;
   font-size: 13px;
   text-decoration: none;
@@ -272,8 +259,7 @@
   margin-top: 0;
   color: white;
   font-size: 18px;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   font-weight: 500;
 }
 
@@ -286,8 +272,7 @@
 
 .paragraph--share-text{
   font-size: 14px;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   color: #252C3B;
   padding-left: 16px;
 }
@@ -297,8 +282,7 @@
 
 .container--1-mobile{
   font-size: 14px;
-  font-family: 'Rubik';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   color: #001E62;
   text-align: center;
   display: flex;
@@ -311,8 +295,7 @@
 .paragraph--footer-acordeon-triger-title{
   margin: 0;
   font-size: 20px;
-  font-family: 'Rubik';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   color: #FFFFFF;
   font-weight: 500;
 }
@@ -326,8 +309,7 @@
 /**-------------------------------------------------FIN HOME MOBILE-------------------------**/
 
 .paragraph--colores-disponibles{
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   font-size: 14px;
   color: #252C3B;
   margin-bottom: 0;
@@ -337,8 +319,7 @@
 }
 
 .paragraph--nivel-1-text{
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   font-size: 16px;
   font-weight: 700;
   color: #001E62;
@@ -350,15 +331,13 @@
 .paragraph--nivel-2-text{
   color: #001E62;
   font-size: 16px;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   font-weight: 500;
   padding-left: 23px;
 }
 
 .paragraph--producto-info-text{
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   font-size: 19px;
   font-weight: 500;
   color: #001E62;
@@ -397,18 +376,24 @@
 }
 
 .paragraph--politica-de-privacidad-text{
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
+  letter-spacing: 1px;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 14px;
   color: #000000;
   opacity: .8;
+  text-align: left;
+  width: 100%;
+  font-family: 'ASICSFont-regular', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 10px;
 }
 
 .strong--politica-de-privacidad-text{
   font-size: 20px;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   font-weight: 500;
   color: #001E62;
   opacity: 1;
@@ -432,9 +417,9 @@
   }
 }
 .paragraph--preguntas-frecuentes-triger-text{
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
-  font-size: 17px;
+  font-family: "asicfont-regular", sans-serif;
+  letter-spacing: 1px;
+  font-size: 15px;
   font-weight: 500;
   color: #001E62;
   padding-left: 60px;
@@ -449,8 +434,7 @@
   }
 }
 .paragraph--preguntas-frecuentes-content-text{
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   font-size: 16px;
   color: #000000;
   opacity: .8;
@@ -460,8 +444,7 @@
 
 @media screen and (max-width: 1024px){
   .list--preguntas-frecuentes-content-text{
-    font-family: 'Roboto';
-    /* font-family: arial-narrow2; */
+    font-family: "asicfont-regular", sans-serif;
     font-size: 14px !important;
     color: #000000;
     opacity: .8;
@@ -471,8 +454,7 @@
   }
 }
 .list--preguntas-frecuentes-content-text{
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   font-size: 16px;
   color: #000000;
   opacity: .8;
@@ -499,8 +481,7 @@
 
 .rich-text-0-x-paragraph--nosotros-text{
   font-size: 16px;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   color: #4e4c4c;
 }
 
@@ -515,8 +496,7 @@
 
 .paragraph--contacto-form-title{
   color: #001E62;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   font-weight: 700;
   font-size: 37px;
   margin-top: 0;
@@ -526,8 +506,7 @@
 .paragraph--libro-de-reclamos-text-title{
   color: #001E62;
   font-size: 18px;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   font-weight: 500;
   margin-bottom: 0;
 }
@@ -536,8 +515,7 @@
   color: #000000;
   opacity: .8;
   font-size: 16px;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   font-weight: 300;
 }
 
@@ -562,8 +540,7 @@
 }
 
 .paragraph--libro-de-reclamos-text-descripcion-1{
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   font-size: 16px;
   color: rgba(0,0,0,.7);
 }
@@ -575,8 +552,7 @@
 .paragraph--libro-de-reclamos-succes-text{
   font-size: 20px;
   text-align: center;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   color: #001E62;
   font-weight: 500;
 }
@@ -584,8 +560,7 @@
 .paragraph--contacto-succes-text{
   font-size: 20px;
   text-align: center;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   color: #001E62;
   font-weight: 500;
 }
@@ -594,8 +569,7 @@
   color: #001E62;
   font-size: 22px;
   font-weight: 300;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   margin-bottom: 15px;
   margin-top: 0;
   line-height: 40px;
@@ -608,8 +582,7 @@
 
 .strong--popup-home-col-text{
   font-size: 50px;
-  font-family: 'Oswald';
-  /* font-family: arial-narrow2 !important; */
+  font-family: "asicfont-regular", sans-serif;
   font-weight: 700;
 }
 @media screen and (max-width: 1024px){
@@ -622,8 +595,7 @@
 }
 
 .italic--popup-home-col-text{
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   font-size: 28px;
   font-weight: 700;
   margin-top: -11px;
@@ -644,8 +616,7 @@
 .wrapper--popup-home-succes-text{
   color: #001E62;
   font-size: 22px;
-  font-family: 'Roboto';
-  /* font-family: arial-narrow2; */
+  font-family: "asicfont-regular", sans-serif;
   font-weight: 700;
 
 }
