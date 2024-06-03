@@ -11,7 +11,7 @@
   font-size: 12px;
   color: #252C3B;
   opacity: .9;
-  font-family: "asicfont-regular", sans-serif;
+  font-family: "asicfont-regular";
   display: flex;
   padding-left: 16px;
 }
@@ -28,7 +28,7 @@
   margin: 0 auto;
   text-transform: initial;
   font-size: 15px;
-  font-family: "asicfont-regular", sans-serif;
+  font-family: "asicfont-regular";
   font-weight: 500;
   background: #001E62;
   border: none;

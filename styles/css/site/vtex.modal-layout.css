@@ -91,7 +91,7 @@
 .triggerContainer--searchDespalgable-triger::after{
   content:"Buscador";
   font-size: 10px;
-  font-family: "asicfont-regular", sans-serif;
+  font-family: "asicfont-regular";
   font-weight: 500;
   color: #001E62;
   text-transform: initial;
@@ -158,7 +158,7 @@
 .paper--popup-home-layout :global(.vtex-store-form-0-x-formSubmitButton) :global(.vtex-button){
   font-size: 18px;
   color: #001E62;
-  font-family: "asicfont-regular", sans-serif;
+  font-family: "asicfont-regular";
   text-transform: none;
   font-weight: 400;
   width: 189px;

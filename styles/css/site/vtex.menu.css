@@ -1,7 +1,7 @@
 .menuItem--mas-vendido-text-2{
   display: flex;
   align-items: center;
-  font-family: "asicfont-regular", sans-serif;
+  font-family: "asicfont-regular";
   font-size: 14px;
   font-weight: 500;
 }
@@ -15,7 +15,7 @@
 .menuItem--mas-vendido02-text-2{
   display: flex;
   align-items: center;
-  font-family: "asicfont-regular", sans-serif;
+  font-family: "asicfont-regular";
   font-size: 14px;
   font-weight: 500;
 }
@@ -29,7 +29,7 @@
 /*CSS OFERTA KELVIN*/
 .vtex-menu-sale {
   font-size: 15px;
-  font-family: "asicfont-regular", sans-serif;
+  font-family: "asicfont-regular";
   color: #001E62;
   font-weight: 700;
   background: #E4E5F4;
@@ -45,7 +45,7 @@
 .menuItem--gretel-recomendado-text-2{
   display: flex;
   align-items: center;
-  font-family: "asicfont-regular", sans-serif;
+  font-family: "asicfont-regular";
   font-size: 14px;
   font-weight: 500;
 }
@@ -66,7 +66,7 @@
 .styledLinkContent--footer-desk-item{
   color: white;
   font-size: 15px;
-  font-family: "asicfont-regular", sans-serif;
+  font-family: "asicfont-regular";
 }
 
 .menuContainer--footer-acordeon-menu{
@@ -74,7 +74,7 @@
 }
 
 .styledLinkContent--menu-item-principal-desplegable{
-  font-family: "asicfont-bold", sans-serif;
+  font-family: "asicfont-bold";
   color: #001E62;
   font-weight: 700;
   font-size: 16px;
@@ -84,14 +84,14 @@
 
 .styledLinkContent--menu-item-principal-fijo{
   font-size: 15px;
-  font-family: "asicfont-regular", sans-serif;
+  font-family: "asicfont-regular";
   color: #001E62;
   font-weight: 700;
 }
 
 .styledLinkContent--menu-item-principal-fijo-sale{
   font-size: 15px;
-  font-family: "asicfont-regular", sans-serif;
+  font-family: "asicfont-regular";
   color: #001E62;
   font-weight: 700;
   background: #E4E5F4;
@@ -134,7 +134,7 @@
 
 .styledLinkContent--menu-item-principal-desplegable2{
   font-size: 15px;
-  font-family: "asicfont-regular", sans-serif;
+  font-family: "asicfont-regular";
   color: #001E62;
   font-weight: 700;
 
@@ -195,14 +195,14 @@
 
 .styledLinkContent--subitems-submenu-tittle{
   font-size: 16px;
-  font-family: "asicfont-regular", sans-serif;
+  font-family: "asicfont-regular";
   font-weight: 700;
   color: #001E62;
 }
 
 .styledLinkContent--subitems-submenu-item{
   font-size: 15px;
-  font-family: "asicfont-regular", sans-serif;
+  font-family: "asicfont-regular";
   font-size: 15px;
   padding-bottom: 6px;
   padding-top: 6px;
@@ -210,7 +210,7 @@
 
 .styledLinkContent--subitems-submenu-ver-todo{
   font-size: 15px;
-  font-family: "asicfont-regular", sans-serif;
+  font-family: "asicfont-regular";
   font-weight: 700;
   color: #001E62;
   text-decoration: underline;
@@ -305,7 +305,7 @@
 @media screen and (max-width: 1024px){
 
   .styledLinkContent--footer-mob-menu-item{
-    font-family: "asicfont-regular", sans-serif;
+    font-family: "asicfont-regular";
     font-size: 16px;
     font-weight: 700;
     color: #001E62;
@@ -323,7 +323,7 @@
 
   .styledLinkContent--lvl-3{
     font-size: 14px;
-    font-family: "asicfont-regular", sans-serif;
+    font-family: "asicfont-regular";
     font-weight: 400;
     padding-top: 17px;
     padding-left: 16px;
@@ -348,7 +348,7 @@
 
   .styledLinkContent--lvl-3{
     font-size: 15px;
-    font-family: "asicfont-regular", sans-serif;
+    font-family: "asicfont-regular";
     letter-spacing: 1px;
     font-weight: 400;
     padding-top: 12px;
@@ -358,20 +358,20 @@
 
   .menuContainer--item-1-contenido-submenu .menuItem--lvl-3:nth-child(0n+1) .styledLinkContent--lvl-3{
     font-size: 16px;
-    font-family: "asicfont-regular", sans-serif;
+    font-family: "asicfont-regular";
     color: #001E62;
     font-weight: 700;
   }
   .menuContainer--item-2-contenido-submenu .menuItem--lvl-3:nth-child(0n+1) .styledLinkContent--lvl-3{
     font-size: 16px;
-    font-family: "asicfont-regular", sans-serif;
+    font-family: "asicfont-regular";
     color: #001E62;
     font-weight: 700;
   }
 
   .menuItem--lvl-3:last-child .styledLinkContent--lvl-3{
     font-size: 15px;
-    font-family: "asicfont-regular", sans-serif;
+    font-family: "asicfont-regular";
     color: #001E62;
     font-weight: 700;
     text-decoration: underline;

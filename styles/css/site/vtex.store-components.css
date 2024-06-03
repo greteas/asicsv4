@@ -39,7 +39,7 @@
 }
 
 .skuSelectorNameContainer .skuSelectorName{
-  font-family: "asicfont-regular", sans-serif;
+  font-family: "asicfont-regular" ;
   font-size: 14px;
   color: #252C3B;
   padding-left: 16px;
@@ -70,12 +70,12 @@
 
 .skuSelectorSubcontainer--talla .skuSelectorItem--selected .skuSelectorInternalBox .valueWrapper{
   color: white !important;
-  font-family: "asicfont-regular", sans-serif;
+  font-family: "asicfont-regular";
   font-size: 12px;
   font-weight: 700;
 }
 .skuSelectorSubcontainer--talla .skuSelectorItem .skuSelectorInternalBox .valueWrapper{
-  font-family: "asicfont-regular", sans-serif;
+  font-family: "asicfont-regular";
   font-size: 12px;
   font-weight: 700;
   color: #001E62;
@@ -88,7 +88,7 @@
 
 .autoCompleteOuterContainer--search-desplegable-desktop :global(.vtex-styleguide-9-x-input)::placeholder{
   color: #001E62;
-  font-family: "asicfont-regular", sans-serif;
+  font-family: "asicfont-regular";
   font-size: 12px;
 }
 
