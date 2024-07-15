@@ -116,6 +116,12 @@
 .vtex-store-components-3-x-productDescriptionText.c-muted-1 div {
   line-height: 21px;
 }
+/* .render-container.render-route-store-account .vtex-account .vtex-account__order-details .center a[href*="#/orders/"]{
+  display: none!important;
+} */
+.render-container.render-route-store-account .vtex-account .vtex-account__order-details .center ul.list.tl.tr-ns.ma0.pa0-s li:nth-child(2) {
+  display: none;
+}
 /* .vtex-flex-layout-0-x-flexRowContent--sku-selector-content .pr7{
   padding-right: 0;
 } */
