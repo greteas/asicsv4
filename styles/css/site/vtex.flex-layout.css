@@ -1275,11 +1275,11 @@
   height: 22px;
   width: 22px;
 }
-
+/* 
 .flexColChild--stack-content-product :global(.vtex-store-components-3-x-productImagesGallerySlide){
-  border: 1px solid #D4D8DD;
+  border: 1px solid #D4D8DD; 
 }
-
+*/
 .flexColChild--stack-content-product :global(.vtex-store-components-3-x-swiperCaretNext){
   margin-right: 17px;
 }
