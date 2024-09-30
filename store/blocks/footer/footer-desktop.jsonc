@@ -103,7 +103,8 @@
     "children": [
       "rich-text#footer-desk-col-2-tittle",
       "menu-item#footer-desk-col-2-item-1",
-      "menu-item#footer-desk-col-2-item-2"
+      "menu-item#footer-desk-col-2-item-2",
+      "menu-item#footer-desk-col-2-item-3"
     ],
     "props": {
       "blockClass": ["footer-desk-col-2"]
