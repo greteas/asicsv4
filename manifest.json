@@ -1,7 +1,7 @@
 {
   "vendor": "asicsperu",
   "name": "store-theme",
-  "version": "4.4.118",
+  "version": "4.4.117",
   "builders": {
     "react": "3.0",
     "assets": "0.x",
@@ -15,7 +15,7 @@
     "postreleasy": "vtex publish --verbose"
   },
   "dependencies": {
-    "vtex.store-tipo-de-pie": "0.x",
+  
     "vtex.search": "2.x",
     "vtex.store-newsletter": "1.x",
     "vtex.store": "2.x",
