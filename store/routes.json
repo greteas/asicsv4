@@ -11,6 +11,9 @@
   "store.custom#nosotros":{
     "path": "/nosotros"
   },
+  "store.custom#tipo-de-pie":{
+    "path": "/tipo-de-pie"
+  },
   "store.custom#libro-de-reclamos":{
     "path": "/libro-de-reclamos"
   },

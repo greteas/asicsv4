@@ -15,6 +15,7 @@
     "postreleasy": "vtex publish --verbose"
   },
   "dependencies": {
+    "vtex.store-tipo-de-pie": "0.x",
     "vtex.search": "2.x",
     "vtex.store-newsletter": "1.x",
     "vtex.store": "2.x",
