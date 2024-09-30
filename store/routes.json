@@ -19,5 +19,9 @@
   },
   "store.custom#search-coleccion":{
     "path": "/search-coleccion"
+  },
+  "store.custom#pisada":{
+    "path": "/tipo-de-pie"
   }
+
 }
