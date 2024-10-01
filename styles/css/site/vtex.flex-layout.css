@@ -1658,6 +1658,55 @@
   align-items: initial;
 }
 
+/*EDITANDO PISADA*/
+
+.flexRow--pisada-content{
+  max-width: 1600px;
+  margin: 20px auto 20px auto;
+ /* padding-left: 250px;
+  padding-right: 250px; */
+}
+@media screen and (max-width: 1024px){
+  .flexRow--pisada-content{
+    padding-left: 17px !important;
+    padding-right: 17px !important;
+  }
+  .flexRow--pisada-content :global(.vtex-rich-text-0-x-paragraph--pisada-text){
+    font-size: 14px !important;
+  }
+}
+
+.flexRowContent--pisada-content{
+  display: grid;
+  grid-template-columns: 750px auto;
+  align-items: initial;
+}
+
+/* PISADA */
+
+/*EDITANDO PISADAs*/
+.flexRow--pisadas-content{
+  max-width: 1600px;
+  margin: 20px auto 20px auto;
+ /* padding-left: 250px;
+  padding-right: 250px; */
+}
+@media screen and (max-width: 1024px){
+  .flexRow--pisadas-content{
+    padding-left: 17px !important;
+    padding-right: 17px !important;
+  }
+  .flexRow--pisadas-content :global(.vtex-rich-text-0-x-paragraph--pisadas-text){
+    font-size: 14px !important;
+  }
+}
+.flexRowContent--pisada-content{
+  grid-template-columns: 750px auto;
+  align-items: initial;
+}
+/* PISADA */
+
+
 .flexRow--contacto-content{
   max-width: 1600px;
   margin: 20px auto 74px auto;

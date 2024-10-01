@@ -494,6 +494,54 @@
   margin-top: 0;
 }
 
+/*edit pisada*/
+
+.rich-text-0-x-paragraph--pisada-text{
+  font-size: 16px;
+  font-family: "asicfont-regular";
+}
+
+.strong--pisada-text{
+  color: #001e62;
+  font-weight: 700;
+}
+
+.paragraph--pisada-text{
+  width: auto;
+  min-height: 500px;
+  margin: auto;
+  text-align: center;
+  align-content: center;
+}
+
+/*end*/
+
+/*edit pisadas*/
+
+.rich-text-0-x-paragraph--pisadas-text{
+  font-size: 16px;
+  color: #ffffff;
+  font-family: "asicfont-regular";
+}
+
+.strong--pisadas-text{
+
+  font-weight: 700;
+}
+
+.paragraph--pisadas-text{
+  color: #ffffff;
+  background: #1e7670;
+  width: auto;
+  min-height: 500px;
+  margin: auto;
+  text-align: center;
+  align-content: center;
+}
+
+/*end*/
+
+
 .paragraph--contacto-form-title{
   color: #001E62;
   font-family: "asicfont-regular";
