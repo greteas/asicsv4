@@ -70,7 +70,7 @@
       "blockClass": ["terminos-libro-de-reclamos-form-flex"]
     }
   },
-
+/*
   "form-field-group#terminos-libro-de-reclamos-form": {
     "props": {
       "blockClass": ["terminos-libro-de-reclamos-field"],
@@ -78,7 +78,7 @@
       "label": "display none"
     }
   },
-
+*/
   "form-submit#submit-libro-de-reclamos-form": {
     "props": {
       "blockClass":["libro-de-reclamos-form-submit"],
