@@ -1,7 +1,7 @@
 {
   "vendor": "asicsperu",
   "name": "store-theme",
-  "version": "4.4.121",
+  "version": "4.4.122",
   "builders": {
     "react": "3.0",
     "assets": "0.x",
