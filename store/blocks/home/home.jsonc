@@ -49,12 +49,15 @@
       "blockClass": ["newsletter-checkbox-confirmation"]
     }
   },
+
   "rich-text#newsletter-checkbox-confirmation-text": {
     "props": {
       "blockClass": ["newsletter-checkbox-confirmation-text"],
       "text": "Acepto los [Términos y Condiciones](/terminos-y-condiciones/?target=_blank) y la [Política de Protección de Datos Personales.](https://www.youtube.com/?target=_blank)"
     }
   },
+
+  
   "flex-layout.row#newsletter-mail-submit": {
     "children": [
       "newsletter-input-email",

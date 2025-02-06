@@ -159,7 +159,7 @@
   "flex-layout.row#terminos-popup-form-flex": {
     "children": [
       "form-field-group#terminos-popup-home-form",
-      "rich-text#newsletter-checkbox-confirmation-text"
+     "rich-text#newsletter-checkbox-confirmation-text"
     ],
     "props": {
       "preserveLayoutOnMobile": true,

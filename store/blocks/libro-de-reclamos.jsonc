@@ -53,33 +53,34 @@
       "form-input.radiogroup#tipo-de-reclamo-libro-de-reclamos-form",
       "rich-text#libro-de-reclamos-text-descripcion-1",
       "flex-layout.row#libro-de-reclamos-datos-personales-4-content",
-     // "flex-layout.row#terminos-libro-de-reclamos-form-flex",
+     "flex-layout.row#terminos-libro-de-reclamos-form-flex",
       "form-submit#submit-libro-de-reclamos-form"
     ],
     "blocks": ["form-success#libro-de-reclamos-succes-form"]
   },
-/*
+
   "flex-layout.row#terminos-libro-de-reclamos-form-flex": {
-    "children": [
+   "children": [
       "form-field-group#terminos-libro-de-reclamos-form",
       "rich-text#newsletter-checkbox-confirmation-text"
     ],
     "props": {
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
-      "blockClass": ["terminos-libro-de-reclamos-form-flex"]
-    }
-  },
-  */
+      "blockClass": ["terminos-libro-de-reclamos-form-flex"],
+      "checked": "checked"
+   }
+ },
+
 
   "form-field-group#terminos-libro-de-reclamos-form": {
     "props": {
-      "blockClass": ["terminos-libro-de-reclamos-field"],
-      "pointer": "#/properties/terminosycondiciones",
+     "blockClass": ["terminos-libro-de-reclamos-field"],
+    "pointer": "#/properties/terminosycondiciones",
       "label": "display none"
     }
   },
-
+  
   "form-submit#submit-libro-de-reclamos-form": {
     "props": {
       "blockClass":["libro-de-reclamos-form-submit"],
