@@ -53,7 +53,7 @@
       "form-input.radiogroup#tipo-de-reclamo-libro-de-reclamos-form",
       "rich-text#libro-de-reclamos-text-descripcion-1",
       "flex-layout.row#libro-de-reclamos-datos-personales-4-content",
-     "flex-layout.row#terminos-libro-de-reclamos-form-flex",
+    //  "flex-layout.row#terminos-libro-de-reclamos-form-flex",
       "form-submit#submit-libro-de-reclamos-form"
     ],
     "blocks": ["form-success#libro-de-reclamos-succes-form"]
